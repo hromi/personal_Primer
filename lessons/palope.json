@@ -1,0 +1,136 @@
+[{
+                            "imgs": null,
+                            "leaf": 0,
+                            "name": "Palope",
+                            "audio": null,
+                            "content": "Namen einigen tierischen und menschlichen Mitgliedern der Familie aus Zirkus Palope.",
+                            "knot_id": 16341,
+                            "children": [
+                               {
+                                    "imgs": ["Pape_gray.png"],
+                                    "leaf": 1,
+                                    "name": "Pape",
+                                    "audio": [17946, 24217, 15910, 17917, 16197, 22785, 20172, 17296, 19326, 17170, 17260, 23576, 22809, 20173, 15934, 19304, 16559],
+                                    "parent": 16341,
+                                    "content": "Pape",
+                                    "predicate": "is_parent"
+                                },
+                                {
+                                    "imgs": ["Mame_gray.png"],
+                                    "leaf": 1,
+                                    "name": "Mame",
+                                    "audio": [19163, 16560, 19136, 16198, 22784, 22808, 24218, 17171, 19305, 23575, 17297, 17261, 17918, 15911, 17944, 17947, 17921, 20171],
+                                    "parent": 16341,
+                                    "content": "Mame",
+                                    "predicate": "is_parent"
+                                },
+                                {
+                                    "imgs": ["Tute_gray.png"],
+                                    "leaf": 1,
+                                    "name": "Tute",
+                                    "audio": [22782, 19165, 19307, 17949, 16562, 17923, 17263, 17920, 20169, 17173, 15913, 16200, 19123, 17299, 22806],
+                                    "parent": 16341,
+                                    "content": "Tute",
+                                    "predicate": "is_parent"
+                                },
+         			{
+                                    "imgs": ["Lole_gray.png"],
+                                    "leaf": 1,
+                                    "name": "Lole",
+                                    "audio": [16201, 17950, 19124, 17174, 17924, 22805, 17300, 15914, 16563, 17264, 19166, 20168, 19308],
+                                    "parent": 16341,
+                                    "content": "Lole",
+                                    "predicate": "is_parent"
+                                },
+   				{
+                                    "imgs": ["Nane_gray.png"],
+                                    "leaf": 1,
+                                    "name": "Nane",
+                                    "audio": [17928, 20161, 16205, 15918, 19127, 23578, 16567, 17178, 17268, 17304, 19312, 22801, 17954],
+                                    "parent": 16341,
+                                    "content": "Nane",
+                                    "predicate": "is_parent"
+                                },
+				{
+                                    "imgs": ["Pepe_gray.png"],
+                                    "leaf": 1,
+                                    "name": "Pepe",
+                                    "audio": [17953, 15917, 23577, 19311, 17177, 17267, 17927, 16204, 22802, 16566],
+                                    "parent": 16341,
+                                    "content": "Pepe",
+                                    "predicate": "is_parent"
+                                },
+                                {
+                                    "imgs": ["Dodo_gray.png"],
+                                    "leaf": 1,
+                                    "name": "Dodo",
+                                    "audio": [23774, 16220, 16582, 17284, 17943, 17193, 17194, 19436, 15933, 23517, 23722, 20144, 20135, 20179, 20178, 20219, 22353, 22399],
+                                    "parent": 16341,
+                                    "content": "Dodo",
+                                    "predicate": "is_parent"
+                                },
+                                {
+                                    "imgs": ["Schöner_gray.png"],
+                                    "leaf": 1,
+                                    "name": "Schöner",
+                                    "audio": [17192, 17942, 15932, 20220, 16581, 17283, 16219, 20145, 22786],
+                                    "parent": 16341,
+                                    "content": "Schöner",
+                                    "predicate": "is_parent"
+                                },
+                                {
+                                    "imgs": ["Pesel_gray.png"],
+                                    "leaf": 1,
+                                    "name": "Pesel",
+                                    "audio": [15931, 20146, 16218, 16580, 17282, 22787, 17941, 20221, 17191, 19325],
+                                    "parent": 16341,
+                                    "content": "Pesel",
+                                    "predicate": "is_parent"
+                                },
+                                {
+                                    "imgs": ["Pele_gray.png"],
+                                    "leaf": 1,
+                                    "name": "Pele",
+                                    "audio": [20147, 17940, 20222, 15930, 16217, 17190, 16579, 17281, 19324, 22788],
+                                    "parent": 16341,
+                                    "content": "Pele",
+                                    "predicate": "is_parent"
+                                },
+                                {
+                                    "imgs": ["Ape_gray.png"],
+                                    "leaf": 1,
+                                    "name": "Ape",
+                                    "audio": [16578, 17939, 16216, 22790, 17189, 17280, 22789, 15929, 19323, 20148],
+                                    "parent": 16341,
+                                    "content": "Ape",
+                                    "predicate": "is_parent"
+                                },
+                                {
+                                    "imgs": ["Zau_gray.png"],
+                                    "leaf": 1,
+                                    "name": "Zau",
+                                    "audio": [15928, 17938, 20150, 16577, 16215, 17279, 22791, 19322, 17188, 17278],
+                                    "parent": 16341,
+                                    "content": "Zau",
+                                    "predicate": "is_parent"
+                                },
+                                {
+                                    "imgs": ["Suse_gray.png"],
+                                    "leaf": 1,
+                                    "name": "Suse",
+                                    "audio": [15921, 19315, 17957, 22798, 17931, 17271, 16208, 17181, 17307, 16570],
+                                    "parent": 16341,
+                                    "content": "Suse",
+                                    "predicate": "is_parent"
+                                },
+                                {
+                                    "imgs": ["Rere_gray.png"],
+                                    "leaf": 1,
+                                    "name": "Rere",
+                                    "audio": [16564, 20167, 19125, 17925, 17951, 17175, 16202, 15915, 22804, 17265, 17301, 19309],
+                                    "parent": 16341,
+                                    "content": "Rere",
+                                    "predicate": "is_parent"
+                                }
+                            ]
+}]

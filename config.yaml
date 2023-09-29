@@ -1,0 +1,42 @@
+auth:
+  greeting: "Hallo"
+EPD:
+  driver: "IT8951"
+  vcom: -2.37
+  rotate: "CCW"
+  spi_hz: 80000000
+gfx:
+  font: "/home/primer/data/fonts/schola.otf"
+  image_path: "/home/primer/data/imgs/"
+student:
+  default_login: "primer-ID"
+mikroserver_stt:
+  host: "HOSTNAME-OF-YOUR-LESEN-MIKROSERVER-STT INSTANCE HERE"
+  port: "8080"
+mikroserver_auth:
+  host: "HOSTNAME-OF-YOUR-LESEN-MIKROSERVER-VOICE_ID INSTANCE HERE"
+  port: "8080"
+audio:
+  soundcard: "seeed-2mic-voicecard"
+  session_audio_dir: "/home/primer/students/sessions/"
+  wav_store_dir: "/home/primer/data/wavs/"
+  ogg_store_dir: "/home/primer/data/oggs/"
+button:
+  gpio: 17
+  sleep_interval: 0.05
+gesture:
+  mappings:
+    "D": "U"
+    "U": "D"
+    "R": "R"
+    "L": "L"
+    "F": "F"
+    "B": "B"
+    "C": "C"
+    "A": "A"
+  reaction_time: 0.25
+  entry_time: 0.4
+  quit_time: 0.5
+  busno: 1
+  caseflag: 1
+lesson0: "/home/primer/lessons/palope.json"
