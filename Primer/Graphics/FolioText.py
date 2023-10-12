@@ -54,7 +54,8 @@ class FolioText(object):
             x = (self.size[0] - text_size[0]) / 2
         if y == 'center':
             y = (self.size[1] - text_size[1]) / 2
-        self.draw.text((x, y), text, font=font, fill=color)
+        self.draw.text((x, y), text, font=font)
+        #self.draw_text(x, y, text, font=font, outline_width=3)
         #print(x,y)
         # print(int(text_size[0]),int(text_size[1]))
         # self.display.load_image(x,y,image,img_addr=pageList(self.display.img_addr,0))
@@ -64,21 +65,51 @@ class FolioText(object):
         self.pointers.append((int(x),int(y),int(text_size[0]), int(text_size[1]),text))
         return text_size
 
+    # Function to find the last vowel in a word
+    def find_last_vowel(self,word):
+        vowels = 'aeiouAEIOU'
+        last_vowel_index = None
+        for index, char in enumerate(word):
+            if char in vowels:
+                last_vowel_index = index
+        return last_vowel_index
+
+    # Function to draw text with the last vowel outlined
+    def draw_text(self, x,y, word, font, outline_width=1):
+        #text_width, text_height = ImageDraw.Draw(Image.new('RGB', (1, 1))).multiline_textsize(word, font)
+        #image = Image.new('RGB', (text_width, text_height), 'white')
+        #draw = ImageDraw.Draw(image)
+    
+        # Draw the entire word
+        self.draw.text((x, y), word, font=font, fill='black')
+    
+        # Find the position of the last vowel
+        last_vowel_index = self.find_last_vowel(word)
+        if last_vowel_index is not None:
+            prefix_width, _ = self.draw.textsize(word[:last_vowel_index], font=font)
+            vowel_width, _ = self.draw.textsize(word[last_vowel_index], font=font)
+        
+        # Redraw the last vowel with an outline
+        self.draw.text((x+prefix_width, 0), word[last_vowel_index], font=font, fill='white', stroke_width=outline_width, stroke_fill='black')
+        #self.draw.text((prefix_width, 0), word[last_vowel_index], font=font, fill='black')
+    
+        # Show the image
+        #return image
+
     def get_text_size(self, font_filename, font_size, text):
         font = ImageFont.truetype(font_filename, font_size)
         return font.getsize(text)
 
-    def write_text_box(self, x, y, text, font_filename,
-                       font_size=11, box_width=560, color=0, place='justify',
-                       justify_last_line=False):
+    def text_multiline(self, x, y, text, font_filename, font_size=11, box_width=580, color=0, place='justify', justify_last_line=False):
         lines = []
         line = []
         words = text.split(' ')
         for word in words:
+            print(word)
             new_line = ' '.join(line + [word])
             size = self.get_text_size(font_filename, font_size, new_line)
             text_height = size[1]
-            if size[0] <= box_width:
+            if word!="\n" and size[0] <= box_width:
                 line.append(word)
             else:
                 lines.append(line)
@@ -121,7 +152,7 @@ class FolioText(object):
                                     font_size, color)
                     word_size = self.get_text_size(font_filename, font_size,
                                                     word)
-
+                    print(start_x,word_size[0],space_width)
                     start_x += word_size[0] + space_width
                 last_word_size = self.get_text_size(font_filename, font_size,
                                                     words[-1])

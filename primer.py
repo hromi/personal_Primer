@@ -1,6 +1,7 @@
 import asyncio,yaml,json,importlib
 from Primer.Handlers import recorder_handler, button_handler, display_handler, mikroserver_handler, gesture_handler
 from Primer.IO.Audio.Recorder import Recorder
+from Primer.IO.Audio.Player import Player
 from Primer.IO.Gesture import Gesture
 from Primer.Student import Student
 from Primer.Folio import Folio
@@ -30,8 +31,9 @@ class PersonalPrimer:
         
         self.loop = asyncio.get_running_loop() #necessary for synchronous libraries like PyAudio
         self.recorder=Recorder(self)
+        self.player=Player(self)
 
-        await self.queue['display'].put({"t":self.config['auth']['greeting']})
+        await self.queue['display'].put({"c":self.config['auth']['hi']})
 
         #we pass the main object to all handlers so that they can access it through pp. or self.pp
         await asyncio.gather(

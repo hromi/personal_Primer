@@ -4,6 +4,7 @@ import simpleaudio as sa
 class Player():
     def __init__(self,pp):
         self.pp=pp
+        self.wav_store_dir=pp.config['audio']['wav_store_dir']
 
     async def play_wav(self, audio_file: str):
         path=self.wav_store_dir+str(audio_file)+".wav"

@@ -51,4 +51,14 @@ class EInkDisplay:
         self.folio.write_text('center',0, content, font_filename=self.font, font_size=font_size, max_width=500, max_height=120, color=0)
         self.display.frame_buf.paste(self.folio.image, [0,50])
         self.display.draw_partial(constants.DisplayModes.DU)
+ 
+    async def display_content(self, content):
+        print("DISPLAYNAME"+content)
+        # Display text on e-ink screen
+        # Note: Implement the logic based on your e-ink display's library
+        self.folio = FolioText((600,600), self.word_pointers)
+        font_size=int(sqrt(180000/len(content)))
+        self.folio.text_multiline(0,0, content, font_filename=self.font, font_size=font_size, place='justify')
+        self.display.frame_buf.paste(self.folio.image, [10,200])
+        self.display.draw_partial(constants.DisplayModes.DU)
 

@@ -14,12 +14,12 @@ async def handle_mikroserver(pp):
             #print(message)
             text=message['t']
             audio_file=message['f']
-            await pp.queue['display'].put({'t':"Recognizing"})
+            await pp.queue['display'].put({'t':"..."})
             #not yet logged in
             if not known_student:
                 uri="wss://"+auth_config["host"]+":"+auth_config['port']+"/auth/"+quote(pp.folio.text)+"/"+pp.student.login+"/"
             else:
-                uri="wss://"+stt_config['host']+":"+stt_config['port']+"/stt/"+pp.folio.scorer_id+"/"+quote(pp.folio.text)+"/"+pp.student.login+"/de/0"
+                uri="wss://"+stt_config['host']+":"+stt_config['port']+"/stt/"+str(pp.folio.scorer_id)+"/"+quote(pp.folio.text)+"/"+pp.student.login+"/de/0"
             #print(uri)
             async with websockets.connect(uri) as ws:
                 with open(audio_file, mode='rb') as file:  # b is important -> binary
@@ -36,11 +36,15 @@ async def handle_mikroserver(pp):
                         #print(response)
                         if ('text' in response) and (response['text'] == text.lower()):
                             #print("correct")
-                            await pp.queue['display'].put({"t":text+" ;)"})
+                            #await pp.queue['display'].put({"t":text+" ;)"})
+                            await pp.queue['display'].put({"t":text,"i":pp.folio.current_folio['imgs'][0]})
                 
                         elif "text" not in response or response['text'] is not text.lower():
-                            #print("false")
-                            await pp.queue['display'].put({"t":text+" ;("})
+                            #print("false") 
+                            if "audio" in pp.folio.current_folio:
+                                await pp.queue['display'].put({"t":text})
+                                await pp.player.play_wav(pp.folio.current_folio['audio'][0])
+                            #await pp.queue['display'].put({"t":text+" ;("})
 
                 except Exception as e:
                     print(e)

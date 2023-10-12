@@ -5,10 +5,10 @@ async def handle_display(pp):
         #print("handle_display")
         message = await pp.queue['display'].get()
         if message:
-            #print(message)
-            # Update the e-ink display
-            if "i" in message:
+            if "i" in message and "t" in message:
                 await pp.display.display_folio(message['t'],message['i'])
+            elif "c" in message:
+                await pp.display.display_content(message['c'])
             else:
                 await pp.display.display_folio(message['t'])
 
