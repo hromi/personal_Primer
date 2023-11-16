@@ -91,10 +91,10 @@ class Recorder:
         wave_file.setnchannels(1)
         wave_file.setsampwidth(self.sample_width)
         wave_file.setframerate(self.fs)
-        filtered = self.apply_moving_average(self.frames)
+        #filtered = self.apply_moving_average(self.frames)
 
-        #wave_file.writeframes(self.frames)
-        wave_file.writeframes(filtered)
+        wave_file.writeframes(self.frames)
+        #wave_file.writeframes(filtered)
         wave_file.close()
         await self.pp.queue['mikroserver'].put({'f': audio_file, 't': self.text})
         self.frames = bytearray()

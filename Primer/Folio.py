@@ -9,6 +9,7 @@ class Folio:
         self.siblings = []
         self.path = [(self.current_folio,0)]
         self.sibling_index=0
+        self.action="test"
 
     async def descend(self):
         children = self.current_folio.get('children', [])

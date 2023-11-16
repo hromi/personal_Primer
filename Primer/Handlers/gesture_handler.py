@@ -24,6 +24,9 @@ async def navigate(pp,gesture):
     elif gesture == "A":
         await pp.student.logout()
 
+    elif gesture == "C" :
+        await pp.student.activate_training()
+
     elif gesture == "F" or gesture=="B":
         await pp.folio.display_current_folio_content()
 
