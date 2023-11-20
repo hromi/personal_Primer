@@ -36,8 +36,11 @@ class Student:
         self.pp.folio.text=self.pp.config['auth']['hi']
         await self.pp.queue['display'].put({"c":self.pp.config['auth']['hi']})
 
-    async def activate_training(self):
+    def activate_training(self):
+        #launch fine-tuning
         contents = urllib.request.urlopen("https://"+self.pp.config['mikroserver_stt']['train_host']+"/"+self.language+"::"+self.login).read()
+        #inform the inference engine that model was updated
+        urllib.request.urlopen("https://"+self.pp.config['mikroserver_stt']['inference_host']+":"+self.pp.config['mikroserver_stt']['port']+'/update_model/?voice='+self.login+'&lang='+self.language)
 
     #sessions are stored in student directories, symlink /last points to last session
     def new_session(self):

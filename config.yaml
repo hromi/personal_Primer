@@ -6,24 +6,36 @@ EPD:
   rotate: "CCW"
   spi_hz: 80000000
 gfx:
-  font: "/home/primer/data/fonts/schola.otf"
+  font: "/home/primer/data/fonts/schuldruck.ttf"
+  emoji: "/home/primer/data/fonts/noto_emoji.ttf"
   image_path: "/home/primer/data/imgs/"
 student:
-  default_login: "primer-ID"
+  default_login: "primer-X"
+  max_trials: 2
+  session_dir: "/home/primer/students/"
 mikroserver_stt:
-  host: "HOSTNAME-OF-YOUR-LESEN-MIKROSERVER-STT INSTANCE HERE"
+  inference_host: "" #lesen-mikroserver inference host
+  train_host: "...:8080"   #deepspeech training host
   port: "8080"
 mikroserver_auth:
-  host: "HOSTNAME-OF-YOUR-LESEN-MIKROSERVER-VOICE_ID INSTANCE HERE"
+  auth_host: "..."          #lesen-mikroserver auth host
   port: "8080"
+hmpl:
+  training_trigger: 4
 audio:
-  soundcard: "seeed-2mic-voicecard"
-  session_audio_dir: "/home/primer/students/sessions/"
+  soundcard: "plughw:CARD=seeed2micvoicec,DEV=0"  #check output of ```aplay -L``` to find out what to put here
+  channels: 1
+  rate: 16000
   wav_store_dir: "/home/primer/data/wavs/"
   ogg_store_dir: "/home/primer/data/oggs/"
+  external_store_url: "https://fibel.digital/audio/"
+  #denoiser: "/home/fibel/adenoiser_demo" #denoiser can be any kind of command line tool with 2 (INPUT_WAV OUTPUT_WAV) cli parameters
 button:
   gpio: 17
   sleep_interval: 0.05
+auth:
+  hi: 'Hallo'
+  bye: 'Auf wiedersehen'
 gesture:
   mappings:
     "D": "U"
@@ -40,3 +52,4 @@ gesture:
   busno: 1
   caseflag: 1
 lesson0: "/home/primer/lessons/palope.json"
+default_language: "de"

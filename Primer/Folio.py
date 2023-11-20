@@ -11,10 +11,10 @@ class Folio(Exercise):
         self.siblings = []
         self.path = [(self.current_folio,0)]
         self.sibling_index=0
-        self.default_task_action="learn"
+        self.default_task_action="test"
         self.task_action=self.default_task_action
-        self.exercise_action=pp.all_folios[0]['exercise_action']
-        self.max_trials=pp.config['student']['max_trials']
+        self.trial=0
+        super().__init__()
 
     async def descend(self):
         children = self.current_folio.get('children', [])
@@ -66,14 +66,17 @@ class Folio(Exercise):
         await self.pp.queue['display'].put({'t':self.current_folio['name']})
        
     async def activate_current_folio(self):
-        print(self.tasks)
+        print(self.task_matches)
         print(self.exercise_matches)
+        print(self.task_mismatches)
+        print(self.exercise_mismatches)
         #reset variables related to old folio
         self.trial=0
         self.task_action=self.default_task_action
 
-        if self.current_folio['name'] not in self.tasks:
-            self.tasks[self.current_folio['name']]={'learn':0,'test':0}
+        if self.current_folio['name'] not in self.task_matches:
+            self.task_matches[self.current_folio['name']]={'learn':0,'test':0}
+            self.task_mismatches[self.current_folio['name']]={'learn':0,'test':0}
 
         # Stop any ongoing audio
         await self.pp.player.stop_player()

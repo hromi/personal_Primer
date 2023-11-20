@@ -31,6 +31,7 @@ class PersonalPrimer:
         self.recorder=Recorder(self)
         self.player=Player(self)
 
+        #self.audioloop = asyncio.get_running_loop() #necessary for executor loops in libraries like pyalsaaudio
         self.loop = asyncio.get_running_loop() #necessary for executor loops in libraries like pyalsaaudio
         
         await self.student.greeting()
