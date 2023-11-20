@@ -10,13 +10,13 @@ class Recorder:
         self.soundcard = config['soundcard']
         self.wav_store_dir = config['wav_store_dir']
         self.frames = bytearray()
-        self.channels = 2
+        self.channels = config['channels']
         self.fs = config['rate']
         self.sample_width = 2
         self.stream = None
         self.text = "TESTRECORD"
         self.is_recording = False
-        self.audio_dir = config['session_audio_dir']
+        #self.audio_dir = config['session_audio_dir']
         self.scorer_id = 0
 
     async def stop_recording(self):
@@ -43,9 +43,9 @@ class Recorder:
         return filtered_signal
 
     async def start_recording(self, text):
-        await self.check_device()
-        print("Starting recording")
-        self.stream = alsaaudio.PCM(alsaaudio.PCM_CAPTURE, alsaaudio.PCM_NONBLOCK, device=self.soundcard, rate=self.fs, channels=self.channels,periodsize=512)
+        #await self.check_device()
+        #print("Starting recording")
+        self.stream = alsaaudio.PCM(alsaaudio.PCM_CAPTURE, alsaaudio.PCM_NONBLOCK, device=self.soundcard, rate=self.fs, channels=self.channels,periodsize=320)
         self.text = text
         self.is_recording = True
         while self.is_recording:
@@ -55,13 +55,19 @@ class Recorder:
     def append_frames(self):
         length,data = self.stream.read()
         if length > 0:
-            print(length)
-            samples = np.frombuffer(data, dtype=np.int16)
-            # Reshape the array to have two columns, one for each channel
-            samples = samples.reshape((-1, 2))
-            # Average the two channels
-            mono_samples = samples.mean(axis=1).astype(np.int16)
-            self.frames+=bytearray(mono_samples)
+            #here You can do some additional magic with the audio recording
+            #e.g. merge channels into one in case of two channels
+            if self.channels>1:
+                samples = np.frombuffer(data, dtype=np.int16)
+                # Reshape the array to have two columns, one for each channel
+                samples = samples.reshape((-1, 2))
+                # Average the two channels
+                mono_samples = samples.mean(axis=1).astype(np.int16)
+                self.frames+=bytearray(mono_samples)
+            #but with plughw:CARD=seeed2micvoicec,DEV=0 we have one channel by default
+            else:
+                self.frames+=data
+
     def apply_moving_average(self,audio_bytes, sample_width=2, window_size=3):
         # Convert the bytearray to a numpy array of the appropriate type
         if sample_width == 2:
@@ -85,14 +91,14 @@ class Recorder:
         return np.round(cumsum[window_size - 1:] / window_size).astype(data.dtype)
 
     async def write_audiofile(self, text: str):
-        print("Stopping recording")
-        audio_file = os.path.join(self.audio_dir, self.pp.student.session_id, text)
+        #print("Stopping recording")
+        #audio_file = os.path.join(self.audio_dir, self.pp.student.session_id, text)
+        audio_file = os.path.join(self.pp.student.last_session_link, text+"_"+self.pp.folio.task_action+"_"+str(self.pp.folio.trial))
         wave_file = wave.open(audio_file, 'wb')
         wave_file.setnchannels(1)
         wave_file.setsampwidth(self.sample_width)
         wave_file.setframerate(self.fs)
         #filtered = self.apply_moving_average(self.frames)
-
         wave_file.writeframes(self.frames)
         #wave_file.writeframes(filtered)
         wave_file.close()

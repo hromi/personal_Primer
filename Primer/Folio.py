@@ -1,4 +1,6 @@
-class Folio:
+from Primer.Exercise import Exercise
+
+class Folio(Exercise):
     def __init__(self,pp):
         self.pp=pp
         self.text=pp.config['auth']['hi']
@@ -9,7 +11,10 @@ class Folio:
         self.siblings = []
         self.path = [(self.current_folio,0)]
         self.sibling_index=0
-        self.action="test"
+        self.default_task_action="learn"
+        self.task_action=self.default_task_action
+        self.exercise_action=pp.all_folios[0]['exercise_action']
+        self.max_trials=pp.config['student']['max_trials']
 
     async def descend(self):
         children = self.current_folio.get('children', [])
@@ -61,28 +66,38 @@ class Folio:
         await self.pp.queue['display'].put({'t':self.current_folio['name']})
        
     async def activate_current_folio(self):
+        print(self.tasks)
+        print(self.exercise_matches)
+        #reset variables related to old folio
+        self.trial=0
+        self.task_action=self.default_task_action
+
+        if self.current_folio['name'] not in self.tasks:
+            self.tasks[self.current_folio['name']]={'learn':0,'test':0}
+
         # Stop any ongoing audio
         await self.pp.player.stop_player()
-
-        self.text=self.current_folio['name'] #this will be changed later for either/or/and name/content
-        
+ 
         if "knot_id" in self.current_folio:
             self.scorer_id=self.current_folio["knot_id"]
-
-        # Stop any ongoing audio
-        #if "audio" in self.current_folio:
-        #    await self.pp.player.play_wav(self.current_folio['audio'][0])
-
-        # Display content on eink
-        await self.display_current_folio_name()
-
+         
+        exercise_mode=self.exercise_modes[self.exercise_action+'_'+self.task_action]
+        self.text=self.current_folio['name'] #this will be changed later for either/or/and name/content
+        print(exercise_mode) 
+        # Display on eink
+        if exercise_mode['name']:
+            await self.pp.queue['display'].put({'t':self.current_folio['name']})
+            #await self.display_current_folio_name()
+        if exercise_mode['content']:
+            #await self.display_current_folio_content()
+            await self.pp.queue['display'].put({'c':self.current_folio['content']})
+        if exercise_mode['img'] and 'img' in self.current_folio:
+            await self.pp.queue['display'].put({'i':self.current_folio['img']})
         # Play audio
-        #if 'audio' in self.current_folio:
-        #    await self.audio.play_wav(self.current_folio['audio'][0])
+        if exercise_mode['audio'] and 'audio' in self.current_folio:
+            await self.pp.player.play_wav(self.current_folio['audio'][0])
 
         # Execute associated code
         if 'code' in self.current_folio:
             self.execute_code(folio['code'])
-
- 
 

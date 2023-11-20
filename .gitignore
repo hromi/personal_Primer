@@ -1,4 +1,6 @@
 bin/*
 lib/*
+data/*
 students/*
 *__pycache__*
+*.swp

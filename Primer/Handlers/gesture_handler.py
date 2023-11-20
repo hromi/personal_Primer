@@ -21,12 +21,13 @@ async def navigate(pp,gesture):
     elif gesture == "L":
         await pp.folio.previous_folio()
 
-    elif gesture == "A":
+    elif gesture == "A" or gesture=="C":
         await pp.student.logout()
 
-    elif gesture == "C" :
-        await pp.student.activate_training()
+    #elif gesture == "C" :
+    #    await pp.student.activate_training()
 
     elif gesture == "F" or gesture=="B":
-        await pp.folio.display_current_folio_content()
+        #await pp.folio.display_current_folio_content()
+        await pp.queue['display'].put({'c':pp.folio.current_folio['content']})
 

@@ -28,12 +28,12 @@ class PersonalPrimer:
         self.student=Student(self)
         self.folio=Folio(self)
         self.gesture=Gesture(self)
-        
-        self.loop = asyncio.get_running_loop() #necessary for synchronous libraries like PyAudio
         self.recorder=Recorder(self)
         self.player=Player(self)
 
-        await self.queue['display'].put({"c":self.config['auth']['hi']})
+        self.loop = asyncio.get_running_loop() #necessary for executor loops in libraries like pyalsaaudio
+        
+        await self.student.greeting()
 
         #we pass the main object to all handlers so that they can access it through pp. or self.pp
         await asyncio.gather(
@@ -43,6 +43,7 @@ class PersonalPrimer:
             gesture_handler.handle_gesture(self),
             display_handler.handle_display(self)
         )
+
 
 asyncio.run(PersonalPrimer().start())
 

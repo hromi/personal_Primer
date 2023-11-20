@@ -5,6 +5,7 @@
                             "audio": null,
                             "content": "Eine Fibel für die Kinder die die Sprache untersuchen und die Schrift entdecken.",
                             "knot_id": 16341,
+			    "exercise_action": "read",
                             "children": [
                                {
                                     "imgs": ["Pape_gray.png"],
