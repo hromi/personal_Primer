@@ -1,0 +1,229 @@
+[{"imgs":null,"leaf":0,"name":"Palope","id":"16341","content":"Namen aller Mitgliedern der Familie aus Zirkus Palope.","lang":"de","primer_title":"name","exercise_action":"read","voices":null,"children": [	{
+		"imgs":["15889.Zau.PNG"],
+		"leaf":0,
+		"name":"Zau",
+		"id":"15889",
+		"content":"Zau",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 15928}, {"voice" : "🇹🇼♀️", "variant_id" : 16215}, {"voice" : "🇰🇷♂️", "variant_id" : 16577}, {"voice" : "🇹🇷♂️", "variant_id" : 17188}, {"voice" : "🇩🇪👩‍🏫", "variant_id" : 17278}, {"voice" : "🇩🇪👩‍🏫", "variant_id" : 17279}, {"voice" : "🇸🇰♂️", "variant_id" : 19322}, {"voice" : "👩‍🏫", "variant_id" : 22791}]
+	},
+	{
+		"imgs":["15907.Pape.PNG"],
+		"leaf":0,
+		"name":"Pape",
+		"id":"15907",
+		"content":"Pape",
+		"exercise_action":"read",
+		"voices":[{"voice" : "👩‍🏫", "variant_id" : 22809}, {"voice" : "🇩🇪👧💎", "variant_id" : 23576}, {"voice" : "🇸🇰♂️", "variant_id" : 15910}, {"voice" : "🇰🇷♀️", "variant_id" : 30254}, {"voice" : "🇩🇪👧💎", "variant_id" : 24217}, {"voice" : "🇸🇰♂️", "variant_id" : 15934}, {"voice" : "🇰🇷♂️", "variant_id" : 16559}, {"voice" : "🇹🇷♂️", "variant_id" : 17170}, {"voice" : "🇩🇪👩‍🏫", "variant_id" : 17260}, {"voice" : "🇸🇰♂️", "variant_id" : 19304}, {"voice" : "🌃", "variant_id" : 20172}, {"voice" : "👩‍🏫", "variant_id" : 22785}]
+	},
+	{
+		"imgs":["15906.Mama.PNG"],
+		"leaf":0,
+		"name":"Mame",
+		"id":"15906",
+		"content":"Mame",
+		"exercise_action":"read",
+		"voices":[{"voice" : "👩‍🏫", "variant_id" : 22808}, {"voice" : "🇰🇷♀️", "variant_id" : 30255}, {"voice" : "🇩🇪👧💎", "variant_id" : 24218}, {"voice" : "🇩🇪👩‍🏫", "variant_id" : 17261}, {"voice" : "Kind", "variant_id" : 17297}, {"voice" : "🇸🇰♂️", "variant_id" : 19305}, {"voice" : "🌃", "variant_id" : 20171}, {"voice" : "👩‍🏫", "variant_id" : 22784}, {"voice" : "🇩🇪👧💎", "variant_id" : 23575}, {"voice" : "🇸🇰♂️", "variant_id" : 15911}, {"voice" : "🇰🇷♂️", "variant_id" : 16560}, {"voice" : "🇹🇷♂️", "variant_id" : 17171}]
+	},
+	{
+		"imgs":["15900.Pepe.PNG"],
+		"leaf":0,
+		"name":"Pepe",
+		"id":"15900",
+		"content":"Pepe",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 15917}, {"voice" : "🇩🇪👩‍🏫", "variant_id" : 17267}, {"voice" : "🇸🇰♂️", "variant_id" : 19311}, {"voice" : "👩‍🏫", "variant_id" : 22802}, {"voice" : "🇩🇪👧💎", "variant_id" : 23577}, {"voice" : "🇰🇷♀️", "variant_id" : 30253}]
+	},
+	{
+		"imgs":["15899.Nane.PNG"],
+		"leaf":0,
+		"name":"Nane",
+		"id":"15899",
+		"content":"Nane",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 19312}, {"voice" : "🇩🇪👧💎", "variant_id" : 23578}, {"voice" : "👩‍🏫", "variant_id" : 22801}, {"voice" : "🇸🇰♂️", "variant_id" : 15918}, {"voice" : "🇰🇷♂️", "variant_id" : 16567}, {"voice" : "🇩🇪👩‍🏫", "variant_id" : 17268}]
+	},
+	{
+		"imgs":["15903.Lole.PNG"],
+		"leaf":0,
+		"name":"Lole",
+		"id":"15903",
+		"content":"Lole",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 15914}, {"voice" : "👩‍🏫", "variant_id" : 22805}, {"voice" : "🇸🇰♂️", "variant_id" : 19308}, {"voice" : "🇩🇪👩‍🏫", "variant_id" : 17264}, {"voice" : "🇹🇷♂️", "variant_id" : 17174}, {"voice" : "🇰🇷♂️", "variant_id" : 16563}]
+	},
+	{
+		"imgs":["15904.Tute.PNG"],
+		"leaf":0,
+		"name":"Tute",
+		"id":"15904",
+		"content":"Tute",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 19123}, {"voice" : "👩‍🏫", "variant_id" : 22782}, {"voice" : "👩‍🏫", "variant_id" : 22806}, {"voice" : "🇸🇰♂️", "variant_id" : 15913}, {"voice" : "🇹🇼♀️", "variant_id" : 16200}, {"voice" : "🇰🇷♂️", "variant_id" : 16562}, {"voice" : "🇹🇷♂️", "variant_id" : 17173}, {"voice" : "🇩🇪👩‍🏫", "variant_id" : 17263}, {"voice" : "🌃", "variant_id" : 20169}, {"voice" : "🇸🇰♂️", "variant_id" : 19307}, {"voice" : "🇸🇰♂️", "variant_id" : 19165}]
+	},
+	{
+		"imgs":["15905.Fiefen.PNG"],
+		"leaf":0,
+		"name":"Fiefen",
+		"id":"15905",
+		"content":"Fiefen",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇰🇷♂️", "variant_id" : 16561}, {"voice" : "🇹🇼♀️", "variant_id" : 16199}, {"voice" : "🇸🇰♂️", "variant_id" : 15912}, {"voice" : "🇩🇪♀", "variant_id" : 19137}, {"voice" : "🇩🇪👩‍🏫", "variant_id" : 17262}, {"voice" : "🇹🇷♂️", "variant_id" : 17172}, {"voice" : "🇸🇰♂️", "variant_id" : 19306}, {"voice" : "👩‍🏫", "variant_id" : 22783}]
+	},
+	{
+		"imgs":["15902.Rere.PNG"],
+		"leaf":0,
+		"name":"Rere",
+		"id":"15902",
+		"content":"Rere",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇰🇷♂️", "variant_id" : 16564}, {"voice" : "🇹🇷♂️", "variant_id" : 17175}, {"voice" : "🇹🇼♀️", "variant_id" : 16202}, {"voice" : "🇸🇰♂️", "variant_id" : 15915}, {"voice" : "👩‍🏫", "variant_id" : 22804}, {"voice" : "🌃", "variant_id" : 20167}, {"voice" : "🇸🇰♂️", "variant_id" : 19309}, {"voice" : "🇸🇰♂️", "variant_id" : 19125}, {"voice" : "🇩🇪👩‍🏫", "variant_id" : 17265}]
+	},
+	{
+		"imgs":["15895.Home.PNG"],
+		"leaf":0,
+		"name":"Home",
+		"id":"15895",
+		"content":"Home",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇰🇷♂️", "variant_id" : 16571}, {"voice" : "👩‍🏫", "variant_id" : 22797}, {"voice" : "🌃", "variant_id" : 20156}, {"voice" : "🇸🇰♂️", "variant_id" : 19316}, {"voice" : "🇩🇪👩‍🏫", "variant_id" : 17272}, {"voice" : "🇹🇷♂️", "variant_id" : 17182}, {"voice" : "🇹🇼♀️", "variant_id" : 16209}, {"voice" : "🇸🇰♂️", "variant_id" : 15922}]
+	},
+	{
+		"imgs":["15896.Suse.PNG"],
+		"leaf":0,
+		"name":"Suse",
+		"id":"15896",
+		"content":"Suse",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪👩‍🏫", "variant_id" : 17271}, {"voice" : "🇹🇼♀️", "variant_id" : 16208}, {"voice" : "🇰🇷♂️", "variant_id" : 16570}, {"voice" : "👩‍🏫", "variant_id" : 22798}]
+	},
+	{
+		"imgs":["15884.Dodo.PNG"],
+		"leaf":0,
+		"name":"Dodo",
+		"id":"15884",
+		"content":"Dodo",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🌃", "variant_id" : 20219}, {"voice" : "🇸🇰♂️", "variant_id" : 22353}, {"voice" : "🇸🇰♂️", "variant_id" : 22399}, {"voice" : "🇩🇪♂️✨", "variant_id" : 23517}, {"voice" : "🇩🇪♂️✨", "variant_id" : 23722}, {"voice" : "🇩🇪♂️✨", "variant_id" : 23774}, {"voice" : "🇸🇰♂️", "variant_id" : 15933}, {"voice" : "🇹🇼♀️", "variant_id" : 16220}, {"voice" : "🇰🇷♂️", "variant_id" : 16582}, {"voice" : "🇹🇷♂️", "variant_id" : 17193}, {"voice" : "🇹🇷♂️", "variant_id" : 17194}, {"voice" : "🇸🇰♂️", "variant_id" : 19436}, {"voice" : "🇩🇪👩‍🏫", "variant_id" : 17284}, {"voice" : "🌃", "variant_id" : 20135}, {"voice" : "🌃", "variant_id" : 20178}, {"voice" : "🌃", "variant_id" : 20179}]
+	},
+	{
+		"imgs":["15888.Ape.PNG"],
+		"leaf":0,
+		"name":"Ape",
+		"id":"15888",
+		"content":"Ape",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 19323}, {"voice" : "🇸🇰♂️", "variant_id" : 15929}, {"voice" : "🇹🇼♀️", "variant_id" : 16216}, {"voice" : "🇰🇷♂️", "variant_id" : 16578}, {"voice" : "🇹🇷♂️", "variant_id" : 17189}, {"voice" : "🇩🇪👩‍🏫", "variant_id" : 17280}, {"voice" : "🌃", "variant_id" : 20148}, {"voice" : "👩‍🏫", "variant_id" : 22789}]
+	},
+	{
+		"imgs":["15894.Holme.PNG"],
+		"leaf":0,
+		"name":"Holme",
+		"id":"15894",
+		"content":"Holme",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 19317}, {"voice" : "👩‍🏫", "variant_id" : 22796}, {"voice" : "🌃", "variant_id" : 20155}, {"voice" : "🇸🇰♂️", "variant_id" : 15923}, {"voice" : "🇹🇼♀️", "variant_id" : 16210}, {"voice" : "🇰🇷♂️", "variant_id" : 16572}, {"voice" : "🇹🇷♂️", "variant_id" : 17183}, {"voice" : "🇩🇪👩‍🏫", "variant_id" : 17273}]
+	},
+	{
+		"imgs":["15901.Renre.PNG"],
+		"leaf":0,
+		"name":"Renre",
+		"id":"15901",
+		"content":"Renre",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇹🇷♂️", "variant_id" : 17176}, {"voice" : "🇰🇷♂️", "variant_id" : 16565}, {"voice" : "🇩🇪♂️✨", "variant_id" : 23718}, {"voice" : "🇸🇰♂️", "variant_id" : 15916}, {"voice" : "🇩🇪♂️✨", "variant_id" : 23717}, {"voice" : "🇩🇪♂️✨", "variant_id" : 23716}, {"voice" : "👩‍🏫", "variant_id" : 22803}, {"voice" : "🇸🇰♂️", "variant_id" : 19310}, {"voice" : "🇩🇪👩‍🏫", "variant_id" : 17266}]
+	},
+	{
+		"imgs":["15892.Jantje.PNG"],
+		"leaf":0,
+		"name":"Jantje",
+		"id":"15892",
+		"content":"Jantje",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪👩‍🏫", "variant_id" : 17275}, {"voice" : "🇸🇰♂️", "variant_id" : 15925}, {"voice" : "🇹🇼♀️", "variant_id" : 16212}, {"voice" : "🇰🇷♂️", "variant_id" : 16574}, {"voice" : "🇹🇷♂️", "variant_id" : 17185}, {"voice" : "🇸🇰♂️", "variant_id" : 19319}, {"voice" : "🌃", "variant_id" : 20153}, {"voice" : "👩‍🏫", "variant_id" : 22794}]
+	},
+	{
+		"imgs":["15897.Maleen.PNG"],
+		"leaf":0,
+		"name":"Maleen",
+		"id":"15897",
+		"content":"Maleen",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇰🇷♂️", "variant_id" : 16569}, {"voice" : "🇹🇷♂️", "variant_id" : 17180}, {"voice" : "🌃", "variant_id" : 20158}, {"voice" : "🇸🇰♂️", "variant_id" : 15920}, {"voice" : "🇸🇰♂️", "variant_id" : 19129}, {"voice" : "🇸🇰♂️", "variant_id" : 19314}, {"voice" : "🇹🇼♀️", "variant_id" : 16207}, {"voice" : "🇩🇪👩‍🏫", "variant_id" : 17270}, {"voice" : "👩‍🏫", "variant_id" : 22799}]
+	},
+	{
+		"imgs":["15886.Pesel.PNG"],
+		"leaf":0,
+		"name":"Pesel",
+		"id":"15886",
+		"content":"Pesel",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇰🇷♂️", "variant_id" : 16580}, {"voice" : "🇹🇷♂️", "variant_id" : 17191}, {"voice" : "🇩🇪👩‍🏫", "variant_id" : 17282}, {"voice" : "🌃", "variant_id" : 20221}, {"voice" : "🇸🇰♂️", "variant_id" : 19325}, {"voice" : "🌃", "variant_id" : 20146}, {"voice" : "👩‍🏫", "variant_id" : 22787}, {"voice" : "🇸🇰♂️", "variant_id" : 15931}, {"voice" : "🇹🇼♀️", "variant_id" : 16218}]
+	},
+	{
+		"imgs":["15887.Pele.PNG"],
+		"leaf":0,
+		"name":"Pele",
+		"id":"15887",
+		"content":"Pele",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇹🇷♂️", "variant_id" : 17190}, {"voice" : "🇰🇷♂️", "variant_id" : 16579}, {"voice" : "🇹🇼♀️", "variant_id" : 16217}, {"voice" : "🌃", "variant_id" : 20222}, {"voice" : "👩‍🏫", "variant_id" : 22788}, {"voice" : "🇸🇰♂️", "variant_id" : 15930}, {"voice" : "🌃", "variant_id" : 20147}, {"voice" : "🇸🇰♂️", "variant_id" : 19324}, {"voice" : "🇩🇪👩‍🏫", "variant_id" : 17281}]
+	},
+	{
+		"imgs":["15898.Holle.PNG"],
+		"leaf":0,
+		"name":"Holle",
+		"id":"15898",
+		"content":"Holle",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 19128}, {"voice" : "🇸🇰♂️", "variant_id" : 19313}, {"voice" : "🌃", "variant_id" : 20160}, {"voice" : "👩‍🏫", "variant_id" : 22800}, {"voice" : "🇸🇰♂️", "variant_id" : 15919}, {"voice" : "🇹🇼♀️", "variant_id" : 16206}, {"voice" : "🇰🇷♂️", "variant_id" : 16568}, {"voice" : "🇹🇷♂️", "variant_id" : 17179}, {"voice" : "🇩🇪👩‍🏫", "variant_id" : 17269}]
+	},
+	{
+		"imgs":["15885.Schöner.PNG"],
+		"leaf":0,
+		"name":"Schöner",
+		"id":"15885",
+		"content":"Schöner",
+		"exercise_action":"read",
+		"voices":[{"voice" : "👩‍🏫", "variant_id" : 22786}, {"voice" : "🌃", "variant_id" : 20220}, {"voice" : "🌃", "variant_id" : 20145}, {"voice" : "🇩🇪👩‍🏫", "variant_id" : 17283}, {"voice" : "🇹🇷♂️", "variant_id" : 17192}, {"voice" : "🇸🇰♂️", "variant_id" : 15932}, {"voice" : "🇹🇼♀️", "variant_id" : 16219}, {"voice" : "🇰🇷♂️", "variant_id" : 16581}]
+	},
+	{
+		"imgs":["15890.Baby Bing Bing.PNG"],
+		"leaf":0,
+		"name":"Baby Bing Bing",
+		"id":"15890",
+		"content":"Baby Bing Bing",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇹🇷♂️", "variant_id" : 17187}, {"voice" : "🇹🇼♀️", "variant_id" : 16214}, {"voice" : "🇰🇷♂️", "variant_id" : 16576}, {"voice" : "🇸🇰♂️", "variant_id" : 15927}, {"voice" : "👩‍🏫", "variant_id" : 22792}, {"voice" : "🌃", "variant_id" : 20151}, {"voice" : "🇸🇰♂️", "variant_id" : 19321}, {"voice" : "🇸🇰♂️", "variant_id" : 19282}, {"voice" : "🇸🇰♂️", "variant_id" : 19281}, {"voice" : "🇩🇪👩‍🏫", "variant_id" : 17277}]
+	},
+	{
+		"imgs":["15891.Gang Gang.PNG"],
+		"leaf":0,
+		"name":"Gang Gang",
+		"id":"15891",
+		"content":"Gang Gang",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇰🇷♂️", "variant_id" : 16575}, {"voice" : "🌃", "variant_id" : 20152}, {"voice" : "🇸🇰♂️", "variant_id" : 19320}, {"voice" : "🇩🇪👩‍🏫", "variant_id" : 17276}, {"voice" : "🇹🇷♂️", "variant_id" : 17186}, {"voice" : "🇹🇼♀️", "variant_id" : 16213}, {"voice" : "🇸🇰♂️", "variant_id" : 15926}, {"voice" : "👩‍🏫", "variant_id" : 22793}]
+	},
+	{
+		"imgs":["15893.Wong Wong.PNG"],
+		"leaf":0,
+		"name":"Wong Wong",
+		"id":"15893",
+		"content":"Wong Wong",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇹🇼♀️", "variant_id" : 16211}, {"voice" : "🇸🇰♂️", "variant_id" : 15924}, {"voice" : "👩‍🏫", "variant_id" : 22795}, {"voice" : "🌃", "variant_id" : 20154}, {"voice" : "🇸🇰♂️", "variant_id" : 19318}, {"voice" : "🇩🇪👩‍🏫", "variant_id" : 17274}, {"voice" : "🇹🇷♂️", "variant_id" : 17184}, {"voice" : "🇰🇷♂️", "variant_id" : 16573}]
+	},
+	{
+		"imgs":["15889.Zau.PNG"],
+		"leaf":0,
+		"name":"Zau",
+		"id":"15889",
+		"content":"Zau",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 15928}, {"voice" : "👩‍🏫", "variant_id" : 22791}, {"voice" : "🇸🇰♂️", "variant_id" : 19322}, {"voice" : "🇰🇷♂️", "variant_id" : 16577}, {"voice" : "🇹🇷♂️", "variant_id" : 17188}, {"voice" : "🇩🇪👩‍🏫", "variant_id" : 17278}, {"voice" : "🇩🇪👩‍🏫", "variant_id" : 17279}, {"voice" : "🇹🇼♀️", "variant_id" : 16215}]
+	}
+	]
+}]
+
+

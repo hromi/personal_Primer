@@ -6,10 +6,10 @@ class Folio(Exercise):
         self.text=pp.config['auth']['hi']
         self.content=""
         self.imgs=[]
-        self.current_folio = pp.all_folios[0]  # Start with the root folio
-        self.scorer_id=self.current_folio["knot_id"]
+        self.current_folio = None
+        self.scorer_id=None
         self.siblings = []
-        self.path = [(self.current_folio,0)]
+        self.path = []
         self.sibling_index=0
         self.default_task_action="test"
         self.task_action=self.default_task_action
@@ -81,8 +81,8 @@ class Folio(Exercise):
         # Stop any ongoing audio
         await self.pp.player.stop_player()
  
-        if "knot_id" in self.current_folio:
-            self.scorer_id=self.current_folio["knot_id"]
+        if "id" in self.current_folio:
+            self.scorer_id=self.current_folio["id"]
          
         exercise_mode=self.exercise_modes[self.exercise_action+'_'+self.task_action]
         self.text=self.current_folio['name'] #this will be changed later for either/or/and name/content
@@ -97,8 +97,8 @@ class Folio(Exercise):
         if exercise_mode['img'] and 'img' in self.current_folio:
             await self.pp.queue['display'].put({'i':self.current_folio['img']})
         # Play audio
-        if exercise_mode['audio'] and 'audio' in self.current_folio:
-            await self.pp.player.play_wav(self.current_folio['audio'][0])
+        if exercise_mode['audio'] and 'wavs' in self.current_folio:
+            await self.pp.player.play_wav(self.current_folio['wavs'][0])
 
         # Execute associated code
         if 'code' in self.current_folio:
