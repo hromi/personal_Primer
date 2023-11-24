@@ -19,28 +19,32 @@ class Student:
         self.last_session_link = self.session_dir+'/last'
 
     async def greeting(self):
-        await self.pp.queue['display'].put({"c":self.hi})
+        await self.pp.queue['display'].put({"b":self.hi})
 
     async def init_user(self,login):
         self.login=login
         #self.set_session_info()
         self.new_session()
-        await self.pp.queue['display'].put({"t":self.pp.config['auth']['hi']+" "+self.pp.student.login})
+        await self.pp.queue['display'].put({"t":self.pp.config['auth']['hi']+" "+self.pp.student.login,'b':' '})
+        self.activate_model()
 
     async def logout(self):
         await self.pp.queue['display'].put({"t":""})
-        await self.pp.queue['display'].put({"c":f"{self.bye} {self.login}"})
+        await self.pp.queue['display'].put({"b":f"{self.bye} {self.login}"})
         self.login=self.pp.config['student']['default_login']
         self.set_session_info()
         #self.new_session()
         self.pp.folio.text=self.pp.config['auth']['hi']
-        await self.pp.queue['display'].put({"c":self.pp.config['auth']['hi']})
+        await self.pp.queue['display'].put({"b":self.pp.config['auth']['hi']})
+    
+    def activate_model(self):
+        urllib.request.urlopen("https://"+self.pp.config['mikroserver_stt']['inference_host']+":"+self.pp.config['mikroserver_stt']['port']+'/update_model/?voice='+self.login+'&lang='+self.language)
 
     def activate_training(self):
         #launch fine-tuning
         contents = urllib.request.urlopen("https://"+self.pp.config['mikroserver_stt']['train_host']+"/"+self.language+"::"+self.login).read()
         #inform the inference engine that model was updated
-        urllib.request.urlopen("https://"+self.pp.config['mikroserver_stt']['inference_host']+":"+self.pp.config['mikroserver_stt']['port']+'/update_model/?voice='+self.login+'&lang='+self.language)
+        self.activate_model()
 
     #sessions are stored in student directories, symlink /last points to last session
     def new_session(self):

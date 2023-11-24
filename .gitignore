@@ -1,6 +1,9 @@
+primer.yaml
 bin/*
 lib/*
 data/*
 students/*
 *__pycache__*
 *.swp
+*.swo
+*.swn

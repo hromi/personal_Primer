@@ -8,6 +8,7 @@ async def handle_button(pp):
     while True:
         button_state = GPIO.input(pp.config['button']['gpio'])
         if button_state == GPIO.LOW and not pp.recorder.is_recording:  # Button pressed
+            await pp.player.stop_player() #stop all audio player so that audio in does not capture audio out
             pp.recorder.is_recording = True
             await pp.queue['button'].put("start")
             #await pp.queue['display'].put({'t':"Recording"})

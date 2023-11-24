@@ -29,5 +29,5 @@ async def navigate(pp,gesture):
 
     elif gesture == "F" or gesture=="B":
         #await pp.folio.display_current_folio_content()
-        await pp.queue['display'].put({'c':pp.folio.current_folio['content']})
+        await pp.queue['display'].put({'b':pp.folio.current_folio['content'].upper()})
 

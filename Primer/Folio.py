@@ -1,3 +1,4 @@
+import random
 from Primer.Exercise import Exercise
 
 class Folio(Exercise):
@@ -14,6 +15,9 @@ class Folio(Exercise):
         self.default_task_action="test"
         self.task_action=self.default_task_action
         self.trial=0
+        self.title_text=None
+        self.body_text=None
+        self.image_name=None
         super().__init__()
 
     async def descend(self):
@@ -81,21 +85,27 @@ class Folio(Exercise):
         # Stop any ongoing audio
         await self.pp.player.stop_player()
  
-        if "id" in self.current_folio:
-            self.scorer_id=self.current_folio["id"]
+        #this should be rather done on exercise level
+        #if "id" in self.current_folio:
+        #    self.scorer_id=self.current_folio["id"]
          
         exercise_mode=self.exercise_modes[self.exercise_action+'_'+self.task_action]
-        self.text=self.current_folio['name'] #this will be changed later for either/or/and name/content
-        print(exercise_mode) 
+        self.text=self.current_folio['content'] if self.primer_title=='content' else self.current_folio['name'] #this will be changed later for either/or/and name/content
         # Display on eink
-        if exercise_mode['name']:
-            await self.pp.queue['display'].put({'t':self.current_folio['name']})
+        if exercise_mode['title'] and self.primer_title!='none':
+            if self.primer_title=='content':
+                await self.pp.queue['display'].put({'t':self.current_folio['content'],'b':' '})
+            else:
+                await self.pp.queue['display'].put({'t':self.current_folio['name'],'b':' '})
             #await self.display_current_folio_name()
-        if exercise_mode['content']:
+        if exercise_mode['body']:
             #await self.display_current_folio_content()
-            await self.pp.queue['display'].put({'c':self.current_folio['content']})
-        if exercise_mode['img'] and 'img' in self.current_folio:
-            await self.pp.queue['display'].put({'i':self.current_folio['img']})
+            await self.pp.queue['display'].put({'b':self.current_folio['content']})
+        if exercise_mode['img'] and ('img' in self.current_folio or 'emoji' in self.current_folio):
+            if 'emoji' in self.current_folio:
+                await self.pp.queue['display'].put({'t':self.current_folio['emoji'],'t_emoji':True,'b':' '})
+            else:
+                await self.pp.queue['display'].put({'i':random.choice(self.current_folio['imgs']),'b':' '})
         # Play audio
         if exercise_mode['audio'] and 'wavs' in self.current_folio:
             await self.pp.player.play_wav(self.current_folio['wavs'][0])

@@ -8,10 +8,8 @@ from Primer.Folio import Folio
 
 class PersonalPrimer:
     def __init__(self):
-        with open('/home/fibel/config.yaml', 'r') as file:
+        with open('primer.yaml', 'r') as file:
             self.config = yaml.safe_load(file)
-        #with open(self.config['lesson0'], 'r') as file:
-        #    self.all_folios = json.load(file)
         self.display_driver=importlib.import_module("Primer.IO.EPD."+self.config['EPD']['driver'])
         self.queue=dict()
 
@@ -24,7 +22,7 @@ class PersonalPrimer:
                 'mikroserver' : asyncio.Queue(),
                 'student' : asyncio.Queue()
         }
-        self.display=self.display_driver.EInkDisplay(self.config)
+        self.display=self.display_driver.EInkDisplay(self)
         self.student=Student(self)
         self.gesture=Gesture(self)
         self.recorder=Recorder(self)
@@ -33,23 +31,18 @@ class PersonalPrimer:
 
         self.loop = asyncio.get_running_loop() #necessary for executor loops in libraries like pyalsaaudio
 
-        #here we go
-        await self.folio.load_foliae()
+        #hello world
         await self.student.greeting()
 
         #we pass the main object to all handlers so that they can access it through pp. or self.pp
         await asyncio.gather(
+            self.folio.load_foliae(),
             button_handler.handle_button(self),
             recorder_handler.handle_recorder(self),
             mikroserver_handler.handle_mikroserver(self),
             gesture_handler.handle_gesture(self),
-            display_handler.handle_display(self)
+            display_handler.handle_display(self),
         )
-
-        #here we go
-        await self.folio.load_foliae()
-        await self.student.greeting()
-
 
 asyncio.run(PersonalPrimer().start())
 
