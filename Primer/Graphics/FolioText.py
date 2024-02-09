@@ -100,6 +100,25 @@ class FolioText(object):
         font = ImageFont.truetype(font_filename, font_size)
         return font.getsize(text)
 
+    def calculate_font_size(string_length, base_font_size=16, base_character_area=256, available_area=360000):
+        """
+        Calculate the font size needed to fit a string into a 600px x 600px square.
+    
+        :param string_length: The length of the string.
+        :param base_font_size: The font size used for the base character area calculation.
+        :param base_character_area: The estimated area (in pixels) occupied by a character at the base font size.
+        :param available_area: The total area (in pixels) available for the text.
+        :return: The calculated font size.
+        """
+        # Calculate the total character area required for the string at the base font size
+        total_character_area = string_length * base_character_area
+        # Calculate the ratio of the available area to the required character area
+        area_ratio = available_area / total_character_area
+        # Adjust the font size based on the square root of the area ratio
+        new_font_size = base_font_size * (area_ratio ** 0.5)
+        return new_font_size
+
+ 
     def text_multiline(self, x, y, text, font_filename, font_size=11, box_width=580, color=0, place='justify', justify_last_line=False):
         lines = []
         line = []

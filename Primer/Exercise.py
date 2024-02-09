@@ -5,6 +5,8 @@ class Exercise(Curriculum):
     exercise_modes={
             'read_test':{'audio':False,'img':False,'title':True,'body':False},
             'read_learn':{'audio':True,'img':True,'title':True,'body':False},
+            'narrate_test':{'audio':False,'img':False,'title':True,'body':True},
+            'narrate_learn':{'audio':True,'img':False,'title':True,'body':True},
             'naming_learn':{'audio':True,'img':True,'title':True,'body':False},
             'naming_test':{'audio':False,'img':True,'title':False,'body':False}
     }

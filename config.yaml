@@ -51,5 +51,6 @@ gesture:
   quit_time: 0.5
   busno: 1
   caseflag: 1
-lesson0: "/home/primer/lessons/palope.json"
+lesson0: "/home/fibel/personal_Primer/lessons/de/Panchatantra/Buch 1/affe.json"
+#lesson0: "/home/primer/lessons/palope.json"
 default_language: "de"

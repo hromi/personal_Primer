@@ -12,7 +12,7 @@ class Folio(Exercise):
         self.siblings = []
         self.path = []
         self.sibling_index=0
-        self.default_task_action="test"
+        self.default_task_action="learn"
         self.task_action=self.default_task_action
         self.trial=0
         self.title_text=None
