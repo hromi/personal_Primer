@@ -15,10 +15,10 @@ student:
   session_dir: "/home/primer/students/"
 mikroserver_stt:
   inference_host: "" #lesen-mikroserver inference host
-  train_host: "...:8080"   #deepspeech training host
   port: "8080"
+  train_host: "...:8080"   #deepspeech training host
 mikroserver_auth:
-  auth_host: "..."          #lesen-mikroserver auth host
+  auth_host: ""          #lesen-mikroserver auth host
   port: "8080"
 hmpl:
   training_trigger: 4
@@ -38,19 +38,38 @@ auth:
   bye: 'Auf wiedersehen'
 gesture:
   mappings:
-    "D": "U"
-    "U": "D"
-    "R": "R"
-    "L": "L"
-    "F": "F"
-    "B": "B"
-    "C": "C"
-    "A": "A"
+    "D": 
+      object: "folio"
+      method: "descend"
+    "U":
+      object: "folio"
+      method: "ascend"
+    "L":
+      object: "folio"
+      method: "previous_folio"
+    "R": 
+      object: "folio"
+      method: "next_folio"
+    "F":
+      object: "folio"
+      method: "display_image"
+    "B":
+      object: "folio"
+      #method: "display_current_folio_content"
+      method: "display_image"
+    "C":
+      object: "folio"
+      method: "next_voice"
+    "A":
+      object: "student"
+      method: "logout"
   reaction_time: 0.25
   entry_time: 0.4
   quit_time: 0.5
+  sleep_time: 0.1
   busno: 1
   caseflag: 1
-lesson0: "/home/fibel/personal_Primer/lessons/de/Panchatantra/Buch 1/affe.json"
-#lesson0: "/home/primer/lessons/palope.json"
+
+lesson0: "/home/primer/lessons/palope.json"
+  #lesson0: "/home/fibel/personal_Primer/lessons/de/Panchatantra/Buch 1/index.json"
 default_language: "de"

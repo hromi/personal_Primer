@@ -1,6 +1,7 @@
 import random,asyncio,json,os,subprocess
 from urllib import request,parse
 from Primer.Curriculum import Curriculum
+from PIL import Image
 class Exercise(Curriculum):
     exercise_modes={
             'read_test':{'audio':False,'img':False,'title':True,'body':False},
@@ -35,16 +36,34 @@ class Exercise(Curriculum):
         self.lang=self.all_foliae[0]['lang']
         self.primer_title=self.all_foliae[0]['primer_title']
         self.exercise_action=self.all_foliae[0]['exercise_action']
+        await self.preload_imgs(self.current_folio)
+        await self.preload_wavs(self.current_folio)
         await self.traverse_tree(self.current_folio)
       
         if "id" in self.current_folio:
             self.scorer_id=self.current_folio["id"]
-         
         print("Lesson loaded")
 
-    async def preload_folio(self,folio):
-        #load images
-        #print(folio["name"])
+    async def preload_wavs(self,folio):
+        print(folio['voices'])
+        if type(folio['voices']) is list:
+            print(folio['voices'])
+            folio['wavs']=dict()
+            for variant in folio['voices']:
+                print("ADDIN VARIATN",variant)
+                wav_path=self.wav_store_dir+'/'+folio['id']+'-'+folio['name']+'-'+variant['voice']+".wav"
+                if not os.path.isfile(wav_path):
+                    ogg_path=self.ogg_store_dir+'/'+folio['id']+'-'+variant['voice']+".ogg"
+                    #check the ogg cache
+                    if not os.path.isfile(ogg_path):
+                        print("downloadin"+str(variant['variant_id']))
+                        print(self.pp.config['audio']['external_store_url']+str(variant['variant_id'])+".ogg")
+                        request.urlretrieve(self.pp.config['audio']['external_store_url']+str(variant['variant_id'])+".ogg",ogg_path)
+                    subprocess.run(['opusdec', '--rate', '48000', ogg_path, wav_path], check=True)
+                folio['wavs'][variant['voice']]=wav_path
+
+
+    async def preload_imgs(self,folio):
         if type(folio['imgs']) is list:
             #await self.pp.queue['display'].put({"t":folio['name']})
             for img in folio['imgs']:
@@ -52,20 +71,15 @@ class Exercise(Curriculum):
                 if not os.path.isfile(img_path):
                     print(self.pp.config['gfx']['external_store_url']+'/'+parse.quote(img))
                     request.urlretrieve(self.pp.config['gfx']['external_store_url']+'/'+parse.quote(img),img_path)
-        if type(folio['voices']) is list:
-            folio['wavs']=[]
-            for variant in folio['voices']:
-                wav_path=self.wav_store_dir+'/'+folio['name']+'-'+variant['voice']+".wav"
-                if not os.path.isfile(wav_path):
-                    ogg_path=self.ogg_store_dir+'/'+folio['name']+'-'+variant['voice']+".ogg"
-                    #check the ogg cache
-                    if not os.path.isfile(ogg_path):
-                        print("downloadin"+str(variant['variant_id']))
-                        print(self.pp.config['audio']['external_store_url']+str(variant['variant_id'])+".ogg")
-                        request.urlretrieve(self.pp.config['audio']['external_store_url']+str(variant['variant_id'])+".ogg",ogg_path)
-                    subprocess.run(['opusdec', '--rate', '48000', ogg_path, wav_path], check=True)
-                folio['wavs'].append(wav_path)
+                    image=Image.open(img_path)
+                    resized=image.resize((600,800))
+                    resized.convert('L').save(self.image_path+'/600x800/'+img)
 
+    async def preload_folio(self,folio):
+        #load images
+        #print(folio["name"])
+        await self.preload_imgs(folio)
+        await self.preload_wavs(folio)
 
     # Recursive function to traverse the tree
     async def traverse_tree(self,folio):

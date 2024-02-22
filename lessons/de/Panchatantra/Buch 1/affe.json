@@ -1,74 +1,13 @@
-[{"imgs":null,"leaf":0,"name":"Der übergeschäftige Affe","id":"24444","content":"Die Geschichte vom übergeschäftigen Affen, der den Keil aus dem Baumstamm zog","lang":"de","primer_title":"name","exercise_action":"narrate","voices":[],"children": [	{
-		"imgs":null,
+[
+{"voices":"[]","imgs":["24444.2023-04-02_Monkey.png","24475.monkeybright.jpeg"],"leaf":0,"name":"Der übergeschäftige Affe","id":"24444","content":"Die Geschichte vom Affen, der den Keil aus dem Baumstamm zog","lang":"de","primer_title":"name","exercise_action":"narrate","children": [
+	{
+		"imgs":["24444.2023-04-02_Monkey.png","24475.monkeybright.jpeg"],
 		"leaf":0,
 		"name":"Der übergeschäftige Affe",
 		"id":"24444",
-		"content":"Die Geschichte vom übergeschäftigen Affen, der den Keil aus dem Baumstamm zog",
-		"exercise_action":"read",
-		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 25952}, {"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30269}, {"voice" : "🇩🇪♀", "variant_id" : 29039}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 25973}]
-	},
-	{
-		"imgs":null,
-		"leaf":0,
-		"name":"Moral der Geschichte",
-		"id":"25944",
-		"content":"Darum sage ich: ``Der Mann, der sich in Dinge einläßt, welche nicht seines Amtes sind, der geht zugrunde, gleichwie der Affe, der den Keil aus dem Baumstamm zog.''",
-		"exercise_action":"read",
-		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 25960}, {"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30277}, {"voice" : "🇩🇪♀", "variant_id" : 29048}, {"voice" : "🇩🇪♀", "variant_id" : 29047}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 25981}]
-	},
-	{
-		"imgs":null,
-		"leaf":0,
-		"name":"das größte Pech",
-		"id":"25945",
-		"content":"Es waren aber seine Hoden in die Öffnung des Baumstamms geraten, und sobald er den Keil aus seiner Stelle herausgezogen hatte, geschah ihm, was ich dir schon vorher gesagt habe.",
-		"exercise_action":"read",
-		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 25959}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 25980}, {"voice" : "🇩🇪♀", "variant_id" : 29046}, {"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30276}]
-	},
-	{
-		"imgs":null,
-		"leaf":0,
-		"name":"die übergeschäftige Pfoten",
-		"id":"25946",
-		"content":"Dann ergriff er diesen mit beiden Pfoten und fing an, ihn herauszuziehen.",
-		"exercise_action":"read",
-		"voices":[{"voice" : "🇩🇪👧 🧘", "variant_id" : 25979}, {"voice" : "🇩🇪♀", "variant_id" : 29045}, {"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30275}, {"voice" : "🇸🇰♂️", "variant_id" : 25958}]
-	},
-	{
-		"imgs":null,
-		"leaf":0,
-		"name":"der übergeschäftige Affe",
-		"id":"25947",
-		"content":"Da fingen nun die Affen an, nach Herzenslust auf den Wipfeln der Bäume, den Spitzen des Tempels und den Baumstämmen herumzuspielen, und einer von ihnen, welchem ein naher Tod beschieden war, setzte sich, seiner beweglichen Natur folgend, auf diesen halbgespaltenen Baumstamm, warf den Bindestrick weg und sprach: „Ah! da hat einer einen Keil an einer unrechten Stelle eingetrieben!“",
-		"exercise_action":"read",
-		"voices":[{"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30274}, {"voice" : "🇩🇪♀", "variant_id" : 29044}, {"voice" : "🇸🇰♂️", "variant_id" : 25957}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 25978}, {"voice" : "🇩🇪♀", "variant_id" : 29049}]
-	},
-	{
-		"imgs":null,
-		"leaf":0,
-		"name":"Baumstamm mit Keil",
-		"id":"25948",
-		"content":"Es befand sich da ein von einem Handwerksmann halb gespaltener Baumstamm von Andschanaholz mit einem Keil von Khadiraholz mitten darin.",
-		"exercise_action":"read",
-		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 25956}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 25977}, {"voice" : "🇩🇪♀", "variant_id" : 29043}, {"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30273}]
-	},
-	{
-		"imgs":null,
-		"leaf":0,
-		"name":"Affenherde kommt",
-		"id":"25949",
-		"content":"Einstmals aber kam eine Affenherde, welche in der Nähe hauste und sich hier und da herumtrieb.",
-		"exercise_action":"read",
-		"voices":[{"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30272}, {"voice" : "🇩🇪♀", "variant_id" : 29042}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 25976}, {"voice" : "🇸🇰♂️", "variant_id" : 25955}]
-	},
-	{
-		"imgs":null,
-		"leaf":0,
-		"name":"Baumeister geht essen",
-		"id":"25950",
-		"content":"Da gingen nun die Werkleute, der Baumeister und die übrigen, als es Mittag wurde in die Stadt, um zu essen.",
-		"exercise_action":"read",
-		"voices":[{"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30271}, {"voice" : "🇩🇪♀", "variant_id" : 29041}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 25975}, {"voice" : "🇸🇰♂️", "variant_id" : 25954}]
+		"content":"Die Geschichte vom Affen, der den Keil aus dem Baumstamm zog",
+		"exercise_action":"narrate",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 25952}, {"voice" : "🇩🇪👧💎", "variant_id" : 31355}, {"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30269}, {"voice" : "🇩🇪♀", "variant_id" : 29039}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 25973}]
 	},
 	{
 		"imgs":null,
@@ -76,8 +15,72 @@
 		"name":"Bau eines Göttertempels",
 		"id":"25951",
 		"content":"An einem Orte in der Nähe einer Stadt hatte ein Kaufmannssohn in der Mitte einer Baumgruppe den Bau eines Göttertempels begonnen.",
-		"exercise_action":"read",
-		"voices":[{"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30270}, {"voice" : "🇩🇪♀", "variant_id" : 29040}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 25974}, {"voice" : "🇸🇰♂️", "variant_id" : 25953}]
+		"exercise_action":"narrate",
+		"voices":[{"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30270}, {"voice" : "🇸🇰♂️", "variant_id" : 25953}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 25974}, {"voice" : "🇩🇪♀", "variant_id" : 29040}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Baumeister geht essen",
+		"id":"25950",
+		"content":"Da gingen nun die Werkleute, der Baumeister und die übrigen, als es Mittag wurde in die Stadt, um zu essen.",
+		"exercise_action":"narrate",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 25954}, {"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30271}, {"voice" : "🇩🇪♀", "variant_id" : 29041}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 25975}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Affenherde kommt",
+		"id":"25949",
+		"content":"Einstmals aber kam eine Affenherde, welche in der Nähe hauste und sich hier und da herumtrieb.",
+		"exercise_action":"narrate",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 29042}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 25976}, {"voice" : "🇸🇰♂️", "variant_id" : 25955}, {"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30272}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Baumstamm mit Keil",
+		"id":"25948",
+		"content":"Es befand sich da ein von einem Handwerksmann halb gespaltener Baumstamm von Andschanaholz mit einem Keil von Khadiraholz mitten darin.",
+		"exercise_action":"narrate",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 25956}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 25977}, {"voice" : "🇩🇪♀", "variant_id" : 29043}, {"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30273}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"der übergeschäftige Affe",
+		"id":"25947",
+		"content":"Da fingen nun die Affen an, nach Herzenslust auf den Wipfeln der Bäume, den Spitzen des Tempels und den Baumstämmen herumzuspielen, und einer von ihnen, welchem ein naher Tod beschieden war, setzte sich, seiner beweglichen Natur folgend, auf diesen halbgespaltenen Baumstamm, warf den Bindestrick weg und sprach: „Ah! da hat einer einen Keil an einer unrechten Stelle eingetrieben!“",
+		"exercise_action":"narrate",
+		"voices":[{"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30274}, {"voice" : "🇸🇰♂️", "variant_id" : 25957}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 25978}, {"voice" : "🇩🇪♀", "variant_id" : 29044}, {"voice" : "🇩🇪♀", "variant_id" : 29049}]
+	},
+	{
+		"imgs":["24444.2023-04-02_Monkey.png"],
+		"leaf":0,
+		"name":"die übergeschäftige Pfoten",
+		"id":"25946",
+		"content":"Dann ergriff er diesen mit beiden Pfoten und fing an, ihn herauszuziehen.",
+		"exercise_action":"narrate",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 29045}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 25979}, {"voice" : "🇸🇰♂️", "variant_id" : 25958}, {"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30275}]
+	},
+	{
+		"imgs":["24444.2023-04-02_Monkey.png"],
+		"leaf":0,
+		"name":"das größte Pech",
+		"id":"25945",
+		"content":"Es waren aber seine Hoden in die Öffnung des Baumstamms geraten, und sobald er den Keil aus seiner Stelle herausgezogen hatte, geschah ihm, was ich dir schon vorher gesagt habe.",
+		"exercise_action":"narrate",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 25959}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 25980}, {"voice" : "🇩🇪♀", "variant_id" : 29046}, {"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30276}]
+	},
+	{
+		"imgs":["24444.2023-04-02_Monkey.png"],
+		"leaf":0,
+		"name":"Moral der Geschichte",
+		"id":"25944",
+		"content":"Darum sage ich: ``Der Mann, der sich in Dinge einläßt, welche nicht seines Amtes sind, der geht zugrunde, gleichwie der Affe, der den Keil aus dem Baumstamm zog.''",
+		"exercise_action":"narrate",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 25960}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 25981}, {"voice" : "🇩🇪♀", "variant_id" : 29047}, {"voice" : "🇩🇪♀", "variant_id" : 29048}, {"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30277}]
 	}
 	]
-}]
+}
+]

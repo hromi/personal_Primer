@@ -4,13 +4,10 @@ class Student:
     def __init__(self,pp):
         self.pp=pp
         self.login=pp.config['student']['default_login']
+        self.name=''
         self.hi=pp.config['auth']['hi']
         self.bye=pp.config['auth']['bye']
-        #self.session_dir = pp.config['student']['session_dir']+'/'+self.login
-        #self.last_session_link = self.session_dir+'/last'
         self.language=pp.config['default_language']
-        #print(self.last_session_link)
-        #self.set_session_info()
         self.new_session()
 
 
@@ -19,13 +16,21 @@ class Student:
         self.last_session_link = self.session_dir+'/last'
 
     async def greeting(self):
+        #await self.pp.queue['display'].put({"b":self.hi})
         await self.pp.queue['display'].put({"b":self.hi})
+
+    def convert_login(self,login):
+        # Split the login into first name and surname
+        parts = login.split('-')
+        # Capitalize the first letter of each part and join them with a space
+        self.name = ' '.join(part.capitalize() for part in parts)
 
     async def init_user(self,login):
         self.login=login
+        self.convert_login(login)
         #self.set_session_info()
         self.new_session()
-        await self.pp.queue['display'].put({"t":self.pp.config['auth']['hi']+" "+self.pp.student.login,'b':' '})
+        await self.pp.queue['display'].put({'b':self.pp.config['auth']['hi']+" "+self.name,'t':''})
         self.activate_model()
 
     async def logout(self):
@@ -35,7 +40,7 @@ class Student:
         self.set_session_info()
         #self.new_session()
         self.pp.folio.text=self.pp.config['auth']['hi']
-        await self.pp.queue['display'].put({"b":self.pp.config['auth']['hi']})
+        await self.pp.queue['display'].put({'b':self.pp.config['auth']['hi']})
     
     def activate_model(self):
         urllib.request.urlopen("https://"+self.pp.config['mikroserver_stt']['inference_host']+":"+self.pp.config['mikroserver_stt']['port']+'/update_model/?voice='+self.login+'&lang='+self.language)

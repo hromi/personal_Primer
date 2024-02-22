@@ -1,4 +1,5 @@
 import random
+from Primer.VoiceController import VoiceController
 from Primer.Exercise import Exercise
 
 class Folio(Exercise):
@@ -8,22 +9,27 @@ class Folio(Exercise):
         self.content=""
         self.imgs=[]
         self.current_folio = None
+        self.current_voice = pp.config['voices']['default']
         self.scorer_id=None
         self.siblings = []
         self.path = []
         self.sibling_index=0
         self.default_task_action="learn"
+        self.voice_control=None
         self.task_action=self.default_task_action
         self.trial=0
         self.title_text=None
         self.body_text=None
         self.image_name=None
+        self.parent_name=None
         super().__init__()
 
     async def descend(self):
         children = self.current_folio.get('children', [])
+        self.parent_name=self.current_folio['name']
         if children:
             self.siblings=children
+            self.sibling_index=0
             # Move to the first child of the current folio
             # Push the current folio and index to the path
             self.path.append((self.current_folio, 0))
@@ -38,6 +44,7 @@ class Folio(Exercise):
             #print(self.path[-1][0])
             #self.siblings=self.path[-1][0]['children']
             try:
+                self.sibling_index=0
                 self.current_folio, _ = self.path.pop()
                 self.siblings=self.path[-1][0]['children']
                 #self.siblings=self.path[-1]['children']
@@ -62,18 +69,29 @@ class Folio(Exercise):
 
     async def display_current_folio_content(self):
         print(self.current_folio['content'])
-        #await self.display.display_folio(self.current_folio['name'],self.current_folio['imgs'][0])
-        await self.pp.queue['display'].put({'c':self.current_folio['content']})
+        await self.pp.queue['display'].put({'b':self.current_folio['content']})
      
     async def display_current_folio_name(self):
-        #await self.display.display_folio(self.current_folio['name'],self.current_folio['imgs'][0])
         await self.pp.queue['display'].put({'t':self.current_folio['name']})
-       
+   
+    async def display_image(self):
+        if self.current_folio['imgs']:
+            await self.pp.queue['display'].put({'i':random.choice(self.current_folio['imgs'])})
+
+    async def next_voice(self):
+        self.current_voice=self.voice_control.next_voice()
+        await self.pp.queue['display'].put({'t':self.current_voice,'t_emoji':True})
+        await self.pp.player.stop_player()
+        try:
+            await self.pp.player.play_wav(self.current_folio['wavs'][self.current_voice])
+        except:
+            1
+
     async def activate_current_folio(self):
-        print(self.task_matches)
-        print(self.exercise_matches)
-        print(self.task_mismatches)
-        print(self.exercise_mismatches)
+        #print(self.task_matches)
+        #print(self.exercise_matches)
+        #print(self.task_mismatches)
+        #print(self.exercise_mismatches)
         #reset variables related to old folio
         self.trial=0
         self.task_action=self.default_task_action
@@ -84,6 +102,10 @@ class Folio(Exercise):
 
         # Stop any ongoing audio
         await self.pp.player.stop_player()
+        print("WTF")
+        print(self.current_folio) 
+        print("WTFSTOP")
+        self.voice_control=VoiceController(self.current_folio['wavs'],self.current_voice)
  
         #this should be rather done on exercise level
         #if "id" in self.current_folio:
@@ -95,11 +117,11 @@ class Folio(Exercise):
         if exercise_mode['title'] and self.primer_title!='none':
             if self.primer_title=='content':
                 await self.pp.queue['display'].put({'t':self.current_folio['content'],'b':' '})
+            elif self.primer_title=='parent':
+                await self.pp.queue['display'].put({'t':self.parent_name})
             else:
                 await self.pp.queue['display'].put({'t':self.current_folio['name'],'b':' '})
-            #await self.display_current_folio_name()
         if exercise_mode['body']:
-            #await self.display_current_folio_content()
             await self.pp.queue['display'].put({'b':self.current_folio['content']})
         if exercise_mode['img'] and ('img' in self.current_folio or 'emoji' in self.current_folio):
             if 'emoji' in self.current_folio:
@@ -108,7 +130,12 @@ class Folio(Exercise):
                 await self.pp.queue['display'].put({'i':random.choice(self.current_folio['imgs']),'b':' '})
         # Play audio
         if exercise_mode['audio'] and 'wavs' in self.current_folio:
-            await self.pp.player.play_wav(self.current_folio['wavs'][0])
+            if self.current_voice in self.current_folio['wavs']:
+                await self.pp.player.play_wav(self.current_folio['wavs'][self.current_voice])
+            elif self.pp.config['voices']['default'] in self.current_folio['wavs']:
+                await self.pp.player.play_wav(self.current_folio['wavs'][self.pp.config['voices']['default']])
+            else:
+                await self.next_voice()
 
         # Execute associated code
         if 'code' in self.current_folio:

@@ -18,6 +18,7 @@ async def handle_mikroserver(pp):
             student_known = False if pp.student.login==pp.config['student']['default_login'] else True 
             if not student_known:
                 uri="wss://"+auth_config["auth_host"]+":"+auth_config['port']+"/auth/"+quote(pp.folio.text)+"/"+pp.student.login+"/"
+                print(uri)
             #otherwise do speech recognition
             else:
                 uri="wss://"+stt_config['inference_host']+":"+stt_config['port']+"/hmpl/"+str(pp.folio.scorer_id)+"/"+quote(pp.folio.text)+"/"+pp.student.login+"/de/"+pp.folio.task_action+"/"+str(pp.folio.trial)

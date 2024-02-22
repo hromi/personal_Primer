@@ -1,0 +1,891 @@
+[
+{
+"name":"Book 1", 
+"lang":"de", 
+"exercise_action":"narrate", 
+"voices":[{"voice":"🇩🇪♀","variant_id":26727}], 
+"imgs":null, 
+"leaf":0, 
+"id":"24442", 
+"content":"Erstes Buch - Verfeindung von Freunden", 
+"primer_title":"parent", 
+"children": [
+{
+	"voices":[{"voice":"🇩🇪👧💎","variant_id":31355}],
+	"imgs":["24444.2023-04-02_Monkey.png","24475.monkeybright.jpeg"],"leaf":0,"name":"Der übergeschäftige Affe","id":"24444","content":"Die Geschichte vom Affen, der den Keil aus dem Baumstamm zog","lang":"de","primer_title":"name","exercise_action":"narrate","children": [
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Bau eines Göttertempels",
+		"id":"25951",
+		"content":"An einem Orte in der Nähe einer Stadt hatte ein Kaufmannssohn in der Mitte einer Baumgruppe den Bau eines Göttertempels begonnen.",
+		"exercise_action":"narrate",
+		"voices":[{"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30270}, {"voice" : "🇸🇰♂️", "variant_id" : 25953}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 25974}, {"voice" : "🇩🇪♀", "variant_id" : 29040}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Baumeister geht essen",
+		"id":"25950",
+		"content":"Da gingen nun die Werkleute, der Baumeister und die übrigen, als es Mittag wurde in die Stadt, um zu essen.",
+		"exercise_action":"narrate",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 25954}, {"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30271}, {"voice" : "🇩🇪♀", "variant_id" : 29041}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 25975}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Affenherde kommt",
+		"id":"25949",
+		"content":"Einstmals aber kam eine Affenherde, welche in der Nähe hauste und sich hier und da herumtrieb.",
+		"exercise_action":"narrate",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 29042}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 25976}, {"voice" : "🇸🇰♂️", "variant_id" : 25955}, {"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30272}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Baumstamm mit Keil",
+		"id":"25948",
+		"content":"Es befand sich da ein von einem Handwerksmann halb gespaltener Baumstamm von Andschanaholz mit einem Keil von Khadiraholz mitten darin.",
+		"exercise_action":"narrate",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 25956}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 25977}, {"voice" : "🇩🇪♀", "variant_id" : 29043}, {"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30273}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"der übergeschäftige Affe",
+		"id":"25947",
+		"content":"Da fingen nun die Affen an, nach Herzenslust auf den Wipfeln der Bäume, den Spitzen des Tempels und den Baumstämmen herumzuspielen, und einer von ihnen, welchem ein naher Tod beschieden war, setzte sich, seiner beweglichen Natur folgend, auf diesen halbgespaltenen Baumstamm, warf den Bindestrick weg und sprach: „Ah! da hat einer einen Keil an einer unrechten Stelle eingetrieben!“",
+		"exercise_action":"narrate",
+		"voices":[{"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30274}, {"voice" : "🇸🇰♂️", "variant_id" : 25957}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 25978}, {"voice" : "🇩🇪♀", "variant_id" : 29044}, {"voice" : "🇩🇪♀", "variant_id" : 29049}]
+	},
+	{
+		"imgs":["24444.2023-04-02_Monkey.png"],
+		"leaf":0,
+		"name":"die übergeschäftige Pfoten",
+		"id":"25946",
+		"content":"Dann ergriff er diesen mit beiden Pfoten und fing an, ihn herauszuziehen.",
+		"exercise_action":"narrate",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 29045}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 25979}, {"voice" : "🇸🇰♂️", "variant_id" : 25958}, {"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30275}]
+	},
+	{
+		"imgs":["24444.2023-04-02_Monkey.png"],
+		"leaf":0,
+		"name":"das größte Pech",
+		"id":"25945",
+		"content":"Es waren aber seine Hoden in die Öffnung des Baumstamms geraten, und sobald er den Keil aus seiner Stelle herausgezogen hatte, geschah ihm, was ich dir schon vorher gesagt habe.",
+		"exercise_action":"narrate",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 25959}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 25980}, {"voice" : "🇩🇪♀", "variant_id" : 29046}, {"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30276}]
+	},
+	{
+		"imgs":["24444.2023-04-02_Monkey.png"],
+		"leaf":0,
+		"name":"Moral der Geschichte",
+		"id":"25944",
+		"content":"Darum sage ich: ``Der Mann, der sich in Dinge einläßt, welche nicht seines Amtes sind, der geht zugrunde, gleichwie der Affe, der den Keil aus dem Baumstamm zog.''",
+		"exercise_action":"narrate",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 25960}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 25981}, {"voice" : "🇩🇪♀", "variant_id" : 29047}, {"voice" : "🇩🇪♀", "variant_id" : 29048}, {"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30277}]
+	}
+	]
+},
+{"name":"Der Schakal und die Pauke",
+"lang":"de",
+"exercise_action":"narrate",
+"voices":[{"voice" : "🇩🇪♀", "variant_id" : 27528}, {"voice" : "🇸🇰♂️", "variant_id" : 27825}, {"voice" : "🇸🇰♂️", "variant_id" : 31432}],
+"imgs":["24474.Jackal _and_the_Drum.png"],
+"leaf":0,
+"id":"24474",
+"content":"Der Schakal und die Pauke",
+"primer_title":"parent",
+"children": [
+	{
+		"imgs":["24474.Jackal _and_the_Drum.png"],
+		"leaf":0,
+		"name":"Folio 2",
+		"id":"26809",
+		"content":" In einem gewissen Lande irrte ein Schakal namens Gomayu („Schakal“) mit vor Hunger abgezehrter Kehle hier und dort im Wald umher und sah das Schlachtfeld zweier Heere. ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 27702}, {"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30815}, {"voice" : "🇸🇰♂️", "variant_id" : 27826}]
+	},
+	{
+		"imgs":["24474.Jackal _and_the_Drum.png"],
+		"leaf":0,
+		"name":"Folio 3",
+		"id":"26810",
+		"content":" Dort hörte er den Ton einer Pauke, welche dort lag und von den Spitzen einiger vom Winde bewegter Baumzweige geschlagen ward. ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30816}, {"voice" : "🇩🇪♀", "variant_id" : 27703}, {"voice" : "🇩🇪♀", "variant_id" : 27704}, {"voice" : "🇸🇰♂️", "variant_id" : 27827}]
+	},
+	{
+		"imgs":["24474.Jackal _and_the_Drum.png"],
+		"leaf":0,
+		"name":"Folio 4",
+		"id":"26811",
+		"content":" Da dachte er mit Schrecken im Herzen „Oh weh! ich bin verloren! Ich will anderswohin gehen, ehe ich noch in den Gesichtskreis dieses brüllenden Tieres gerate. ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 27705}, {"voice" : "🇸🇰♂️", "variant_id" : 27828}, {"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30817}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 5",
+		"id":"26812",
+		"content":" Doch nein! Es ziemt sich nicht den von den Vätern ererbten Wald urplötzlich aufzugeben. ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30818}, {"voice" : "🇩🇪♀", "variant_id" : 27706}, {"voice" : "🇸🇰♂️", "variant_id" : 27829}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 6",
+		"id":"26813",
+		"content":" Man sagt auch: ``Wer bei Schrecken und bei Freude zuerst sorgfältig untersucht und nimmer übereilt handelt, der hat später nichts zu bereuen.´´",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 27830}, {"voice" : "🇩🇪♀", "variant_id" : 27707}, {"voice" : "🇩🇪♀", "variant_id" : 29050}, {"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30819}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 7",
+		"id":"26814",
+		"content":" Darum will ich erst sehen, von wem dieser Ton ausgeht!“ ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30820}, {"voice" : "🇩🇪♀", "variant_id" : 27708}, {"voice" : "🇸🇰♂️", "variant_id" : 27831}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 8",
+		"id":"26815",
+		"content":" So faßte er Mut und untersuchte. ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 27832}, {"voice" : "🇩🇪♀", "variant_id" : 27709}, {"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30796}, {"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30821}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 9",
+		"id":"26816",
+		"content":" Wie er sich nun Schritt für Schritt näherte, sah er die Pauke. ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30822}, {"voice" : "🇸🇰♂️", "variant_id" : 27833}, {"voice" : "🇩🇪♀", "variant_id" : 27710}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 10",
+		"id":"26817",
+		"content":" Wenn sie vermittelst des Windes von den Spitzen der Zweige bewegt wurde, dann tönte sie, sonst war sie still. ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30823}, {"voice" : "🇸🇰♂️", "variant_id" : 27834}, {"voice" : "🇩🇪♀", "variant_id" : 27711}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 11",
+		"id":"26818",
+		"content":" Nachdem er sie genau betrachtet hatte, ging er nah und schlug selbst vergnügt darauf. ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 27835}, {"voice" : "🇩🇪♀", "variant_id" : 27712}, {"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30824}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 12",
+		"id":"26819",
+		"content":" Doch weiter dachte er voller Freude: „Es ist lange her, daß mir ein so großes Fressen zugefallen ist! ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30825}, {"voice" : "🇸🇰♂️", "variant_id" : 27836}, {"voice" : "🇩🇪♀", "variant_id" : 27713}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 13",
+		"id":"26820",
+		"content":" Das (tote Tier) wird sicherlich voll von Fleisch, Mark und Blut sein!“ ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30826}, {"voice" : "🇸🇰♂️", "variant_id" : 27837}, {"voice" : "🇩🇪♀", "variant_id" : 27714}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 14",
+		"id":"26821",
+		"content":" Nachdem er darauf die aus hartem Fell bestehende Decke mit Mühe zerbissen, an einer Stelle ein Loch gemacht und sich sogar eine Zahn abgebrochen hatte, drang er hinein. ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30827}, {"voice" : "🇸🇰♂️", "variant_id" : 27838}, {"voice" : "🇩🇪♀", "variant_id" : 27715}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 15",
+		"id":"26822",
+		"content":" Da er nun sah, daß es nur aus Holz und Fell bestand, verlor er alle Hoffnung und sagte jene Strophe her: ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30828}, {"voice" : "🇩🇪♀", "variant_id" : 27716}, {"voice" : "🇸🇰♂️", "variant_id" : 27839}]
+	},
+	{
+		"imgs":["24474.Jackal _and_the_Drum.png"],
+		"leaf":0,
+		"name":"Folio 16",
+		"id":"26823",
+		"content":"„Erst habe ich gedacht, dieses wäre ganz von Fleisch angefüllt, doch eingedrungen sehe ich nun, daß es nichts als Fell und Holz ist. Daher darf man sich nicht vor einem bloßen Ton fürchten.“",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30829}, {"voice" : "🇸🇰♂️", "variant_id" : 27840}, {"voice" : "🇩🇪♀", "variant_id" : 27717}]
+	},
+	{
+		"imgs":["24474.Jackal _and_the_Drum.png"],
+		"leaf":0,
+		"name":"Der Schakal und die Pauke",
+		"id":"24474",
+		"content":"Der Schakal und die Pauke",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 27825}, {"voice" : "🇩🇪♀", "variant_id" : 27528}, {"voice" : "🇸🇰♂️", "variant_id" : 31432}]
+	}
+	]
+},
+{"name":"Der Löwe und der Hase",
+"lang":"de",
+"exercise_action":"narrate",
+"voices":[{"voice":"🇸🇰♂️","variant_id":31433}],
+"imgs":["24468.2023-06-19_pancha*.png"],
+"leaf":0,
+"id":"24468",
+"content":"Die Geschichte von dem großen fiesen Löwen und dem kleinen schlauen Hasen",
+"primer_title":"parent",
+"children": [
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 2",
+		"id":"27415",
+		"content":"In der Mitte eines Waldes lebte ein Löwe namens Bhasuraka (der „Heldenhafte“). Dieser nun brachte infolge seiner übermäßigen Stärke ohne Unterbrechung viele Gazellen, Hasen und andere Tiere um.",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 29655}, {"voice" : "🇸🇰♂️", "variant_id" : 31434}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 3",
+		"id":"27416",
+		"content":" Da versammelten sich eines Tages alle Geschöpfe des Waldes: Gazellen, Eber, Büffel, Hasen und so weiter, gingen zu ihm und sagten: ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31435}, {"voice" : "🇩🇪♀", "variant_id" : 29656}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 4",
+		"id":"27417",
+		"content":" „Oh Herr! Wozu diese unnütze Ermordung alles Wildes, da ja schon ein Tier genügt, um dich zu sättigen? Schließe deswegen mit uns eine Übereinkunft: ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31436}, {"voice" : "🇩🇪♀", "variant_id" : 29657}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 5",
+		"id":"27418",
+		"content":" Von heute an magst du hier ruhig sitzen bleiben und jeden Tag soll nach der Reihenfolge der Geschöpfe ein Tier zu dir kommen, um sich von dir fressen zu lassen. ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31437}, {"voice" : "🇩🇪♀", "variant_id" : 29658}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 6",
+		"id":"27419",
+		"content":" Auf diese Weise wird dir doch dein Lebensunterhalt ohne Anstrengung zuteil, und wir andrerseits werden nicht ausgerottet. ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31438}, {"voice" : "🇩🇪♀", "variant_id" : 29659}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 7",
+		"id":"27420",
+		"content":" Das ist Königsrecht und demgemäß möge gehandelt werden. ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31439}, {"voice" : "🇩🇪♀", "variant_id" : 29660}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 8",
+		"id":"27421",
+		"content":" Man sagt auch: ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 29661}, {"voice" : "🇸🇰♂️", "variant_id" : 31440}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 9",
+		"id":"27422",
+		"content":" ``Wer seine Herrschaft allmählich genießt, wenn sie Früchte bringt, wie der Weise den Allheiltrank, dem wird höchstes Gedeihen zuteil.´´",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 29662}, {"voice" : "🇸🇰♂️", "variant_id" : 31441}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 10",
+		"id":"27423",
+		"content":" Selbst rauher Boden und Holzscheite, wenn nach Vorschrift mit Segensspruch bewegt, geben den Opferspeisenden die Früchte. ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31442}, {"voice" : "🇩🇪♀", "variant_id" : 29663}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 11",
+		"id":"27424",
+		"content":" Wer gut des Untertans waltet, vermehrt seines Himmels Schatz. Doch Tyrannei zerstört Tugend und führt Sünde und Schimpf herbei. ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 29664}, {"voice" : "🇸🇰♂️", "variant_id" : 31443}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 12",
+		"id":"27425",
+		"content":" Gleichwie der Kuhhirte durch Weide mäßig Milch von den Kühen zieht, so ziemt es sich, mäßig durch Hüten Geld vom Untertan zu ziehen. ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31444}, {"voice" : "🇩🇪♀", "variant_id" : 29665}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 13",
+		"id":"27426",
+		"content":" Der Fürst, der seine Schützlinge aus Torheit ermordet, Ziegen gleich, der wird nur einmal sich freuen, doch nimmermehr zum zweiten Mal. ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31445}, {"voice" : "🇩🇪♀", "variant_id" : 29666}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 14",
+		"id":"27427",
+		"content":" Ein König, der nach Frucht strebt, pflege die Welten eifrig mit Spende und Ehre, wie der Gärtner seine Schößlinge mit Wasser. ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31446}, {"voice" : "🇩🇪♀", "variant_id" : 29667}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 16",
+		"id":"27429",
+		"content":" Der Strauch, der Blüten und Frucht trägt, wird begossen und wohlgehegt. Gleichwie ein zarter Baumschößling, wenn er mit Sorgfalt gepflegt wird, Früchte zu seiner Zeit spendet, so auch die Welt, wenn sie gut regiert wird. ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 29669}, {"voice" : "🇸🇰♂️", "variant_id" : 31447}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 17",
+		"id":"27430",
+		"content":" Gold, Getreide und Juwelen, Roß und Wagen mancher Art und so auch, was sie sonst haben, kommt den Fürsten vom Untertan. ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 29670}, {"voice" : "🇸🇰♂️", "variant_id" : 31448}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 18",
+		"id":"27431",
+		"content":" Fürsten, welche der Welt wohltun, nehmen immer an Segen zu: Wenn sie die Welt zugrunde richten, so gehen sie sicher selbst zugrunde.“ ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 29671}, {"voice" : "🇸🇰♂️", "variant_id" : 31449}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 19",
+		"id":"27432",
+		"content":" Als der Löwenkönig diese ihre Rede gehört hatte, sagte er: ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31450}, {"voice" : "🇩🇪♀", "variant_id" : 29672}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 20",
+		"id":"27433",
+		"content":" „Ach! Was ihr sagt, ist wahr. Aber wenn, während ich hier sitze, nicht immer ein Tier zu mir kommt, dann werde ich euch alle zusammen auffressen.“ ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 29673}, {"voice" : "🇸🇰♂️", "variant_id" : 31451}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 21",
+		"id":"27434",
+		"content":" Darauf gaben sie mit den Worten „So sei es!“ ihr Versprechen und schweiften nun, frei von Gefahr, furchtlos in diesem Walde umher. ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31452}, {"voice" : "🇩🇪♀", "variant_id" : 29674}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 22",
+		"id":"27435",
+		"content":"Jeden Tag kam aber, der Reihenfolge gemäß, ein Tier zu ihm. Ein altes oder eines, welches allem Irdischen entsagt hatte, oder ein von Kummer verzehrtes, oder eines, welches den Verlust von Frau und Kindern fürchtete, stellte sich aus ihrer Mitte um die Mittagszeit bei ihm ein, um ihm zur Speise zu dienen.",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31453}, {"voice" : "🇩🇪♀", "variant_id" : 29675}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 23",
+		"id":"27436",
+		"content":" So kam denn einst, gemäß der Ordnung der Geschöpfe, die Reihe an den Hasen, und so wenig es ihm gefiel, wurde er doch von allem Wild fortgeschickt. ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31454}, {"voice" : "🇩🇪♀", "variant_id" : 29676}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 24",
+		"id":"27437",
+		"content":" Indem er nun so langsam als möglich ging, überschritt er die bestimmte Zeit und mit angstvollem Herzen nach einem Mittel suchend, um dem Tod zu entgehen, kam er erst gegen Ende des Tages an. ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31455}, {"voice" : "🇩🇪♀", "variant_id" : 29677}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 25",
+		"id":"27438",
+		"content":" Der Löwe aber, dessen Kehle infolge der Überschreitung der bestimmten Zeit von Hunger gereizt war, war voll Zorn, beleckte ringsum die Winkel seines Rachens und dachte: ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31456}, {"voice" : "🇩🇪♀", "variant_id" : 29678}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 26",
+		"id":"27439",
+		"content":" „Aha! Morgen muß ich alle Geschöpfe im Wald ausrotten!“ ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 29679}, {"voice" : "🇸🇰♂️", "variant_id" : 31457}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 27",
+		"id":"27440",
+		"content":" Indem er so dachte, kam das Häschen Schrittchen vor Schrittchen anmarschiert, verbeugte sich und stellte sich ihm gegenüber. ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 29680}, {"voice" : "🇸🇰♂️", "variant_id" : 31458}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 28",
+		"id":"27441",
+		"content":" Als nun der Löwe sah, daß dieses sonst so leichtfüßige Geschöpf so spät erst herangekommen war, wurde er ganz von Zorn entflammt und sprach drohend: ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 29681}, {"voice" : "🇸🇰♂️", "variant_id" : 31459}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 29",
+		"id":"27442",
+		"content":" „Ha! Du lumpiges Häschen! Gerade du, der sonst der Leichtfüßigste ist, kommst lange nach der festgesetzten Zeit! Wegen dieses Verbrechens werde ich, nachdem ich dich getötet, morgen alle Tiere zusammen ausrotten.“ ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31460}, {"voice" : "🇩🇪♀", "variant_id" : 29682}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 30",
+		"id":"27443",
+		"content":" Darauf sprach das Häschen demütig, nachdem es sich verneigte: ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31461}, {"voice" : "🇩🇪♀", "variant_id" : 29683}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 31",
+		"id":"27444",
+		"content":" „Oh Herr! Es ist hier weder von meiner Seite noch von seiten der übrigen Tiere etwas versehen. Mögest du die Veranlassung hören wollen!“ ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 29684}, {"voice" : "🇸🇰♂️", "variant_id" : 31462}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 32",
+		"id":"27445",
+		"content":" Der Löwe sagte: ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31463}, {"voice" : "🇩🇪♀", "variant_id" : 29685}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 33",
+		"id":"27446",
+		"content":" „So tue sie rasch kund, bevor du zwischen meine Zähne gerätst!“ ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 29686}, {"voice" : "🇸🇰♂️", "variant_id" : 31464}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 34",
+		"id":"27447",
+		"content":" Das Häschen sprach: ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31465}, {"voice" : "🇩🇪♀", "variant_id" : 29687}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 35",
+		"id":"27448",
+		"content":" „Oh Herr! Nachdem ich von sämtlichem Wild erfahren habe, daß heute nach der Ordnung der Geschöpfe die Reihe an mir sei, dem sehr Leichtfüßigen, wurde ich mit vier Hasen fortgeschickt. ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 29688}, {"voice" : "🇸🇰♂️", "variant_id" : 31466}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 36",
+		"id":"27449",
+		"content":" Nachdem ich darauf unterwegs war, wurde ich von einem großen anderen Löwen, der aus einer Höhle kam, angeredet: «He da! Wohin geht ihr? Empfehlt euch eurer Schutzgottheit!» ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31467}, {"voice" : "🇩🇪♀", "variant_id" : 29689}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 37",
+		"id":"27450",
+		"content":" Darauf antwortete ich: «Wir gehen, kraft des Vertrages, zu unserm Herrn Bhasuraka, um ihm als Futter zu dienen.» ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 29690}, {"voice" : "🇸🇰♂️", "variant_id" : 31468}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 38",
+		"id":"27451",
+		"content":" Darauf sagte er: «Wenn dem so ist, so müssen sämtliche Tiere auch mit mir einen Vertrag schließen, denn mir gehört dieser Wald. Dieser Bhasuraka ist ein elender Räuber. Doch wenn er hier König ist, so laß mir die vier Hasen als Geiseln hier, fordere ihn hierher und komm so eilig wie möglich zurück, damit derjenige von uns beiden, welcher durch seine Stärke König sein wird, sämtliches Wild hier fresse.» ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 29691}, {"voice" : "🇸🇰♂️", "variant_id" : 31469}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 39",
+		"id":"27452",
+		"content":" Darauf bin ich auf sein Geheiß zu dem Herrn gegangen. Dieses ist der Grund, weswegen ich die Zeit versäumt habe. Jetzt hat der Herr zu befehlen!“ ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31470}, {"voice" : "🇩🇪♀", "variant_id" : 29692}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 40",
+		"id":"27453",
+		"content":" Nachdem Bhasuraka dies gehört hatte, sagte er: ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 29693}, {"voice" : "🇸🇰♂️", "variant_id" : 31471}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 41",
+		"id":"27454",
+		"content":" „Lieber! Wenn es sich so verhält, dann zeige mir rasch diesen Spitzbuben von einem Löwen, damit ich meinen Zorn gegen die Tiere auf ihn ausschütte und wieder zu mir selbst komme. ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31472}, {"voice" : "🇩🇪♀", "variant_id" : 29694}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 42",
+		"id":"27455",
+		"content":" Man sagt auch: ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 29695}, {"voice" : "🇸🇰♂️", "variant_id" : 31473}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 43",
+		"id":"27456",
+		"content":" ``Land, Freunde und Gold - diese drei Dinge sind es, um die man Kriege führt. Doch wer keines von denen besitzt, der läßt sich nicht in Krieg ein. Wo kein großer Gewinn winkt oder kein Sieg in Aussicht steht, da wird nimmer Krieg anfangen und führen, wer Verstand besitzt.´´“",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 29696}, {"voice" : "🇸🇰♂️", "variant_id" : 31474}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 44",
+		"id":"27457",
+		"content":"  Der Hase sprach: ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31475}, {"voice" : "🇩🇪♀", "variant_id" : 29697}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 45",
+		"id":"27458",
+		"content":" „Oh Herr! Das ist wahr! Des eignen Landes wegen und um Unbill abzuwenden, kämpfen die Krieger. ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31476}, {"voice" : "🇩🇪♀", "variant_id" : 29698}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 46",
+		"id":"27459",
+		"content":" Dieser aber haust in einer Burg; macht er einen Ausfall aus der Burg, so sind wir bedrängt; bleibt er in der Burg, so ist er ein schwer zu besiegender Feind. ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 29699}, {"voice" : "🇸🇰♂️", "variant_id" : 31477}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 47",
+		"id":"27460",
+		"content":" Man sagt auch: ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 29700}, {"voice" : "🇸🇰♂️", "variant_id" : 31478}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 48",
+		"id":"27461",
+		"content":" ``Was ein König nicht durch tausend Elefanten und zehntausend Rosse kann zustande bringen, das wird durch eine Burg erreicht.´´",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 29701}, {"voice" : "🇸🇰♂️", "variant_id" : 31479}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 49",
+		"id":"27462",
+		"content":" Ein einziger Schütze wehrt hundert ab, wenn er auf einer Mauer steht. Deswegen haben Staatsmänner auch Festungen angeraten. ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31480}, {"voice" : "🇩🇪♀", "variant_id" : 29702}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 50",
+		"id":"27463",
+		"content":" Auf seines Lehrers Rat baute sich sogar Indra eine Burg durch Visvakarmas Kunst, weil er Hiranyakashipu fürchtete. ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 29703}, {"voice" : "🇸🇰♂️", "variant_id" : 31481}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 51",
+		"id":"27464",
+		"content":" Und welchem König er als Gnade eine feste Burg gewährt, dem folgt der Sieg, und Burgen werden ihm auf Erden zu Tausenden. ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31482}, {"voice" : "🇩🇪♀", "variant_id" : 29704}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 52",
+		"id":"27465",
+		"content":" Wie eine Schlange, die zahnlos ist, wie ein brunstloser Elefant, so wird ein Fürst, der ohne Burg ist, leicht besiegbar für alle Welt.“ ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31483}, {"voice" : "🇩🇪♀", "variant_id" : 29705}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 53",
+		"id":"27466",
+		"content":" Nachdem er dies gehört, sagte Bhasuraka: ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31484}, {"voice" : "🇩🇪♀", "variant_id" : 29706}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 54",
+		"id":"27467",
+		"content":" „Lieber! Zeige mir nur diesen Spitzbuben, wenn er sich auch in einer Burg befindet, damit ich ihn umbringe. ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 30395}, {"voice" : "🇸🇰♂️", "variant_id" : 31485}, {"voice" : "🇩🇪♀", "variant_id" : 29707}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 55",
+		"id":"27468",
+		"content":" Denn man sagt auch: ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31486}, {"voice" : "🇩🇪♀", "variant_id" : 29708}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 56",
+		"id":"27469",
+		"content":" ``Wer nicht im ersten Ansatz Feind und Krankheit zu Boden schlägt, wird trotz aller Stärke doch ihr Opfer, sobald sie herangewachsen sind. Doch wer auf seine Kraft vertrauend, von Ehrbegier sich treiben läßt, kann seine Feinde allein töten, wie Bhrigus Sproß die Kshatriyas.´´“",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 30165}, {"voice" : "🇩🇪♀", "variant_id" : 30166}, {"voice" : "🇸🇰♂️", "variant_id" : 30396}, {"voice" : "🇸🇰♂️", "variant_id" : 31487}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 57",
+		"id":"27470",
+		"content":" Das Häschen sagte: ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 30167}, {"voice" : "🇸🇰♂️", "variant_id" : 31488}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 58",
+		"id":"27471",
+		"content":" „Das ist wahr! Dennoch aber habe ich gesehen, daß er sehr stark ist. Darum geziemt es sich nicht, daß der Herr gehe, ohne dessen Kraft zu kennen. ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 30168}, {"voice" : "🇸🇰♂️", "variant_id" : 31489}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 59",
+		"id":"27472",
+		"content":" Denn man sagt auch: ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31490}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 60",
+		"id":"27473",
+		"content":" ``Wer nicht die eigne Kraft kennt noch die des Feindes, und hitzigen Sinns zum Kampfe eilt, der geht unter, gleichwie die Motte im Licht. Der Schwache, welcher ausziehet, um einen mächtigen Feind zu schlagen, der wird demütig heimkehren, wie ein zahnloser Elefant.´´“",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31491}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 61",
+		"id":"27474",
+		"content":" Da rief Bhasuraka: ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31492}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 62",
+		"id":"27475",
+		"content":" „Ha! Was geht das dich an? Zeige mir ihn nur, wenn er auch in einer Burg haust!“ Und das Häschen antwortete: „Wenn du denn willst, so komm, oh Herr!“ ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31493}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 63",
+		"id":"27476",
+		"content":" Nachdem es dies gesagt, machte es sich vor ihm her auf den Weg, ging alsdann zu einem Brunnen und sagte zu Bhasuraka: ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31494}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 64",
+		"id":"27477",
+		"content":" „Oh Herr! Wer ist fähig, deine Majestät zu ertragen? Hat sich doch auch dieser Spitzbube, nachdem er dich nur von weitem gesehen, in seine Burg zurückgezogen. Komm heran, damit ich ihn dir zeige!“ ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31495}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 65",
+		"id":"27478",
+		"content":" Nachdem er dies gehört, sagte Bhasuraka: ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31496}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 66",
+		"id":"27479",
+		"content":" „Lieber! Zeige mir rasch die Burg!“ ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31497}]
+	},
+	{
+		"imgs":["24468.2023-06-19_pancha*.png"],
+		"leaf":0,
+		"name":"Folio 67",
+		"id":"27480",
+		"content":" Darauf zeigte ihm der Hase jenen Brunnen. Der törichte Löwe aber, da er mitten im Brunnen auf dem Wasser sein Spiegelbild hervorleuchten sah, erhob ein Schlachtgebrüll, und darauf stieg durch dessen Echo aus dem Brunnen ein doppelt so starkes Gebrüll hervor. ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31498}]
+	},
+	{
+		"imgs":["24468.2023-06-19_pancha*.png"],
+		"leaf":0,
+		"name":"Folio 68",
+		"id":"27481",
+		"content":" Wie er aber dieses hörte, so dachte er „Der ist gewaltig stark!“, warf sich auf ihn und verlor das Leben. ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31499}]
+	},
+	{
+		"imgs":["24468.2023-06-19_pancha*.png"],
+		"leaf":0,
+		"name":"Folio 69",
+		"id":"27482",
+		"content":" Das Häschen aber, nachdem es freudigen Herzens allem Wild Glück gewünscht hatte und von diesem sehr gepriesen war, lebte vergnügt in diesem Walde. ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31500}]
+	},
+	{
+		"imgs":["24468.2023-06-19_pancha*.png"],
+		"leaf":0,
+		"name":"Folio 70",
+		"id":"27483",
+		"content":" Daher sage ich: ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31501}]
+	},
+	{
+		"imgs":["24468.2023-06-19_pancha*.png"],
+		"leaf":0,
+		"name":"Folio 71",
+		"id":"27484",
+		"content":" ``Wer Verstand hat, der hat Stärke.´´",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31502}]
+	},
+	{
+		"imgs":["24468.2023-06-19_pancha*.png"],
+		"leaf":0,
+		"name":"Folio 72",
+		"id":"27485",
+		"content":" Woher hätte der Dumme Kraft? Sieh nur! Ein Löwe, vor Stolz ohne Vernunft, wurde von einem Häschen zu Tod gebracht. ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31503}]
+	}
+	]
+}
+
+
+
+]}]
