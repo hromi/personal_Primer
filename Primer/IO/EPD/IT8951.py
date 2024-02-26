@@ -1,5 +1,5 @@
+import os
 import asyncio
-from math import sqrt
 #from IT8951 import display
 from sys import path
 from IT8951 import constants
@@ -71,6 +71,22 @@ class EInkDisplay:
 
     async def display_folio(self, message):
         print(message)
+
+        if 'i' in message and message['i']!=self.pp.folio.image_name:
+            if os.path.exists(self.gfx_config['image_path']+'/600x800/'+message['i']):
+                display_image_8bpp(self.display, self.gfx_config['image_path']+'/600x800/'+message['i'])
+            else:
+                display_image_8bpp(self.display, self.gfx_config['image_path']+message['i'])
+            self.pp.folio.image_name=message['i']
+            self.pp.folio.body_text=None
+
+
+        if 'b' in message and message['b'] and message['b']!=self.pp.folio.body_text:
+            self.font=self.emoji_font if 'b_emoji' in message else self.text_font
+            self.pp.folio.body_text=message['b']
+            self.pp.folio.image_name=None
+            await self.display_body(message['b'])
+ 
         if 't' in message and message['t']!=self.pp.folio.title_text:
             if message['t']=='':
                 self.clear_title()
@@ -78,23 +94,21 @@ class EInkDisplay:
             self.pp.folio.title_text=message['t']
             await self.display_title(message['t'])
 
-        if 'b' in message and message['b'] and message['b']!=self.pp.folio.body_text:
-            self.font=self.emoji_font if 'b_emoji' in message else self.text_font
-            self.pp.folio.body_text=message['b']
-            self.pp.folio.image_name=None
-            await self.display_body(message['b'])
-
-        if 'i' in message and message['i']!=self.pp.folio.image_name:
-            display_image_8bpp(self.display, self.gfx_config['image_path']+'/600x800/'+message['i'])
-            self.pp.folio.image_name=message['i']
-            self.pp.folio.body_text=None
-
+        if 'f' in message:
+            self.font=self.emoji_font if 'f_emoji' in message else self.text_font
+            await self.display_footer(message['f'])
         self.display.draw_partial(constants.DisplayModes.DU)
  
     async def display_title(self, title, emoji=False):
         #print("display",title)
         self.title=create_text_image(title,600,200,font_path=self.font)
         self.display.frame_buf.paste(self.title, [0,0])
+ 
+    async def display_footer(self, title, emoji=False):
+        #print("display",title)
+        self.title=create_text_image(title,600,50,font_path=self.font)
+        self.display.frame_buf.paste(self.title, [0,750])
+
 
     async def clear_title(self):
         self.display.frame_buf.paste(self.white_title, [0,0])

@@ -15,6 +15,7 @@ class PersonalPrimer:
 
     async def start(self):
         #GPT4::The asyncio.Queue objects must be created in the same event loop where they are used.
+        print("starting")
         self.queue={
                 'button' : asyncio.Queue(),
                 'display' : asyncio.Queue(),
@@ -22,15 +23,20 @@ class PersonalPrimer:
                 'mikroserver' : asyncio.Queue(),
                 'student' : asyncio.Queue()
         }
+        print("predisplay")
         self.display=self.display_driver.EInkDisplay(self)
         self.student=Student(self)
+        print("pregesture")
         self.gesture=Gesture(self)
+        print("prerecorder")
         self.recorder=Recorder(self)
+        print("preplayer")
         self.player=Player(self)
         self.folio=Folio(self)
 
         self.loop = asyncio.get_running_loop() #necessary for executor loops in libraries like pyalsaaudio
 
+        print("hello")
         #hello world
         await self.student.greeting()
 

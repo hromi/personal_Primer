@@ -68,7 +68,7 @@ class Folio(Exercise):
             await self.activate_current_folio()
 
     async def display_current_folio_content(self):
-        print(self.current_folio['content'])
+        #print(self.current_folio['content'])
         await self.pp.queue['display'].put({'b':self.current_folio['content']})
      
     async def display_current_folio_name(self):
@@ -80,7 +80,7 @@ class Folio(Exercise):
 
     async def next_voice(self):
         self.current_voice=self.voice_control.next_voice()
-        await self.pp.queue['display'].put({'t':self.current_voice,'t_emoji':True})
+        await self.pp.queue['display'].put({'f':self.current_voice,'f_emoji':True})
         await self.pp.player.stop_player()
         try:
             await self.pp.player.play_wav(self.current_folio['wavs'][self.current_voice])
@@ -94,7 +94,10 @@ class Folio(Exercise):
         #print(self.exercise_mismatches)
         #reset variables related to old folio
         self.trial=0
-        self.task_action=self.default_task_action
+        if self.current_folio['task_action']:
+            self.task_action=self.current_folio['task_action']
+        else:
+            self.task_action=self.default_task_action
 
         if self.current_folio['name'] not in self.task_matches:
             self.task_matches[self.current_folio['name']]={'learn':0,'test':0}
@@ -102,9 +105,9 @@ class Folio(Exercise):
 
         # Stop any ongoing audio
         await self.pp.player.stop_player()
-        print("WTF")
-        print(self.current_folio) 
-        print("WTFSTOP")
+        #print("WTF")
+        #print(self.current_folio) 
+        #print("WTFSTOP")
         self.voice_control=VoiceController(self.current_folio['wavs'],self.current_voice)
  
         #this should be rather done on exercise level
@@ -112,6 +115,7 @@ class Folio(Exercise):
         #    self.scorer_id=self.current_folio["id"]
          
         exercise_mode=self.exercise_modes[self.exercise_action+'_'+self.task_action]
+        print(exercise_mode)
         self.text=self.current_folio['content'] if self.primer_title=='content' else self.current_folio['name'] #this will be changed later for either/or/and name/content
         # Display on eink
         if exercise_mode['title'] and self.primer_title!='none':
@@ -123,11 +127,15 @@ class Folio(Exercise):
                 await self.pp.queue['display'].put({'t':self.current_folio['name'],'b':' '})
         if exercise_mode['body']:
             await self.pp.queue['display'].put({'b':self.current_folio['content']})
-        if exercise_mode['img'] and ('img' in self.current_folio or 'emoji' in self.current_folio):
+        #if exercise_mode['img'] and ('img' in self.current_folio or 'emoji' in self.current_folio):
+        if exercise_mode['img']:
+            print("IMAGE")
             if 'emoji' in self.current_folio:
                 await self.pp.queue['display'].put({'t':self.current_folio['emoji'],'t_emoji':True,'b':' '})
             else:
-                await self.pp.queue['display'].put({'i':random.choice(self.current_folio['imgs']),'b':' '})
+                chosen_image=random.choice(self.current_folio['imgs'])
+                print(chosen_image)
+                await self.pp.queue['display'].put({'i':chosen_image})
         # Play audio
         if exercise_mode['audio'] and 'wavs' in self.current_folio:
             if self.current_voice in self.current_folio['wavs']:

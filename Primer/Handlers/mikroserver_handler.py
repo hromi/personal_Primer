@@ -21,7 +21,7 @@ async def handle_mikroserver(pp):
                 print(uri)
             #otherwise do speech recognition
             else:
-                uri="wss://"+stt_config['inference_host']+":"+stt_config['port']+"/hmpl/"+str(pp.folio.scorer_id)+"/"+quote(pp.folio.text)+"/"+pp.student.login+"/de/"+pp.folio.task_action+"/"+str(pp.folio.trial)
+                uri="wss://"+stt_config['inference_host']+":"+stt_config['port']+"/hmpl/"+str(pp.folio.scorer_id)+"/"+quote(pp.folio.text)+"/"+pp.student.login+"/"+pp.folio.language+"/"+pp.folio.task_action+"/"+str(pp.folio.trial)
             try:
                 async with websockets.connect(uri) as ws:
                     with open(audio_file, mode='rb') as file:  # b is important -> binary
@@ -42,7 +42,6 @@ async def handle_mikroserver(pp):
                         #if stuck, move to new folio
                         elif pp.folio.trial > pp.folio.max_trials:
                             await pp.folio.next_folio()
-                
                         elif "text" not in response or response['text'] is not text.lower():
                             await pp.folio.mismatch(text)
 

@@ -18,6 +18,7 @@ class Student:
     async def greeting(self):
         #await self.pp.queue['display'].put({"b":self.hi})
         await self.pp.queue['display'].put({"b":self.hi})
+        await self.pp.player.play_wav(self.pp.config['assets_dir']+self.hi+'.wav')
 
     def convert_login(self,login):
         # Split the login into first name and surname

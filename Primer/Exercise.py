@@ -33,7 +33,7 @@ class Exercise(Curriculum):
         self.current_folio = self.all_foliae[0]  # Start with the root folio
         self.scorer_id=self.current_folio["id"]
         self.path.append((self.current_folio,0))
-        self.lang=self.all_foliae[0]['lang']
+        self.language=self.all_foliae[0]['language']
         self.primer_title=self.all_foliae[0]['primer_title']
         self.exercise_action=self.all_foliae[0]['exercise_action']
         await self.preload_imgs(self.current_folio)
@@ -47,10 +47,8 @@ class Exercise(Curriculum):
     async def preload_wavs(self,folio):
         print(folio['voices'])
         if type(folio['voices']) is list:
-            print(folio['voices'])
             folio['wavs']=dict()
             for variant in folio['voices']:
-                print("ADDIN VARIATN",variant)
                 wav_path=self.wav_store_dir+'/'+folio['id']+'-'+folio['name']+'-'+variant['voice']+".wav"
                 if not os.path.isfile(wav_path):
                     ogg_path=self.ogg_store_dir+'/'+folio['id']+'-'+variant['voice']+".ogg"
@@ -69,8 +67,9 @@ class Exercise(Curriculum):
             for img in folio['imgs']:
                 img_path=self.image_path+'/'+img
                 if not os.path.isfile(img_path):
-                    print(self.pp.config['gfx']['external_store_url']+'/'+parse.quote(img))
-                    request.urlretrieve(self.pp.config['gfx']['external_store_url']+'/'+parse.quote(img),img_path)
+                    url=self.pp.config['gfx']['external_store_url']+'/'+parse.quote(img)
+                    print(url)
+                    request.urlretrieve(url,img_path)
                     image=Image.open(img_path)
                     resized=image.resize((600,800))
                     resized.convert('L').save(self.image_path+'/600x800/'+img)
@@ -107,10 +106,13 @@ class Exercise(Curriculum):
         self.exercise_mismatches[self.pp.folio.task_action]+=1
         self.pp.folio.task_action='learn'
         self.trial+=1
-        if self.current_folio['emoji']:
-            await self.pp.queue['display'].put({"b":text.upper(),"t":self.current_folio['emoji'],"t_emoji":True})
-        else:
-            await self.pp.queue['display'].put({"b":text.upper(),"t":' '})
+        print("MISMATCH")
+        #if self.current_folio['emoji']:
+        #    await self.pp.queue['display'].put({"b":text.upper(),"t":self.current_folio['emoji'],"t_emoji":True})
+        #else:
+            #await self.pp.queue['display'].put({"b":text.upper(),"t":' '})
+        print("FALSCH")
+        await self.pp.queue['display'].put({"t":'Falsch ;('})
         if "wavs" in self.pp.folio.current_folio:
             #await self.pp.queue['display'].put({"b":text.upper()})
             await self.pp.player.play_wav(random.choice(self.pp.folio.current_folio['wavs']))
