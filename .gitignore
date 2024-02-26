@@ -2,6 +2,7 @@ primer.yaml
 bin/*
 lib/*
 data/*
+assets/fonts/licensed/*
 students/*
 *__pycache__*
 *.swp

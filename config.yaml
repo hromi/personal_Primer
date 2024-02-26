@@ -6,8 +6,8 @@ EPD:
   rotate: "CCW"
   spi_hz: 20000000
 gfx:
-  font: "/home/primer/data/fonts/schuldruck.ttf"
-  emoji: "/home/primer/data/fonts/noto_emoji.ttf"
+  font: "/home/primer/assets/fonts/open/schuldruck.ttf"
+  emoji: "/home/primer/assets/fonts/open/noto_emoji.ttf"
   image_path: "/home/primer/data/imgs/"
 student:
   default_login: "primer-X"
