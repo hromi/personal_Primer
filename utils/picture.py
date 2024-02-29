@@ -14,7 +14,7 @@ from IT8951.EPD_functions import *
 from PIL import Image
 import RPi.GPIO as GPIO
 
-display = AutoEPDDisplay(vcom = -1.72, rotate = "CCW", spi_hz = 80000000)
+display = AutoEPDDisplay(vcom = -1.97, rotate = "CCW", spi_hz =10000000)
 
-display_image_8bpp(display, "/home/fibel/personal_Primer/data/assets/buddha.png")
+display_image_8bpp(display, "/home/fibel/data/pancha_resized.png")
 

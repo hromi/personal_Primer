@@ -13,7 +13,8 @@ def wrap_text(text, font, max_width):
     print(lines)
     return lines
 
-def create_text_image(text, image_width, image_height, font_path='arial.ttf'):
+def create_text_image(text, image_width, image_height, font_path):
+    print(font_path)
     """Create an image with text nicely typeset to fit within the given dimensions."""
     font_size = 70  # Starting font size
     font = ImageFont.truetype(font_path, font_size)

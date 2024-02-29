@@ -1,6 +1,9 @@
 import random
-from Primer.VoiceController import VoiceController
+from Primer.ListController import ListController
 from Primer.Exercise import Exercise
+from waveshare_epd import epd5in65f
+from PIL import Image,ImageDraw,ImageFont
+from waveshare_epd import epd5in65f
 
 class Folio(Exercise):
     def __init__(self,pp):
@@ -10,12 +13,16 @@ class Folio(Exercise):
         self.imgs=[]
         self.current_folio = None
         self.current_voice = pp.config['voices']['default']
+        self.current_font = pp.config['gfx']['font']
+        if pp.config['EPD']['front']:
+            from waveshare_epd import epd5in65f
+
         self.scorer_id=None
         self.siblings = []
         self.path = []
         self.sibling_index=0
         self.default_task_action="learn"
-        self.voice_control=None
+        self.list_control=None
         self.task_action=self.default_task_action
         self.trial=0
         self.title_text=None
@@ -38,7 +45,6 @@ class Folio(Exercise):
 
 
     async def ascend(self):
-        print("ascending",self.path)
         if self.path:
             # Pop the last parent folio and index from the path
             #print(self.path[-1][0])
@@ -56,9 +62,19 @@ class Folio(Exercise):
     async def next_folio(self):
         if self.siblings:
             # Move to the next sibling folio
-            self.sibling_index = (self.sibling_index + 1) % len(self.siblings)
-            self.current_folio = self.siblings[self.sibling_index]
-            await self.activate_current_folio()
+            #self.sibling_index = (self.sibling_index + 1) % len(self.siblings)
+            self.sibling_index = (self.sibling_index + 1)
+            if len(self.siblings) > self.sibling_index:
+                self.current_folio = self.siblings[self.sibling_index]
+                await self.activate_current_folio()
+            else:
+                await self.pp.queue['display'].put({'b':'das Ende'})
+                if False and self.pp.config['EPD']['front'] and 'front' in self.current_folio and self.current_folio['front']:
+                    epd = epd5in65f.EPD()
+                    epd.init()
+                    Himage = Image.open(self.pp.config['gfx']['image_path']+'/front/'+self.current_folio['front'])
+                    epd.display(epd.getbuffer(Himage))
+                    epd.sleep()
 
     async def previous_folio(self):
         if self.siblings:
@@ -78,8 +94,15 @@ class Folio(Exercise):
         if self.current_folio['imgs']:
             await self.pp.queue['display'].put({'i':random.choice(self.current_folio['imgs'])})
 
+    async def next_font(self):
+        self.current_font=self.list_control.next_font()
+        await self.display_current_folio_content()
+ 
     async def next_voice(self):
-        self.current_voice=self.voice_control.next_voice()
+        try:
+            self.current_voice=self.list_control.next_voice()
+        except:
+            1
         await self.pp.queue['display'].put({'f':self.current_voice,'f_emoji':True})
         await self.pp.player.stop_player()
         try:
@@ -88,10 +111,6 @@ class Folio(Exercise):
             1
 
     async def activate_current_folio(self):
-        #print(self.task_matches)
-        #print(self.exercise_matches)
-        #print(self.task_mismatches)
-        #print(self.exercise_mismatches)
         #reset variables related to old folio
         self.trial=0
         if self.current_folio['task_action']:
@@ -105,10 +124,7 @@ class Folio(Exercise):
 
         # Stop any ongoing audio
         await self.pp.player.stop_player()
-        #print("WTF")
-        #print(self.current_folio) 
-        #print("WTFSTOP")
-        self.voice_control=VoiceController(self.current_folio['wavs'],self.current_voice)
+        self.list_control=ListController(self.current_folio['wavs'],self.current_voice,self.current_font)
  
         #this should be rather done on exercise level
         #if "id" in self.current_folio:
