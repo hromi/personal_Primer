@@ -6,15 +6,17 @@
 #UdK / ECDF / wizzion.com AE5006, June 2020
 #Berlin, Deutschland, EU
 
-from io import BytesIO
-from time import sleep
-#import Fibel.drivers.it8951 as driver_it8951
+#from io import BytesIO
+#from time import sleep
 from IT8951.display import AutoEPDDisplay
 from IT8951.EPD_functions import *
-from PIL import Image
-import RPi.GPIO as GPIO
+#from PIL import Image
+#import RPi.GPIO as GPIO
+import yaml
 
-display = AutoEPDDisplay(vcom = -1.72, rotate = "CCW", spi_hz = 80000000)
-
-display_image_8bpp(display, "/home/fibel/data/pancha_resized.png")
+with open('primer.yaml', 'r') as file:
+    config = yaml.safe_load(file)
+     
+display = AutoEPDDisplay(vcom = config['EPD']['vcom'], rotate = config['EPD']['rotate'], spi_hz = config['EPD']['spi_hz'])
+display_image_8bpp(display, config['gfx']['screensaver'])
 
