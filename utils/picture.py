@@ -16,5 +16,5 @@ import RPi.GPIO as GPIO
 
 display = AutoEPDDisplay(vcom = -1.72, rotate = "CCW", spi_hz = 80000000)
 
-display_image_8bpp(display, "/home/fibel/personal_Primer/data/assets/buddha.png")
+display_image_8bpp(display, "/home/fibel/data/pancha_resized.png")
 
