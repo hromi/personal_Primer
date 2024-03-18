@@ -14,6 +14,7 @@ class Folio(Exercise):
         self.current_folio = None
         self.current_voice = pp.config['voices']['default']
         self.current_font = pp.config['gfx']['font']
+        self.font_path = pp.config['gfx']['font_path']
         if pp.config['EPD']['front']:
             from waveshare_epd import epd5in65f
 
@@ -89,6 +90,10 @@ class Folio(Exercise):
      
     async def display_current_folio_name(self):
         await self.pp.queue['display'].put({'t':self.current_folio['name']})
+      
+    async def display_current_folio_full(self):
+        print("FULLFOLIO")
+        await self.pp.queue['display'].put({'t':self.current_folio['name'],'b':self.current_folio['content']})
    
     async def display_image(self):
         if self.current_folio['imgs']:
@@ -96,7 +101,7 @@ class Folio(Exercise):
 
     async def next_font(self):
         self.current_font=self.list_control.next_font()
-        await self.display_current_folio_content()
+        await self.display_current_folio_full()
  
     async def next_voice(self):
         try:
@@ -124,7 +129,7 @@ class Folio(Exercise):
 
         # Stop any ongoing audio
         await self.pp.player.stop_player()
-        self.list_control=ListController(self.current_folio['wavs'],self.current_voice,self.current_font)
+        self.list_control=ListController(self.font_path,self.current_folio['wavs'],self.current_voice,self.current_font)
  
         #this should be rather done on exercise level
         #if "id" in self.current_folio:
@@ -145,12 +150,12 @@ class Folio(Exercise):
             await self.pp.queue['display'].put({'b':self.current_folio['content']})
         #if exercise_mode['img'] and ('img' in self.current_folio or 'emoji' in self.current_folio):
         if exercise_mode['img']:
-            print("IMAGE")
+            #print("IMAGE")
             if 'emoji' in self.current_folio:
                 await self.pp.queue['display'].put({'t':self.current_folio['emoji'],'t_emoji':True,'b':' '})
             else:
                 chosen_image=random.choice(self.current_folio['imgs'])
-                print(chosen_image)
+                #print(chosen_image)
                 await self.pp.queue['display'].put({'i':chosen_image})
         # Play audio
         if exercise_mode['audio'] and 'wavs' in self.current_folio:

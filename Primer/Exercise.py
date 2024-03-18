@@ -45,7 +45,7 @@ class Exercise(Curriculum):
         print("Lesson loaded")
 
     async def preload_wavs(self,folio):
-        print(folio['voices'])
+        #print(folio['voices'])
         if type(folio['voices']) is list:
             folio['wavs']=dict()
             for variant in folio['voices']:

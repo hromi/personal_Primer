@@ -81,27 +81,33 @@ class EInkDisplay:
             self.pp.folio.image_name=message['i']
             self.pp.folio.body_text=None
 
+        if 't' in message and message['t'] and (message['t']!=self.pp.folio.title_text or self.font!=self.pp.folio.current_font):
+            if message['t']=='':
+                await self.clear_title()
+            self.font=self.emoji_font if 't_emoji' in message else self.pp.folio.current_font
+            self.pp.folio.title_text=message['t']
+            await self.display_title(message['t'])
 
-        if 'b' in message and message['b'] and message['b']!=self.pp.folio.body_text:
+        if 'b' in message and message['b'] and (message['b']!=self.pp.folio.body_text or self.font!=self.pp.folio.current_font):
             self.font=self.emoji_font if 'b_emoji' in message else self.pp.folio.current_font
             self.pp.folio.body_text=message['b']
             self.pp.folio.image_name=None
             await self.display_body(message['b'])
- 
-        if 't' in message and message['t']!=self.pp.folio.title_text:
-            if message['t']=='':
-                await self.clear_title()
-            self.font=self.emoji_font if 't_emoji' in message else self.text_font
-            self.pp.folio.title_text=message['t']
-            await self.display_title(message['t'])
 
         if 'f' in message:
             self.font=self.emoji_font if 'f_emoji' in message else self.text_font
             await self.display_footer(message['f'])
+
         self.display.draw_partial(constants.DisplayModes.DU)
  
     async def display_title(self, title, emoji=False):
-        #print("display",title)
+        cache_id=self.font+'::'+title
+        print(f'TITLE{cache_id}')
+        if cache_id in self.cache['title']:
+            self.title=self.cache['title'][cache_id]
+        else:
+            self.title=create_text_image(title,600,200,font_path=self.font_path+self.font)
+            self.cache['title'][cache_id]=self.title
         self.title=create_text_image(title,600,200,font_path=self.font_path+self.font)
         self.display.frame_buf.paste(self.title, [0,0])
  
@@ -109,15 +115,6 @@ class EInkDisplay:
         #print("display",title)
         self.title=create_text_image(title,600,50,font_path=self.font_path+self.font)
         self.display.frame_buf.paste(self.title, [0,750])
-
-
-    async def clear_title(self):
-        self.display.frame_buf.paste(self.white_title, [0,0])
-        self.display.draw_partial(constants.DisplayModes.DU)
-  
-    async def clear_content(self):
-        self.display.frame_buf.paste(self.white_content, [0,200])
-        self.display.draw_partial(constants.DisplayModes.DU)
 
     async def display_body(self, content,emoji=False):
         cache_id=self.font+'::'+content
@@ -127,5 +124,13 @@ class EInkDisplay:
             self.body=create_text_image(content,600,600,font_path=self.font_path+self.font)
             self.cache['body'][cache_id]=self.body
         self.display.frame_buf.paste(self.body, [0,200])
- 
+
+    async def clear_title(self):
+        self.display.frame_buf.paste(self.white_title, [0,0])
+        self.display.draw_partial(constants.DisplayModes.DU)
+  
+    async def clear_content(self):
+        self.display.frame_buf.paste(self.white_content, [0,200])
+        self.display.draw_partial(constants.DisplayModes.DU)
+
 
