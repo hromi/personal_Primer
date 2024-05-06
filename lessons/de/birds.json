@@ -1,0 +1,375 @@
+[{"name":"Birds",
+"language":"de",
+"exercise_action":"naming",
+"task_action":"learn",
+"primer_title":"content",
+"voices":null,
+"imgs":null,
+"leaf":0,
+"id":"31576",
+"content":"Mitteleuropäische Vögel",
+"children": [
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Birds",
+		"id":"31576",
+		"content":"Mitteleuropäische Vögel",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31627}, {"voice" : "🇸🇰♂️", "variant_id" : 31626}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Birds",
+		"id":"31576",
+		"content":"Mitteleuropäische Vögel",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31626}, {"voice" : "🇸🇰♂️", "variant_id" : 31627}]
+	},
+	{
+		"imgs":["31615.tyto_alba_guttata.png"],
+		"leaf":0,
+		"name":"tyto_alba_guttata",
+		"id":"31615",
+		"content":"Schleiereule",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31628}]
+	},
+	{
+		"imgs":["31614.troglodytes_troglodytes_troglodytes.png"],
+		"leaf":0,
+		"name":"troglodytes_troglodytes_troglodytes",
+		"id":"31614",
+		"content":"Zaunkönig",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31629}]
+	},
+	{
+		"imgs":["31613.sturnus_vulgaris_vulgaris.png"],
+		"leaf":0,
+		"name":"sturnus_vulgaris_vulgaris",
+		"id":"31613",
+		"content":"Star",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31630}]
+	},
+	{
+		"imgs":["31612.sitta_europaea_caesia.png"],
+		"leaf":0,
+		"name":"sitta_europaea_caesia",
+		"id":"31612",
+		"content":"Kleiber",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31631}]
+	},
+	{
+		"imgs":["31611.serinus_canaria_serinus.png"],
+		"leaf":0,
+		"name":"serinus_canaria_serinus",
+		"id":"31611",
+		"content":"Kanarienvogel",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31632}]
+	},
+	{
+		"imgs":["31610.pyrrhula_pyrrhula.png"],
+		"leaf":0,
+		"name":"pyrrhula_pyrrhula",
+		"id":"31610",
+		"content":"Gimpel",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31633}]
+	},
+	{
+		"imgs":["31609.phoenicurus_phoenicurus_phoenicurus.png"],
+		"leaf":0,
+		"name":"phoenicurus_phoenicurus_phoenicurus",
+		"id":"31609",
+		"content":"Gartenrotschwanz",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31634}]
+	},
+	{
+		"imgs":["31608.phoenicurus_ochruros_gibraltariensis.png"],
+		"leaf":0,
+		"name":"phoenicurus_ochruros_gibraltariensis",
+		"id":"31608",
+		"content":"Hausrotschwanz",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31635}]
+	},
+	{
+		"imgs":["31607.parus_major_major.png"],
+		"leaf":0,
+		"name":"parus_major_major",
+		"id":"31607",
+		"content":"Kohlmeise",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31636}]
+	},
+	{
+		"imgs":["31606.parus_cristaus_mitraus_brehm.png"],
+		"leaf":0,
+		"name":"parus_cristaus_mitraus_brehm",
+		"id":"31606",
+		"content":"Haubenmeise",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31637}]
+	},
+	{
+		"imgs":["31605.parus_caeruleus_caeruleus.png"],
+		"leaf":0,
+		"name":"parus_caeruleus_caeruleus",
+		"id":"31605",
+		"content":"Blaumeise",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31638}]
+	},
+	{
+		"imgs":["31604.parus_ater_ater.png"],
+		"leaf":0,
+		"name":"parus_ater_ater",
+		"id":"31604",
+		"content":"Tannenmeise",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31639}]
+	},
+	{
+		"imgs":["31603.muscicapa_striata_striata.png"],
+		"leaf":0,
+		"name":"muscicapa_striata_striata",
+		"id":"31603",
+		"content":"Grauschnäpper",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31640}]
+	},
+	{
+		"imgs":["31602.luscinia_megarhynchos_megarhynchos.png"],
+		"leaf":0,
+		"name":"luscinia_megarhynchos_megarhynchos",
+		"id":"31602",
+		"content":"Nachtigall",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31641}]
+	},
+	{
+		"imgs":["31601.loxia_curvirostra_curvirostra.png"],
+		"leaf":0,
+		"name":"loxia_curvirostra_curvirostra",
+		"id":"31601",
+		"content":"Fichtenkreuzschnabel",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31642}]
+	},
+	{
+		"imgs":["31600.lanius_excubitor_excubitor.png"],
+		"leaf":0,
+		"name":"lanius_excubitor_excubitor",
+		"id":"31600",
+		"content":"Raubwürger",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31643}]
+	},
+	{
+		"imgs":["31599.lanius_collurio.png"],
+		"leaf":0,
+		"name":"lanius_collurio",
+		"id":"31599",
+		"content":"Neuntöter",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31644}]
+	},
+	{
+		"imgs":["31598.hirundo_rustica_rustica.png"],
+		"leaf":0,
+		"name":"hirundo_rustica_rustica",
+		"id":"31598",
+		"content":"Rauchschwalbe",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31645}]
+	},
+	{
+		"imgs":["31597.hippolais_icternia.png"],
+		"leaf":0,
+		"name":"hippolais_icternia",
+		"id":"31597",
+		"content":"Orpheusspötter",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31646}]
+	},
+	{
+		"imgs":["31596.falco_tinnunculus_tinnunculus.png"],
+		"leaf":0,
+		"name":"falco_tinnunculus_tinnunculus",
+		"id":"31596",
+		"content":"Turmfalke",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31647}]
+	},
+	{
+		"imgs":["31595.erithacus_rubecula_rubecula.png"],
+		"leaf":0,
+		"name":"erithacus_rubecula_rubecula",
+		"id":"31595",
+		"content":"Rotkehlchen",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31648}]
+	},
+	{
+		"imgs":["31594.emberiza_citrinella_citrinella.png"],
+		"leaf":0,
+		"name":"emberiza_citrinella_citrinella",
+		"id":"31594",
+		"content":"Goldammer",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31649}]
+	},
+	{
+		"imgs":["31593.cuculus_canorus_canorus.png"],
+		"leaf":0,
+		"name":"cuculus_canorus_canorus",
+		"id":"31593",
+		"content":"Kuckuck",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31650}]
+	},
+	{
+		"imgs":["31592.coturnix_coturnix_coturnix.png"],
+		"leaf":0,
+		"name":"coturnix_coturnix_coturnix",
+		"id":"31592",
+		"content":"Wachtel",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31651}]
+	},
+	{
+		"imgs":["31591.coracias_garrulus_garrulus.png"],
+		"leaf":0,
+		"name":"coracias_garrulus_garrulus",
+		"id":"31591",
+		"content":"Blauracke",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31652}]
+	},
+	{
+		"imgs":["31590.coccothraustes_coccothraustes_coccothraustes.png"],
+		"leaf":0,
+		"name":"coccothraustes coccothraustes coccothraustes",
+		"id":"31590",
+		"content":"Kernbeißer",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31653}]
+	},
+	{
+		"imgs":["31589.chloris_chloris_chloris.png"],
+		"leaf":0,
+		"name":"chloris chloris chloris",
+		"id":"31589",
+		"content":"Grünfink",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31654}]
+	},
+	{
+		"imgs":["31588.certhia_faminiaris_macrodactyla_brehm.png"],
+		"leaf":0,
+		"name":"certhia faminiaris macrodactyla brehm",
+		"id":"31588",
+		"content":"Gartenbaumläufer",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31655}]
+	},
+	{
+		"imgs":["31587.carduelis_carduelis_carduelis.png"],
+		"leaf":0,
+		"name":"carduelis carduelis carduelis",
+		"id":"31587",
+		"content":"Stieglitz",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31656}]
+	},
+	{
+		"imgs":["31586.cardelius_spinus.png"],
+		"leaf":0,
+		"name":"cardelius spinus",
+		"id":"31586",
+		"content":"Erlenzeisig",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31657}]
+	},
+	{
+		"imgs":["31585.cardelius_cannabina_cannabina.png"],
+		"leaf":0,
+		"name":"cardelius cannabina cannabina",
+		"id":"31585",
+		"content":"Bluthänfling",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31658}]
+	},
+	{
+		"imgs":["31584.athene_noctua_noctua.png"],
+		"leaf":0,
+		"name":"athene noctua noctua",
+		"id":"31584",
+		"content":"Steinkauz",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31659}]
+	},
+	{
+		"imgs":["31583.apus_apus_apus.png"],
+		"leaf":0,
+		"name":"apus apus apus",
+		"id":"31583",
+		"content":"Mauersegler",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31660}]
+	},
+	{
+		"imgs":["31582.alcedo_atthis_ispida.png"],
+		"leaf":0,
+		"name":"alcedo atthis ispida",
+		"id":"31582",
+		"content":"Eisvogel",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31661}]
+	},
+	{
+		"imgs":["31581.aegithalos_caudatus_caudatus.png"],
+		"leaf":0,
+		"name":"aegithalos caudatus caudatus",
+		"id":"31581",
+		"content":"Schwanzmeise",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31662}]
+	},
+	{
+		"imgs":["31580.acrocephalus_schoenobaenus.png"],
+		"leaf":0,
+		"name":"acrocephalus schoenobaenus",
+		"id":"31580",
+		"content":"Schilfrohrsänger",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31663}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"",
+		"id":"31579",
+		"content":"Drosselrohrsänger",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31664}]
+	},
+	{
+		"imgs":["31578.acrocephalus_arundinaceus_arundinaceus.png"],
+		"leaf":0,
+		"name":"acrocephalus arundinaceus arundinaceus",
+		"id":"31578",
+		"content":"Drosselrohrsänger",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31665}]
+	}
+	]
+}]
+
+

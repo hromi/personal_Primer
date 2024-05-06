@@ -46,8 +46,8 @@ class Exercise(Curriculum):
 
     async def preload_wavs(self,folio):
         #print(folio['voices'])
+        folio['wavs']=dict()
         if type(folio['voices']) is list:
-            folio['wavs']=dict()
             for variant in folio['voices']:
                 wav_path=self.wav_store_dir+'/'+folio['id']+'-'+folio['name']+'-'+variant['voice']+".wav"
                 if not os.path.isfile(wav_path):
@@ -68,7 +68,7 @@ class Exercise(Curriculum):
                 img_path=self.image_path+'/'+img
                 if not os.path.isfile(img_path):
                     url=self.pp.config['gfx']['external_store_url']+'/'+parse.quote(img)
-                    print(url)
+                    print("WTF",url)
                     request.urlretrieve(url,img_path)
                     image=Image.open(img_path)
                     resized=image.resize((600,800))

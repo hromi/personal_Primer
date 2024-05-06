@@ -36,7 +36,6 @@ class PersonalPrimer:
 
         self.loop = asyncio.get_running_loop() #necessary for executor loops in libraries like pyalsaaudio
 
-        print("hello")
         #hello world
         await self.student.greeting()
 

@@ -8,7 +8,7 @@ class ListController:
         self.fonts={}
         self.populate_fonts_from_directory(font_path,'open')
         self.populate_fonts_from_directory(font_path,'licensed')
-        print(self.fonts)
+        #print(self.fonts)
         self.fonts_iterator = iter(self.fonts.keys())
 
         #VOICE RELATED
@@ -34,7 +34,7 @@ class ListController:
         for item in os.listdir(f'{directory}/{prefix}'):
             # Construct full path to item
             full_path = os.path.join(directory, prefix,item)
-            print(full_path)
+            #print(full_path)
             # Check if it's a file
             if os.path.isfile(full_path):
                 # Extract the file name without extension
@@ -42,7 +42,7 @@ class ListController:
                 if extension in ['.ttf', '.otf']:
                     # Use file name as key and full path as value
                     self.fonts[font_name] = f'{prefix}/{item}'
-                    print(f'{prefix}/{item}')
+                    #print(f'{prefix}/{item}')
 
     def next_voice(self):
         try:

@@ -1,8 +1,9 @@
 [
 {
-"name":"Book 1", 
+"name":"Panchatantra - erstes Buch", 
 "language":"de", 
 "exercise_action":"narrate", 
+"task_action":"learn", 
 "voices":[{"voice":"🇩🇪♀","variant_id":26727}], 
 "imgs":null, 
 "leaf":0, 
@@ -11,17 +12,7 @@
 "content":"Erstes Buch - Verfeindung von Freunden", 
 "primer_title":"parent", 
 "children": [
-{
-"name":"Book 1", 
-"language":"de", 
-"task_action":"learn", 
-"voices":[{"voice":"🇩🇪♀","variant_id":26727}], 
-"imgs":null, 
-"leaf":0, 
-"id":"24442", 
-"front":"tantra.bmp",
-"content":"Erstes Buch - Verfeindung von Freunden", 
-"primer_title":"parent"},{"name":"Die unstille Schildi",
+{"name":"Die unstille Schildi",
 "lang":"de",
 "front":"schildi.bmp",
 "task_action":"learn",

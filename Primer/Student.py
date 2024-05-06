@@ -17,7 +17,8 @@ class Student:
 
     async def greeting(self):
         #await self.pp.queue['display'].put({"b":self.hi})
-        await self.pp.queue['display'].put({"b":self.hi})
+        await self.pp.player.stop_player()
+        await self.pp.queue['display'].put({"b":self.hi,"t":" "})
         await self.pp.player.play_wav(self.pp.config['assets_dir']+self.hi+'.wav')
 
     def convert_login(self,login):
@@ -31,12 +32,15 @@ class Student:
         self.convert_login(login)
         #self.set_session_info()
         self.new_session()
-        await self.pp.queue['display'].put({'b':self.pp.config['auth']['hi']+" "+self.name,'t':''})
+        await self.pp.queue['display'].put({'b':self.pp.config['auth']['hi']+" "+self.name,'t':' '})
         self.activate_model()
+        print("ACTIVATIN ROOT FOLIO")
+        self.pp.folio.current_folio=self.pp.folio.all_foliae[0]
+        print(self.pp.folio.current_folio)
+        await self.pp.folio.activate_current_folio()
 
     async def logout(self):
-        await self.pp.queue['display'].put({"t":""})
-        await self.pp.queue['display'].put({"b":f"{self.bye} {self.login}"})
+        await self.pp.queue['display'].put({"b":f"{self.bye} {self.login}","t":" "})
         self.login=self.pp.config['student']['default_login']
         self.set_session_info()
         #self.new_session()
