@@ -1,29 +1,39 @@
 auth:
-  greeting: "Hallo"
-EPD:
-  driver: "IT8951"
-  vcom: -2.37
-  rotate: "CCW"
-  spi_hz: 80000000
-gfx:
-  font: "/home/primer/assets/fonts/open/schuldruck.ttf"
-  emoji: "/home/primer/assets/fonts/open/noto_emoji.ttf"
-  image_path: "/home/primer/data/imgs/"
+  hi: 'Hallo'
+  bye: 'Auf wiedersehen'
+assets_dir: '/home/primer/assets/'
+voices:
+  default: ''
+#lesson0: "/home/primer/lessons/de/birds.json"
+lesson0: "/home/primer/lessons/de/Panchatantra/Buch 1/index.json"
+#lesson0: "/home/primer/lessons/de/palope_new.json"
+#lesson0: "/home/primer/lessons/en/nouns.json"
+default_language: "de"
 student:
-  default_login: "primer-X"
+  default_login: "primer-0"
   max_trials: 2
   session_dir: "/home/primer/students/"
-mikroserver_stt:
-  inference_host: "" #lesen-mikroserver inference host
-  port: "8080"
-  train_host: "...:8080"   #deepspeech training host
-mikroserver_auth:
-  auth_host: ""          #lesen-mikroserver auth host
-  port: "8080"
 hmpl:
   training_trigger: 4
+#auth:
+#  greeting: "Hallo"
+gfx:
+  font_path: "/home/primer/assets/fonts/"
+  min_font_size: 70
+  font: "licensed/schuldruck.ttf"
+  emoji: "open/emoji/noto_emoji.ttf"
+  image_path: "/home/primer/data/imgs/"
+  external_store_url: "https://fibel.digital/data/img/"
+  screensaver: "/home/primer/assets/screensavers/buddha.png"
+mikroserver_stt:
+  inference_host: ""
+  train_host: ""
+  port: "8080"
+mikroserver_auth:
+  auth_host: ""
+  port: "8080"
 audio:
-  soundcard: "plughw:CARD=seeed2micvoicec,DEV=0"  #check output of ```aplay -L``` to find out what to put here
+  soundcard: "plughw:CARD=seeed2micvoicec,DEV=0"
   channels: 1
   rate: 16000
   wav_store_dir: "/home/primer/data/wavs/"
@@ -33,15 +43,20 @@ audio:
 button:
   gpio: 17
   sleep_interval: 0.05
-auth:
-  hi: 'Hallo'
-  bye: 'Auf wiedersehen'
+EPD:
+  driver: "IT8951"
+  #vcom: -1.72
+  vcom: -1.72
+  rotate: "CCW"
+  spi_hz: 60000000
+  front: 0
+
 gesture:
   mappings:
-    "D": 
+    "U": 
       object: "folio"
       method: "descend"
-    "U":
+    "D":
       object: "folio"
       method: "ascend"
     "L":
@@ -52,17 +67,23 @@ gesture:
       method: "next_folio"
     "F":
       object: "folio"
-      method: "display_image"
+      #method: "display_image"
+      method: "next_font"
     "B":
       object: "folio"
       #method: "display_current_folio_content"
-      method: "display_image"
+      #method: "display_image"
+      method: "next_font"
     "C":
       object: "folio"
       method: "next_voice"
     "A":
       object: "student"
       method: "logout"
+    #"A":
+    #  object: "folio"
+    #  method: "next_font"
+
   reaction_time: 0.25
   entry_time: 0.4
   quit_time: 0.5
@@ -70,6 +91,4 @@ gesture:
   busno: 1
   caseflag: 1
 
-lesson0: "/home/primer/lessons/palope.json"
-  #lesson0: "/home/fibel/personal_Primer/lessons/de/Panchatantra/Buch 1/index.json"
-default_language: "de"
+
