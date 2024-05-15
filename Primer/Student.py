@@ -40,11 +40,12 @@ class Student:
         await self.pp.folio.activate_current_folio()
 
     async def logout(self):
+        await self.pp.player.stop_player()
         await self.pp.queue['display'].put({"b":f"{self.bye} {self.login}","t":" "})
         self.login=self.pp.config['student']['default_login']
         self.set_session_info()
         #self.new_session()
-        self.pp.folio.text=self.pp.config['auth']['hi']
+        self.pp.folio.expected_utterance=self.pp.config['auth']['hi']
         await self.pp.queue['display'].put({'b':self.pp.config['auth']['hi']})
     
     def activate_model(self):

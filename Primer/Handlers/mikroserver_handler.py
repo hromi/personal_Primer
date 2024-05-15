@@ -17,11 +17,11 @@ async def handle_mikroserver(pp):
             #not yet logged in ? use the voice identification model
             student_known = False if pp.student.login==pp.config['student']['default_login'] else True 
             if not student_known:
-                uri="wss://"+auth_config["auth_host"]+":"+auth_config['port']+"/auth/"+quote(pp.folio.text)+"/"+pp.student.login+"/"
+                uri="wss://"+auth_config["auth_host"]+":"+auth_config['port']+"/auth/"+quote(pp.folio.expected_utterance)+"/"+pp.student.login+"/"
                 print(uri)
             #otherwise do speech recognition
             else:
-                uri="wss://"+stt_config['inference_host']+":"+stt_config['port']+"/hmpl/"+str(pp.folio.scorer_id)+"/"+quote(pp.folio.text)+"/"+pp.student.login+"/"+pp.folio.language+"/"+pp.folio.task_action+"/"+str(pp.folio.trial)
+                uri="wss://"+stt_config['inference_host']+":"+stt_config['port']+"/hmpl/"+str(pp.folio.scorer_id)+"/"+quote(pp.folio.expected_utterance)+"/"+pp.student.login+"/"+pp.folio.language+"/"+pp.folio.task_action+"/"+str(pp.folio.trial)
             try:
                 async with websockets.connect(uri) as ws:
                     with open(audio_file, mode='rb') as file:  # b is important -> binary
@@ -37,8 +37,8 @@ async def handle_mikroserver(pp):
                         else:
                             await pp.queue['display'].put({"b":pp.config['auth']['hi']})
                     else:
-                        if ('text' in response) and (response['text'] == text.lower()):
-                            await pp.folio.match(text)
+                        if ('text' in response) and (response['text'] == text.lower()) or response['score']:
+                            await pp.folio.match(response)
                         #if stuck, move to new folio
                         elif pp.folio.trial > pp.folio.max_trials:
                             await pp.folio.next_folio()

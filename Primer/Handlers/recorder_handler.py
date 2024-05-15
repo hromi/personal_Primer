@@ -7,7 +7,7 @@ async def handle_recorder(pp):
             await pp.queue['display'].put({'t':"👂",'t_emoji':True})
             #print("Starting Recording...")
             #pp.student.new_session()
-            await pp.recorder.start_recording(pp.folio.text)
+            await pp.recorder.start_recording(pp.folio.expected_utterance)
         elif command == "stop":
             #await pp.queue['display'].put({"t":".."})
             #print("Stopping Recording...")

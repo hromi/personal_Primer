@@ -18,6 +18,7 @@ class EInkDisplay:
         self.driver_config = pp.config['EPD']
         self.gfx_config = pp.config['gfx']
         self.font_path = pp.config['gfx']['font_path']
+        self.min_font_size = pp.config['gfx']['min_font_size']
         self.rotate=self.driver_config['rotate']
         self.display = AutoEPDDisplay(
             vcom=self.driver_config['vcom'],
@@ -106,14 +107,14 @@ class EInkDisplay:
         if cache_id in self.cache['title']:
             self.title=self.cache['title'][cache_id]
         else:
-            self.title=create_text_image(title,600,200,font_path=self.font_path+self.font)
+            self.title=create_text_image(title,600,200,font_path=self.font_path+self.font,font_size=self.min_font_size)
             self.cache['title'][cache_id]=self.title
-        self.title=create_text_image(title,600,200,font_path=self.font_path+self.font)
+        self.title=create_text_image(title,600,200,font_path=self.font_path+self.font,font_size=self.min_font_size)
         self.display.frame_buf.paste(self.title, [0,0])
  
     async def display_footer(self, title, emoji=False):
         #print("display",title)
-        self.title=create_text_image(title,600,50,font_path=self.font_path+self.font)
+        self.title=create_text_image(title,600,50,font_path=self.font_path+self.font,font_size=self.min_font_size)
         self.display.frame_buf.paste(self.title, [0,750])
 
     async def display_body(self, content,emoji=False):
@@ -121,7 +122,7 @@ class EInkDisplay:
         if cache_id in self.cache['body']:
             self.body=self.cache['body'][cache_id]
         else:
-            self.body=create_text_image(content,600,600,font_path=self.font_path+self.font)
+            self.body=create_text_image(content,600,600,font_path=self.font_path+self.font,font_size=self.min_font_size)
             self.cache['body'][cache_id]=self.body
         self.display.frame_buf.paste(self.body, [0,200])
 

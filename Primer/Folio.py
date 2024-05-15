@@ -7,7 +7,7 @@ import sys
 class Folio(Exercise):
     def __init__(self,pp):
         self.pp=pp
-        self.text=pp.config['auth']['hi']
+        self.expected_utterance=pp.config['auth']['hi'] #what utterance does ASR expects to hear
         self.content=""
         self.imgs=[]
         self.current_folio = None
@@ -149,13 +149,16 @@ class Folio(Exercise):
         await self.pp.player.stop_player()
         self.list_control=ListController(self.font_path,self.current_folio['wavs'],self.current_voice,self.current_font)
  
-        #this should be rather done on exercise level
-        #if "id" in self.current_folio:
-        #    self.scorer_id=self.current_folio["id"]
+        if self.source_scorer=='folio':
+            self.scorer_id=self.current_folio["id"]
          
+        #c.f. Exercise class for exercise mode dispatch table
         exercise_mode=self.exercise_modes[self.exercise_action+'_'+self.task_action]
         print("EXERCISE MODE:",exercise_mode)
-        self.text=self.current_folio['content'] if self.primer_title=='content' else self.current_folio['name'] #this will be changed later for either/or/and name/content
+
+        #this specifies what do we expect pupil to read
+        self.expected_utterance=self.current_folio[self.source_utterance]
+
         # Display on eink
         if exercise_mode['title'] and self.primer_title!='none':
             print("PRIMER TITLE",self.primer_title)
@@ -169,6 +172,7 @@ class Folio(Exercise):
         if exercise_mode['body']:
             await self.pp.queue['display'].put({'b':self.current_folio['content']})
         #if exercise_mode['img'] and ('img' in self.current_folio or 'emoji' in self.current_folio):
+
         if exercise_mode['img']:
             #print("IMAGE")
             if 'emoji' in self.current_folio:

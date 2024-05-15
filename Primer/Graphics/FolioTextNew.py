@@ -15,10 +15,9 @@ def wrap_text(text, font, max_width):
     #print(lines)
     return lines
 
-def create_text_image(text, image_width, image_height, font_path):
+def create_text_image(text, image_width, image_height, font_path, font_size=70):
     #print(font_path)
     """Create an image with text nicely typeset to fit within the given dimensions."""
-    font_size = 30  # Starting font size
     font = ImageFont.truetype(font_path, font_size)
     if not text:
         text=" "

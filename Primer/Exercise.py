@@ -3,6 +3,7 @@ from urllib import request,parse
 from Primer.Curriculum import Curriculum
 from PIL import Image
 class Exercise(Curriculum):
+    #core exercise type dispatch table
     exercise_modes={
             'read_test':{'audio':False,'img':False,'title':True,'body':False},
             'read_learn':{'audio':True,'img':True,'title':True,'body':False},
@@ -24,16 +25,33 @@ class Exercise(Curriculum):
         self.exercise_action=None
         self.title='name'
         self.scorer_id=None
+        self.source_utterance="content" #what is pupil expected to read ['content','name',...]
+        print("SOURCE_UTTERANCE:",self.source_utterance)
+        self.source_scorer="exercise" #how specific the scorer should be ['folio','exercise',...]
 
-    async def load_foliae(self,json_file=None):
+    #load json tree structure, sets up lesson configuration variables 
+    async def load_exercise(self,json_file=None):
         if not json_file:
             json_file=self.pp.config['lesson0']
         with open(json_file, 'r', encoding='utf-8') as file:
             self.all_foliae=json.load(file)
         self.current_folio = self.all_foliae[0]  # Start with the root folio
         self.scorer_id=self.current_folio["id"]
+
+        if 'source_utterance' in self.current_folio:
+            self.source_utterance=self.current_folio['source_utterance'] 
+
+        #scorer source can be either 'exercise' or 'folio'
+        if 'source_scorer' in self.current_folio:
+            self.source_scorer=self.current_folio['source_scorer']
+
+        #scorer will be common for all tasks/folios contained within the exercise
+        if self.source_scorer == 'exercise':
+            self.scorer_id=self.current_folio["id"]
+
         self.path.append((self.current_folio,0))
         self.language=self.all_foliae[0]['language']
+        #specifies what should be displayed in header region, can be content, parent, defaults to current_folio['name']
         self.primer_title=self.all_foliae[0]['primer_title']
         self.exercise_action=self.all_foliae[0]['exercise_action']
         await self.preload_imgs(self.current_folio)
@@ -86,7 +104,8 @@ class Exercise(Curriculum):
         for child in folio.get("children", []):
             await self.traverse_tree(child)
 
-    async def match(self,text):
+    async def match(self,response):
+        text=response['text']
         self.task_matches[self.current_folio['name']][self.pp.folio.task_action]+=1
         self.exercise_matches[self.pp.folio.task_action]+=1
         #start training after N trials defined in hmpl:training_trigger config variable
@@ -94,7 +113,7 @@ class Exercise(Curriculum):
             #print(self.pp.folio.current_folio['imgs'])
             await self.pp.queue['display'].put({"t":text,"i":self.pp.folio.current_folio['imgs'][0],'b':' '})
         else:
-            await self.pp.queue['display'].put({"b":text,"t":"🧸","t_emoji":True})
+            await self.pp.queue['display'].put({"b":text,"t":f"{response['score']} 🧸","t_emoji":True})
         #HMPL enters the game
         if self.pp.folio.task_action=='learn' and (self.exercise_matches['learn']+self.exercise_mismatches['learn']+1) % self.pp.config['hmpl']['training_trigger'] == 0:
             print("activating training")
