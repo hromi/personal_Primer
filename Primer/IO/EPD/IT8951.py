@@ -5,7 +5,7 @@ from sys import path
 from IT8951 import constants
 from IT8951.EPD_functions import *
 from IT8951.display import AutoEPDDisplay
-from Primer.Graphics.FolioText import FolioText
+#from Primer.Graphics.FolioText import FolioText
 from Primer.Graphics.FolioTextNew import create_text_image
 
 from PIL import Image,ImageDraw,ImageFont

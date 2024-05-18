@@ -1,3 +1,4 @@
+from math import sqrt
 from PIL import Image, ImageDraw, ImageFont
 
 def wrap_text(text, font, max_width):
@@ -25,6 +26,11 @@ def create_text_image(text, image_width, image_height, font_path, font_size=70, 
     font = ImageFont.truetype(font_path, font_size)
     if not text:
         text = " "
+    font_size/=sqrt(len(text))
+    font_size=int(font_size)+50
+    print(font_size)
+    """Create an image with text nicely typeset to fit within the given dimensions."""
+    font = ImageFont.truetype(font_path, font_size)
     lines = wrap_text(text, font, image_width)
 
     text_height = len(lines) * font.getsize(text)[1]

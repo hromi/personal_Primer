@@ -176,7 +176,7 @@ class Folio(Exercise):
         if exercise_mode['img']:
             #print("IMAGE")
             if 'emoji' in self.current_folio:
-                await self.pp.queue['display'].put({'t':self.current_folio['emoji'],'t_emoji':True,'b':' '})
+                await self.pp.queue['display'].put({'b':self.current_folio['emoji'],'b_emoji':True,'t':' '})
             else:
                 try:
                     chosen_image=random.choice(self.current_folio['imgs'])
