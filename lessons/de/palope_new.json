@@ -1,19 +1,37 @@
-[{"imgs":null,"leaf":0,"name":"Palope","id":"16341","content":"Namen aller Mitgliedern der Familie aus Zirkus Palope.","language":"de","primer_title":"name","exercise_action":"naming","voices":null,"children": [	
+[{"imgs":["/palope/1/Book/palope-1-006.png"],"leaf":0,"name":"Palope","id":"16341","content":"Namen aller Mitgliedern der Familie aus Zirkus Palope.","language":"de","primer_title":"name","exercise_action":"naming","task_action":"learn","voices":null,"children": [	
 	{
 		"imgs":["15907.Pape.PNG"],
 		"leaf":0,
-		"name":"Pape",
+		"name":"PaPE",
 		"id":"15907",
-		"content":"Pape",
+		"content":"PaPE",
 		"task_action":"learn",
-		"voices":[{"voice" : "👩‍🏫", "variant_id" : 22809}, {"voice" : "🇩🇪👧💎", "variant_id" : 23576}, {"voice" : "🇸🇰♂️", "variant_id" : 15910}, {"voice" : "🇰🇷♀️", "variant_id" : 30254}, {"voice" : "🇩🇪👧💎", "variant_id" : 24217}, {"voice" : "🇸🇰♂️", "variant_id" : 15934}, {"voice" : "🇰🇷♂️", "variant_id" : 16559}, {"voice" : "🇹🇷♂️", "variant_id" : 17170}, {"voice" : "🇩🇪👩‍🏫", "variant_id" : 17260}, {"voice" : "🇸🇰♂️", "variant_id" : 19304}, {"voice" : "🌃", "variant_id" : 20172}, {"voice" : "👩‍🏫", "variant_id" : 22785}]
+		"voices":[{"voice" : "👩‍🏫", "variant_id" : 22809}, {"voice" : "🇩🇪👧💎", "variant_id" : 23576}, {"voice" : "🇸🇰♂️", "variant_id" : 15910}, {"voice" : "🇰🇷♀️", "variant_id" : 30254}, {"voice" : "🇩🇪👧💎", "variant_id" : 24217}, {"voice" : "🇸🇰♂️", "variant_id" : 15934}, {"voice" : "🇰🇷♂️", "variant_id" : 16559}, {"voice" : "🇹🇷♂️", "variant_id" : 17170}, {"voice" : "🇩🇪👩‍🏫", "variant_id" : 17260}, {"voice" : "🇸🇰♂️", "variant_id" : 19304}, {"voice" : "🌃", "variant_id" : 20172}, {"voice" : "👩‍🏫", "variant_id" : 22785}],
+		"children":[{
+		"imgs":["/palope/1/Book/palope-1-015.png"],
+		"leaf":0,
+		"name":"PaPE",
+		"id":"18942",
+		"content":"Das ist Pape, Pa, Pu, Pape, Pape mit Ape. ",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 20109}, {"voice" : "🇸🇰♂️", "variant_id" : 25638}, {"voice" : "🇸🇰♂️", "variant_id" : 25460}, {"voice" : "🇩🇪♀", "variant_id" : 20129}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 31685}, {"voice" : "🇩🇪♂️", "variant_id" : 25667}]
+	},
+	{
+		"imgs":["/palope/1/Book/palope-1-015.png"],
+		"leaf":0,
+		"name":"Das ist PaPE mit APE. ",
+		"id":"24256",
+		"content":"Pape, so wird er gennant, ist bekannt im ganzen Land. Er hat auf seiner Hose zwei Pa und eine Rose. Pa, Pu, Pape. ",
+		"task_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 25640}, {"voice" : "🇸🇰♂️", "variant_id" : 25639}, {"voice" : "🇩🇪♂️", "variant_id" : 25662}]
+	}]
 	},
 	{
 		"imgs":["15906.Mama.PNG"],
 		"leaf":0,
-		"name":"Mame",
+		"name":"MaME",
 		"id":"15906",
-		"content":"Mame",
+		"content":"MaME",
 		"task_action":"learn",
 		"voices":[{"voice" : "👩‍🏫", "variant_id" : 22808}, {"voice" : "🇰🇷♀️", "variant_id" : 30255}, {"voice" : "🇩🇪👧💎", "variant_id" : 24218}, {"voice" : "🇩🇪👩‍🏫", "variant_id" : 17261}, {"voice" : "Kind", "variant_id" : 17297}, {"voice" : "🇸🇰♂️", "variant_id" : 19305}, {"voice" : "🌃", "variant_id" : 20171}, {"voice" : "👩‍🏫", "variant_id" : 22784}, {"voice" : "🇩🇪👧💎", "variant_id" : 23575}, {"voice" : "🇸🇰♂️", "variant_id" : 15911}, {"voice" : "🇰🇷♂️", "variant_id" : 16560}, {"voice" : "🇹🇷♂️", "variant_id" : 17171}]
 	},

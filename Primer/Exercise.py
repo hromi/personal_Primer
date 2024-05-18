@@ -10,7 +10,9 @@ class Exercise(Curriculum):
             'narrate_test':{'audio':False,'img':False,'title':True,'body':True},
             'narrate_learn':{'audio':True,'img':False,'title':True,'body':True},
             'naming_learn':{'audio':True,'img':True,'title':True,'body':False},
-            'naming_test':{'audio':False,'img':True,'title':False,'body':False}
+            'naming_test':{'audio':False,'img':True,'title':False,'body':False},
+            'folio_learn':{'audio':True,'img':True,'title':False,'body':False},
+            'folio_test':{'audio':False,'img':True,'title':False,'body':False},
     }
     def __init__(self):
         self.image_path=self.pp.config['gfx']['image_path']
@@ -84,13 +86,19 @@ class Exercise(Curriculum):
             #await self.pp.queue['display'].put({"t":folio['name']})
             for img in folio['imgs']:
                 img_path=self.image_path+'/'+img
+                dir_path=os.path.dirname(img_path)
+                if not os.path.exists(dir_path):
+                    os.makedirs(dir_path)
                 if not os.path.isfile(img_path):
                     url=self.pp.config['gfx']['external_store_url']+'/'+parse.quote(img)
                     print("WTF",url)
                     request.urlretrieve(url,img_path)
                     image=Image.open(img_path)
                     resized=image.resize((600,800))
-                    resized.convert('L').save(self.image_path+'/600x800/'+img)
+                    resized_path=self.image_path+'/600x800/'+img
+                    if not os.path.exists(os.path.dirname(resized_path)):
+                        os.makedirs(os.path.dirname(resized_path))
+                    resized.convert('L').save(resized_path)
 
     async def preload_folio(self,folio):
         #load images

@@ -190,7 +190,7 @@ class Folio(Exercise):
                 await self.pp.player.play_wav(self.current_folio['wavs'][self.current_voice])
             elif self.pp.config['voices']['default'] in self.current_folio['wavs']:
                 await self.pp.player.play_wav(self.current_folio['wavs'][self.pp.config['voices']['default']])
-            else:
+            elif len(self.current_folio['wavs']):
                 await self.next_voice()
 
         # Execute associated code

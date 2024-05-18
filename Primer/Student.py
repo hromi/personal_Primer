@@ -1,4 +1,4 @@
-import os
+import os,asyncio
 import urllib.request
 class Student:
     def __init__(self,pp):
@@ -32,7 +32,8 @@ class Student:
         self.convert_login(login)
         #self.set_session_info()
         self.new_session()
-        await self.pp.queue['display'].put({'b':self.pp.config['auth']['hi']+" "+self.name,'t':' '})
+        await self.pp.queue['display'].put({'b':self.pp.config['auth']['hi']+" "+self.name})
+        asyncio.sleep(2)
         self.activate_model()
         print("ACTIVATIN ROOT FOLIO")
         self.pp.folio.current_folio=self.pp.folio.all_foliae[0]

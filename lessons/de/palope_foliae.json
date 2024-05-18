@@ -1,0 +1,148 @@
+[{"name":"Palope - erste Klasse",
+"language":"de",
+"exercise_action":"folio",
+"task_action":"learn",
+"voices":[],
+"imgs":["/palope/1/Book/palope-1-001.png"],
+"leaf":0,
+"id":"19116",
+"content":"",
+"primer_title":"name",
+"children": [
+	{
+		"imgs":["/palope/1/Book/palope-1-008.png"],
+		"leaf":0,
+		"name":"PePE",
+		"id":"18935",
+		"content":"Ich bin PePE, Pe, Pu, PePE, PePE mit Pele. PePE, das bin ich. Seht nur her, nun kennt ihr mich. Liebe Kinder, seht ihr auch: Da steht Pe auf meinem Bauch. Pe, Pu, PePE. Ich, PePE, mit Pele und Pesel. ",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇩🇪♂️", "variant_id" : 25666}, {"voice" : "🇩🇪♀", "variant_id" : 20130}, {"voice" : "🇸🇰♂️", "variant_id" : 20108}]
+	},
+	{
+		"imgs":["/palope/1/Book/palope-1-015.png"],
+		"leaf":0,
+		"name":"PaPE",
+		"id":"18942",
+		"content":"Das ist PaPE, Pa, Pu, PaPE, PaPE mit Ape. ",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 20109}, {"voice" : "🇸🇰♂️", "variant_id" : 25638}, {"voice" : "🇸🇰♂️", "variant_id" : 25460}, {"voice" : "🇩🇪♀", "variant_id" : 20129}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 31685}, {"voice" : "🇩🇪♂️", "variant_id" : 25667}]
+	},
+	{
+		"imgs":["/palope/1/Book/palope-1-015.png"],
+		"leaf":0,
+		"name":"Das ist PaPE mit Ape. ",
+		"id":"24256",
+		"content":"PaPE, so wird er gennant, ist bekannt im ganzen Land. Er hat auf seiner Hose zwei Pa und eine Rose. Pa, Pu, PaPE. ",
+		"task_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 25640}, {"voice" : "🇸🇰♂️", "variant_id" : 25639}, {"voice" : "🇩🇪♂️", "variant_id" : 25662}]
+	},
+	{
+		"imgs":["/palope/1/Book/palope-1-022.png"],
+		"leaf":0,
+		"name":"MaME",
+		"id":"18949",
+		"content":"Das ist MaME, Ma,Mu, MaME, MaME, die Malerin. MaME, so wird sie genannt, ist bekannt im ganzen Land. Auf ihrem Kleid, da steht das MA. Das finden alle wunderbar. Ma, Mu, MaME. ",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22049}, {"voice" : "🇩🇪♀", "variant_id" : 20128}, {"voice" : "🇸🇰♂️", "variant_id" : 25635}, {"voice" : "🇩🇪♂️", "variant_id" : 25645}, {"voice" : "🇩🇪♂️", "variant_id" : 25646}, {"voice" : "🇩🇪♂️", "variant_id" : 25663}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 31686}]
+	},
+	{
+		"imgs":["/palope/1/Book/palope-1-036.png"],
+		"leaf":0,
+		"name":"Fiefen",
+		"id":"18963",
+		"content":"Das ist Fiefen, Fie, Fu, Fiefen, Fiefenmit der Fiedel. Fiefen, so wird er genannt, ist bekannt im ganzen Land. FIEFEN steht auf seinem Hut. Das finde ich besonders gut. Fie, Fu, Fiefen. ",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇩🇪♂️", "variant_id" : 25665}, {"voice" : "🇩🇪♀", "variant_id" : 20126}, {"voice" : "🇸🇰♂️", "variant_id" : 22051}]
+	},
+	{
+		"imgs":["/palope/1/Book/palope-1-043.png"],
+		"leaf":0,
+		"name":"Das ist TuTE. ",
+		"id":"18970",
+		"content":"Das ist Tule, Tu, Ta, TuTE, TuTE mit dem Tuche. TuTE, so wird sie genannt, ist im ganzen Land bekannt. TuTE hat ihr schönes Tu am rechten und am linken Schuh. Tu, Ta, TuTE. PaPE ist mein Opapa. MaME meine Omama. Fiefen ist mein Pa. TuTE meine Ma. ",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 20125}, {"voice" : "🇩🇪♂️", "variant_id" : 25668}, {"voice" : "🇸🇰♂️", "variant_id" : 22052}]
+	},
+	{
+		"imgs":["/palope/1/Book/palope-1-050.png"],
+		"leaf":0,
+		"name":"Das ist Lole. ",
+		"id":"18977",
+		"content":"Das ist Lole, Lo, La, Lole, Lolemit der Leiter. Lole, so wird sie genannt, ist bekannt im ganzen Land. Auf ihrer Krone steht igr LO. Viele nennen sie nur so. Lo, La, Lole. ",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22053}, {"voice" : "🇩🇪♀", "variant_id" : 20124}, {"voice" : "🇩🇪♂️", "variant_id" : 25669}]
+	},
+	{
+		"imgs":["/palope/1/Book/palope-1-057.png"],
+		"leaf":0,
+		"name":"Das ist SuSE. ",
+		"id":"18984",
+		"content":"Das ist SuSE, Su, Sa, SuSE, SuSE ist siebzehn. SuSE, so wird sie genannt, als Süße ist sie uns bekannt. Auf ihrem Arm, da siehst du ein großes SU als Tattoo. Su, Sa, SuSE. ",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 20123}, {"voice" : "🇩🇪♂️", "variant_id" : 25670}, {"voice" : "🇸🇰♂️", "variant_id" : 22054}, {"voice" : "🇩🇪♀", "variant_id" : 20122}]
+	},
+	{
+		"imgs":["/palope/1/Book/palope-1-066.png"],
+		"leaf":0,
+		"name":"Das ist Rere. ",
+		"id":"18993",
+		"content":"Das ist Rere, Re, Ru, Rere, Rere und der Riese. Rere, so wird sie genannt, ist bekannt im ganzen Land. Was hat sie auf dem Hute steh'n?Da kannst du ihren Namen seh'n. Re, Ru, Rere. ",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 20121}, {"voice" : "🇸🇰♂️", "variant_id" : 22055}, {"voice" : "🇩🇪♂️", "variant_id" : 25671}]
+	},
+	{
+		"imgs":["/palope/1/Book/palope-1-071.png"],
+		"leaf":0,
+		"name":"Das ist Renre. ",
+		"id":"18998",
+		"content":"Das ist Renre, Ren, Ran, Renre, Renre mit der Ente. Renre, so wird er genannt, ist bekannt im ganzen Land. Das Ren, das steht auf seinem Hut, Matrosensachen steh'n ihm gut. Ren, Ran, Renre. ",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22056}, {"voice" : "🇩🇪♀", "variant_id" : 20120}, {"voice" : "🇩🇪♂️", "variant_id" : 25672}]
+	},
+	{
+		"imgs":["/palope/1/Book/palope-1-078.png"],
+		"leaf":0,
+		"name":"Das ist Schöner. ",
+		"id":"19005",
+		"content":"Das ist Schöner, Schö, Scha, Schöner, Schöner mit der Schleife. Schöner, so wird er genannt, SuSEs Kater ist bekannt. Das Schö, das ist an einem Band. So wandert er durchs ganze Land. Schö, Scha, Schöner. ",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22057}, {"voice" : "🇩🇪♂️", "variant_id" : 25673}, {"voice" : "🇩🇪♀", "variant_id" : 20119}]
+	},
+	{
+		"imgs":["/palope/1/Book/palope-1-083.png"],
+		"leaf":0,
+		"name":"Das ist Dodo. ",
+		"id":"19010",
+		"content":"Das ist Dodo, Do, Da, Dodo, Dodo mit' nem Foto. Dodo, so wird er genannt, als Schöners Freund ist er bekannt. Das Do, das ist an einem Band, so wandert er durchs ganze Land. Do, Da, Dodo. ",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22058}, {"voice" : "🇩🇪♀", "variant_id" : 20118}, {"voice" : "🇩🇪♂️", "variant_id" : 25674}, {"voice" : "Lichterfelde-Ost", "variant_id" : 25656}]
+	},
+	{
+		"imgs":["/palope/1/Book/palope-1-088.png"],
+		"leaf":0,
+		"name":"Das ist der Zauberer Zau. ",
+		"id":"19015",
+		"content":"Das ist der Zauberer Zau,Za, Zu, Zau,Zaumit dem Zylinder. Zau, so wird er genannt, ist bekannt im ganzen Land. Und alle Kinder wünschen sich:„Zau, Zau, zauber was für mich!“Za, Zu, Zau, Zau. ",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22059}, {"voice" : "🇩🇪♂️", "variant_id" : 25675}, {"voice" : "🇩🇪♀", "variant_id" : 20117}]
+	},
+	{
+		"imgs":["/palope/1/Book/palope-1-108.png"],
+		"leaf":0,
+		"name":"Das ist Gang Gang. ",
+		"id":"19035",
+		"content":"Das ist Gang Gang. Gang, Ging, Gang. Gang Gang mit der Geige. Gang Gang, wird er genannt, ist bekannt im ganzen Land. Sein Name an der Geige zeigt, wie er gerne fäglich geigt. Gang, Ging, Gang Gang. ",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 20116}, {"voice" : "🇸🇰♂️", "variant_id" : 22060}, {"voice" : "🇩🇪♂️", "variant_id" : 25676}]
+	},
+	{
+		"imgs":["/palope/1/Book/palope-1-115.png"],
+		"leaf":0,
+		"name":"Das sind Home und Holme. ",
+		"id":"19042",
+		"content":"Home, so wird er genannt, ist bekannt im ganzen Land. Das Ho auf seiner Brust in Blau, blaues o, das passt genau. Ho, Hu, Home. Holme, so wird er genannt, ist bekannt im ganzen Land. Das Hol in Rot und nicht in Blau, rotes ol, das passt genau. Hol, Hul, Holme. ",
+		"task_action":"learn",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 25636}, {"voice" : "🇩🇪♂️", "variant_id" : 25677}, {"voice" : "🇸🇰♂️", "variant_id" : 20131}, {"voice" : "🇩🇪♀", "variant_id" : 20115}, {"voice" : "🇸🇰♂️", "variant_id" : 22061}, {"voice" : "🇸🇰♂️", "variant_id" : 25637}]
+	}
+	]
+}]
