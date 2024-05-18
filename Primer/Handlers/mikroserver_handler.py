@@ -28,17 +28,17 @@ async def handle_mikroserver(pp):
                         await ws.send(file.read())
                     result =  await ws.recv()
                     response=json.loads(result)
-                    print(response)
-                    print(text)
+                    #print(response)
+                    #print(text)
                     if not student_known:
                         if json.loads(result)['login']:
                             await pp.student.init_user(response['login'])
                             student_known=True
                         else:
-                            await pp.queue['display'].put({"b":pp.config['auth']['hi']})
+                            await pp.queue['display'].put({"b":pp.config['auth']['hi'],"t_emoji":"🔁"})
                     else:
                         if ('text' in response) and (response['text'] == text.lower()) or response['score']:
-                            await pp.folio.match(response)
+                            await pp.folio.match(text,response)
                         #if stuck, move to new folio
                         elif pp.folio.trial > pp.folio.max_trials:
                             await pp.folio.next_folio()

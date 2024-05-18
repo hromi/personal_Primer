@@ -23,6 +23,7 @@ class Exercise(Curriculum):
         self.task_mismatches={}
         self.loop = asyncio.new_event_loop()
         self.exercise_action=None
+        self.score=0
         self.title='name'
         self.scorer_id=None
         self.source_utterance="content" #what is pupil expected to read ['content','name',...]
@@ -104,16 +105,16 @@ class Exercise(Curriculum):
         for child in folio.get("children", []):
             await self.traverse_tree(child)
 
-    async def match(self,response):
-        text=response['text']
+    async def match(self,text,response):
         self.task_matches[self.current_folio['name']][self.pp.folio.task_action]+=1
         self.exercise_matches[self.pp.folio.task_action]+=1
         #start training after N trials defined in hmpl:training_trigger config variable
+        self.score+=response['score']
         if type(self.pp.folio.current_folio['imgs']) is list:
             #print(self.pp.folio.current_folio['imgs'])
-            await self.pp.queue['display'].put({"t":text,"i":self.pp.folio.current_folio['imgs'][0],'b':' '})
+            await self.pp.queue['display'].put({"t":text,"i":self.pp.folio.current_folio['imgs'][0],'b':' ',"f":f"{response['score']} 🧸"})
         else:
-            await self.pp.queue['display'].put({"b":text,"t":f"{response['score']} 🧸","t_emoji":True})
+            await self.pp.queue['display'].put({"b":text,"t":f"{self.score} 🧸","t_emoji":True})
         #HMPL enters the game
         if self.pp.folio.task_action=='learn' and (self.exercise_matches['learn']+self.exercise_mismatches['learn']+1) % self.pp.config['hmpl']['training_trigger'] == 0:
             print("activating training")
@@ -131,7 +132,11 @@ class Exercise(Curriculum):
         #else:
             #await self.pp.queue['display'].put({"b":text.upper(),"t":' '})
         print("FALSCH")
-        await self.pp.queue['display'].put({"t":'Falsch ;('})
+        print(self.pp.folio.current_folio)
+        await self.pp.queue['display'].put({"t":text})
         if "wavs" in self.pp.folio.current_folio:
-            #await self.pp.queue['display'].put({"b":text.upper()})
-            await self.pp.player.play_wav(random.choice(self.pp.folio.current_folio['wavs']))
+            if 0:
+                return
+            #check if recording by CHOSEN_VOICE exists, if yes, play it
+            else:
+                await self.pp.player.play_wav(random.choice(list(self.pp.folio.current_folio['wavs'].values())))
