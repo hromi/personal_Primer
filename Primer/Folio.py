@@ -6,36 +6,37 @@ import sys
 
 class Folio(Exercise):
     def __init__(self,pp):
-        self.pp=pp
-        self.expected_utterance=pp.config['auth']['hi'] #what utterance does ASR expects to hear
-        self.content=""
-        self.imgs=[]
-        self.current_folio = None
-        self.current_voice = pp.config['voices']['default']
-        self.current_font = pp.config['gfx']['font']
-        self.font_path = pp.config['gfx']['font_path']
-        if pp.config['EPD']['front']:
-            from waveshare_epd import epd5in65f
-        self.last_child_index = {}
-        self.scorer_id=None
-        self.siblings = []
-        self.path = []
-        self.sibling_index=0
-        self.default_task_action="learn"
-        self.list_control=None
-        self.task_action=self.default_task_action
-        self.trial=0
-        self.title_text=None
-        self.body_text=None
-        self.image_name=None
-        self.parent_name=None
-        super().__init__()
+        class Folio(Exercise):
+            def __init__(self, pp):
+                self.pp = pp
+                self.expected_utterance = pp.config['auth']['hi']
+                self.content = ""
+                self.imgs = []
+                self.current_folio = None
+                self.current_voice = pp.config['voices']['default']
+                self.current_font = pp.config['gfx']['font']
+                self.font_path = pp.config['gfx']['font_path']
+                if pp.config['EPD']['front']:
+                    from waveshare_epd import epd5in65f
+                self.last_child_index = {}
+                self.scorer_id = None
+                self.siblings = []
+                self.path = []
+                self.sibling_index = 0
+                self.default_task_action = "learn"
+                self.list_control = None
+                self.task_action = self.default_task_action
+                self.trial = 0
+                self.title_text = None
+                self.body_text = None
+                self.image_name = None
+                self.parent_name = None
+                super().__init__()
 
     async def descend(self):
         """Move down to the previously visited child of the current folio, if any."""
-        self.parent_name=self.current_folio['name']
-        children = self.current_folio.get('children', [])
-        if children:
+        self.parent_name = self.current_folio['name']
+        if children := self.current_folio.get('children', []):
             child_index = self.last_child_index.get(id(self.current_folio), 0)
             if child_index < len(children):
                 self.path.append((self.current_folio, child_index))
@@ -48,7 +49,7 @@ class Folio(Exercise):
             parent_folio, child_index = self.path.pop()
             #if self.path[-1]:
             if len(self.path):
-                self.parent_name=self.path[-1][0]['name']
+                self.parent_name = self.path[-1][0]['name']
             self.last_child_index[id(parent_folio)] = child_index  # Update last visited child index
             self.current_folio = parent_folio
             await self.activate_current_folio()
@@ -83,6 +84,7 @@ class Folio(Exercise):
                 await self.activate_current_folio()
             else:
                 await self.pp.queue['display'].put({'b':'das Ende'})
+                # False and anything would always be False : why is this code here?
                 if False and self.pp.config['EPD']['front'] and 'front' in self.current_folio and self.current_folio['front']:
                     if 'waveshare_epd' not in sys.modules:
                         from waveshare_epd import epd5in65f
@@ -121,7 +123,7 @@ class Folio(Exercise):
         self.current_font=self.list_control.next_font()
         await self.display_current_folio_full()
  
-    async def next_voice(self):
+    async def next_voice(self):  # sourcery skip: do-not-use-bare-except
         try:
             self.current_voice=self.list_control.next_voice()
         except:
@@ -148,12 +150,14 @@ class Folio(Exercise):
         # Stop any ongoing audio
         await self.pp.player.stop_player()
         self.list_control=ListController(self.font_path,self.current_folio['wavs'],self.current_voice,self.current_font)
- 
+
         if self.source_scorer=='folio':
             self.scorer_id=self.current_folio["id"]
-         
+
         #c.f. Exercise class for exercise mode dispatch table
-        exercise_mode=self.exercise_modes[self.exercise_action+'_'+self.task_action]
+        exercise_mode = self.exercise_modes[
+            f'{self.exercise_action}_{self.task_action}'
+        ]
         print("EXERCISE MODE:",exercise_mode)
 
         #this specifies what do we expect pupil to read
@@ -171,10 +175,7 @@ class Folio(Exercise):
                 await self.pp.queue['display'].put({'t':self.current_folio['name'],'b':' '})
         if exercise_mode['body']:
             await self.pp.queue['display'].put({'b':self.current_folio['content']})
-        #if exercise_mode['img'] and ('img' in self.current_folio or 'emoji' in self.current_folio):
-
         if exercise_mode['img']:
-            #print("IMAGE")
             if 'emoji' in self.current_folio:
                 await self.pp.queue['display'].put({'b':self.current_folio['emoji'],'b_emoji':True,'t':' '})
             else:

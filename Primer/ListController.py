@@ -5,7 +5,7 @@ class ListController:
         self.voices_iterator = iter(voices.keys())
         self.current_voice = None
         self.current_font = None
-        self.fonts={}
+        self.fonts = {}
         self.populate_fonts_from_directory(font_path,'open')
         self.populate_fonts_from_directory(font_path,'licensed')
         #print(self.fonts)
@@ -57,7 +57,7 @@ class ListController:
                 # This ensures that if the dictionary is empty, the code does not fail
                 self.current_voice = None
         return self.current_voice
-
+        #TODO : not reachable
         #FONT RELATED
         if start_font and start_font in self.fonts:
             while True:
