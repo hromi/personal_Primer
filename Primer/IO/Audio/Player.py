@@ -6,9 +6,9 @@ from urllib import request
 
 class Player():
     def __init__(self,pp):
-        self.pp=pp
-        self.wav_store_dir=pp.config['audio']['wav_store_dir']
-        self.ogg_store_dir=pp.config['audio']['ogg_store_dir']
+        self.pp = pp
+        self.wav_store_dir = pp.config['audio']['wav_store_dir']
+        self.ogg_store_dir = pp.config['audio']['ogg_store_dir']
 
     #if files start with annoying click, converting them to 48000Hz may help
     async def play_wav(self, audio_file: str):

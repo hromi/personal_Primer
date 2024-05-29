@@ -6,7 +6,7 @@ from urllib.parse import quote
 async def handle_mikroserver(pp):
     stt_config=pp.config['mikroserver_stt']
     auth_config=pp.config['mikroserver_auth']
-    
+
     while True:
         message=await pp.queue['mikroserver'].get()
         if message:
@@ -15,13 +15,13 @@ async def handle_mikroserver(pp):
             audio_file=message['f']
             await pp.queue['display'].put({'t':"🤔",'t_emoji':True})
             #not yet logged in ? use the voice identification model
-            student_known = False if pp.student.login==pp.config['student']['default_login'] else True 
+            student_known = pp.student.login != pp.config['student']['default_login']
             if not student_known:
-                uri="wss://"+auth_config["auth_host"]+":"+auth_config['port']+"/auth/"+quote(pp.folio.expected_utterance)+"/"+pp.student.login+"/"
+                uri = f"wss://{auth_config['auth_host']}:{auth_config['port']}/auth/{quote(pp.folio.expected_utterance)}/{pp.student.login}/"
                 print(uri)
             #otherwise do speech recognition
             else:
-                uri="wss://"+stt_config['inference_host']+":"+stt_config['port']+"/hmpl/"+str(pp.folio.scorer_id)+"/"+quote(pp.folio.expected_utterance)+"/"+pp.student.login+"/"+pp.folio.language+"/"+pp.folio.task_action+"/"+str(pp.folio.trial)
+                uri = f"wss://{stt_config['inference_host']}:{stt_config['port']}/hmpl/{pp.folio.scorer_id}/{quote(pp.folio.expected_utterance)}/{pp.student.login}/{pp.folio.language}/{pp.folio.task_action}/{pp.folio.trial}"
             try:
                 async with websockets.connect(uri) as ws:
                     with open(audio_file, mode='rb') as file:  # b is important -> binary

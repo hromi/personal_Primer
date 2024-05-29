@@ -2,24 +2,24 @@ import os,asyncio
 import urllib.request
 class Student:
     def __init__(self,pp):
-        self.pp=pp
-        self.login=pp.config['student']['default_login']
-        self.name=''
-        self.hi=pp.config['auth']['hi']
-        self.bye=pp.config['auth']['bye']
-        self.language=pp.config['default_language']
+        self.pp = pp
+        self.login = pp.config['student']['default_login']
+        self.name = ''
+        self.hi = pp.config['auth']['hi']
+        self.bye = pp.config['auth']['bye']
+        self.language = pp.config['default_language']
         self.new_session()
 
 
     def set_session_info(self):
-        self.session_dir = self.pp.config['student']['session_dir']+'/'+self.login
-        self.last_session_link = self.session_dir+'/last'
+        self.session_dir = f"{self.pp.config['student']['session_dir']}/{self.login}"
+        self.last_session_link = f"{self.session_dir}/last"
 
     async def greeting(self):
         #await self.pp.queue['display'].put({"b":self.hi})
         await self.pp.player.stop_player()
         await self.pp.queue['display'].put({"b":self.hi,"t":" "})
-        await self.pp.player.play_wav(self.pp.config['assets_dir']+self.hi+'.wav')
+        await self.pp.player.play_wav(f"{self.pp.config['assets_dir']}{self.hi}.wav")
 
     def convert_login(self,login):
         # Split the login into first name and surname
@@ -32,7 +32,7 @@ class Student:
         self.convert_login(login)
         #self.set_session_info()
         self.new_session()
-        await self.pp.queue['display'].put({'b':self.pp.config['auth']['hi']+" "+self.name})
+        await self.pp.queue['display'].put({'b':f"{self.pp.config['auth']['hi']} {self.name}"})
         asyncio.sleep(2)
         self.activate_model()
         print("ACTIVATIN ROOT FOLIO")

@@ -40,10 +40,10 @@ class EInkDisplay:
         #print('  firmware version: {}'.format(epd.firmware_version))
         #print('  LUT version: {}'.format(epd.lut_version))
         clear_display(self.display)
-        self.text_font=self.gfx_config['font']
-        self.font=self.text_font
-        self.emoji_font=self.gfx_config['emoji']
-        self.word_pointers=[]
+        self.text_font = self.gfx_config['font']
+        self.font = self.text_font
+        self.emoji_font = self.gfx_config['emoji']
+        self.word_pointers = []
         #self.folio = FolioText((int(self.display.height),int(self.display.width/1)), self.word_pointers)
         self.white_title = Image.new("1",(600,200),255) 
         self.black_title = Image.new("1",(600,200),0) 
@@ -103,7 +103,7 @@ class EInkDisplay:
         self.display.draw_partial(constants.DisplayModes.DU)
  
     async def display_title(self, title, emoji=False):
-        cache_id=self.font+'::'+title
+        cache_id = f"{self.font}::{title}"
         print(f'TITLE{cache_id}')
         if cache_id in self.cache['title']:
             self.title=self.cache['title'][cache_id]
@@ -119,7 +119,7 @@ class EInkDisplay:
         self.display.frame_buf.paste(self.title, [0,750])
 
     async def display_body(self, content,emoji=False):
-        cache_id=self.font+'::'+content
+        cache_id = f"{self.font}::{content}"
         if cache_id in self.cache['body']:
             self.body=self.cache['body'][cache_id]
         else:

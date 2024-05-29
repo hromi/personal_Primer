@@ -93,7 +93,7 @@ class Recorder:
     async def write_audiofile(self, text: str):
         #print("Stopping recording")
         #audio_file = os.path.join(self.audio_dir, self.pp.student.session_id, text)
-        audio_file = os.path.join(self.pp.student.last_session_link, text+"_"+self.pp.folio.task_action+"_"+str(self.pp.folio.trial))
+        audio_file = os.path.join(self.pp.student.last_session_link, f"{text}_{self.pp.folio.task_action}_{self.pp.folio.trial}")
         wave_file = wave.open(audio_file, 'wb')
         wave_file.setnchannels(1)
         wave_file.setsampwidth(self.sample_width)
