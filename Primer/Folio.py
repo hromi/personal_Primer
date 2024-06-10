@@ -4,34 +4,33 @@ from Primer.Exercise import Exercise
 from PIL import Image,ImageDraw,ImageFont
 import sys
 
+
 class Folio(Exercise):
-    def __init__(self,pp):
-        class Folio(Exercise):
-            def __init__(self, pp):
-                self.pp = pp
-                self.expected_utterance = pp.config['auth']['hi']
-                self.content = ""
-                self.imgs = []
-                self.current_folio = None
-                self.current_voice = pp.config['voices']['default']
-                self.current_font = pp.config['gfx']['font']
-                self.font_path = pp.config['gfx']['font_path']
-                if pp.config['EPD']['front']:
-                    from waveshare_epd import epd5in65f
-                self.last_child_index = {}
-                self.scorer_id = None
-                self.siblings = []
-                self.path = []
-                self.sibling_index = 0
-                self.default_task_action = "learn"
-                self.list_control = None
-                self.task_action = self.default_task_action
-                self.trial = 0
-                self.title_text = None
-                self.body_text = None
-                self.image_name = None
-                self.parent_name = None
-                super().__init__()
+    def __init__(self, pp):
+        self.pp = pp
+        self.expected_utterance = pp.config['auth']['hi']
+        self.content = ""
+        self.imgs = []
+        self.current_folio = None
+        self.current_voice = pp.config['voices']['default']
+        self.current_font = pp.config['gfx']['font']
+        self.font_path = pp.config['gfx']['font_path']
+        if pp.config['EPD']['front']:
+            from waveshare_epd import epd5in65f
+        self.last_child_index = {}
+        self.scorer_id = None
+        self.siblings = []
+        self.path = []
+        self.sibling_index = 0
+        self.default_task_action = "learn"
+        self.list_control = None
+        self.task_action = self.default_task_action
+        self.trial = 0
+        self.title_text = None
+        self.body_text = None
+        self.image_name = None
+        self.parent_name = None
+        super().__init__()
 
     async def descend(self):
         """Move down to the previously visited child of the current folio, if any."""
@@ -84,7 +83,6 @@ class Folio(Exercise):
                 await self.activate_current_folio()
             else:
                 await self.pp.queue['display'].put({'b':'das Ende'})
-                # False and anything would always be False : why is this code here?
                 if False and self.pp.config['EPD']['front'] and 'front' in self.current_folio and self.current_folio['front']:
                     if 'waveshare_epd' not in sys.modules:
                         from waveshare_epd import epd5in65f
