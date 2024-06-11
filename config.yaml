@@ -20,7 +20,7 @@ hmpl:
 gfx:
   font_path: "/home/primer/assets/fonts/"
   min_font_size: 70
-  font: "licensed/schuldruck.ttf"
+  font: "open/schuldruck.ttf"
   emoji: "open/emoji/noto_emoji.ttf"
   image_path: "/home/primer/data/imgs/"
   external_store_url: "https://fibel.digital/data/img/"
