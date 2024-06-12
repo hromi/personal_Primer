@@ -1,3 +1,4 @@
+import sys
 import asyncio,yaml,importlib
 from Primer.Handlers import recorder_handler, button_handler, display_handler, mikroserver_handler, gesture_handler
 from Primer.IO.Audio.Recorder import Recorder
@@ -10,6 +11,9 @@ class PersonalPrimer:
     def __init__(self):
         with open('primer.yaml', 'r') as file:
             self.config = yaml.safe_load(file)
+        if sys.argv[1]:
+            self.config['lesson0']=sys.argv[1]
+
         self.display_driver=importlib.import_module("Primer.IO.EPD."+self.config['EPD']['driver'])
         self.queue=dict()
 

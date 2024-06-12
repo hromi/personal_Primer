@@ -32,10 +32,22 @@ class Exercise(Curriculum):
         print("SOURCE_UTTERANCE:",self.source_utterance)
         self.source_scorer="exercise" #how specific the scorer should be ['folio','exercise',...]
 
+    async def download_lesson_json(self,download_url):
+            lesson_path = parse.urlparse(download_url).path
+            store_path = f"{self.pp.config['lesson_dir']}{lesson_path}"
+            print(download_url)
+            os.makedirs(os.path.dirname(store_path), exist_ok=True)
+            request.urlretrieve(download_url, store_path)
+            return store_path
+           
     #load json tree structure, sets up lesson configuration variables 
     async def load_exercise(self,json_file=None):
         if not json_file:
             json_file = self.pp.config['lesson0']
+
+        if json_file.startswith(('http://', 'https://')):
+            json_file=await self.download_lesson_json(json_file)
+
         with open(json_file, 'r', encoding='utf-8') as file:
             self.all_foliae = json.load(file)
         self.current_folio = self.all_foliae[0]  # Start with the root folio
@@ -70,7 +82,7 @@ class Exercise(Curriculum):
         folio['wavs']={}
         if type(folio['voices']) is list:
             for variant in folio['voices']:
-                wav_path = f"{self.wav_store_dir}/{folio['id']}-{folio['name']}-{variant['voice']}.wav"
+                wav_path = f"{self.wav_store_dir}/{folio['id']}-{folio['name'][:23]}-{variant['voice']}.wav"
                 if not os.path.isfile(wav_path):
                     ogg_path = f"{self.ogg_store_dir}/{folio['id']}-{variant['voice']}.ogg"
                     #check the ogg cache
