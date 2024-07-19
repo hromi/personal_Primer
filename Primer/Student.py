@@ -45,7 +45,7 @@ class Student:
         await self.pp.queue['display'].put({"b":f"{self.bye} {self.login}","t":" "})
         self.login=self.pp.config['student']['default_login']
         self.set_session_info()
-        #self.new_session()
+        self.new_session()
         self.pp.folio.expected_utterance=self.pp.config['auth']['hi']
         await self.pp.queue['display'].put({'b':self.pp.config['auth']['hi']})
     

@@ -86,7 +86,7 @@
 		"leaf":0,
 		"name":"phoenicurus_phoenicurus_phoenicurus",
 		"id":"31609",
-		"content":"Gartenrotschwanz",
+		"content":"Gartenrot",
 		"task_action":"learn",
 		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31634}]
 	},
@@ -95,7 +95,7 @@
 		"leaf":0,
 		"name":"phoenicurus_ochruros_gibraltariensis",
 		"id":"31608",
-		"content":"Hausrotschwanz",
+		"content":"Hausrot",
 		"task_action":"learn",
 		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31635}]
 	},
@@ -158,7 +158,7 @@
 		"leaf":0,
 		"name":"loxia_curvirostra_curvirostra",
 		"id":"31601",
-		"content":"Fichtenkreuzschnabel",
+		"content":"Fichtenkreuz",
 		"task_action":"learn",
 		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 31642}]
 	},

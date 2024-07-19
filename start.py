@@ -11,7 +11,8 @@ class PersonalPrimer:
     def __init__(self):
         with open('primer.yaml', 'r') as file:
             self.config = yaml.safe_load(file)
-        if sys.argv[1]:
+        #if URL/filename not defined as first parameter, use lesson0 defined in primer.yaml
+        if len(sys.argv)>1:
             self.config['lesson0']=sys.argv[1]
 
         self.display_driver=importlib.import_module("Primer.IO.EPD."+self.config['EPD']['driver'])
@@ -41,7 +42,7 @@ class PersonalPrimer:
         self.loop = asyncio.get_running_loop() #necessary for executor loops in libraries like pyalsaaudio
 
         #hello world
-        await self.student.greeting()
+        #await self.student.greeting()
 
         #we pass the main object to all handlers so that they can access it through pp. or self.pp
         await asyncio.gather(

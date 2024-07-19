@@ -16,11 +16,12 @@ async def handle_mikroserver(pp):
             await pp.queue['display'].put({'t':"🤔",'t_emoji':True})
             #not yet logged in ? use the voice identification model
             student_known = pp.student.login != pp.config['student']['default_login']
-            if not student_known:
-                uri = f"wss://{auth_config['auth_host']}:{auth_config['port']}/auth/{quote(pp.folio.expected_utterance)}/{pp.student.login}/"
-                print(uri)
+            #if not student_known:
+            #    uri = f"wss://{auth_config['auth_host']}:{auth_config['port']}/auth/{quote(pp.folio.expected_utterance)}/{pp.student.login}/"
+            #    print(uri)
             #otherwise do speech recognition
-            else:
+            if 1:
+            #else:
                 uri = f"wss://{stt_config['inference_host']}:{stt_config['port']}/hmpl/{pp.folio.scorer_id}/{quote(pp.folio.expected_utterance)}/{pp.student.login}/{pp.folio.language}/{pp.folio.task_action}/{pp.folio.trial}"
             try:
                 async with websockets.connect(uri) as ws:

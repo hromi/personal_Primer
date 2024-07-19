@@ -1,4 +1,6 @@
+from asyncio import sleep
 import random,asyncio,json,os,subprocess
+import requests,shutil
 from urllib import request,parse
 from Primer.Curriculum import Curriculum
 from PIL import Image
@@ -83,16 +85,50 @@ class Exercise(Curriculum):
         if type(folio['voices']) is list:
             for variant in folio['voices']:
                 wav_path = f"{self.wav_store_dir}/{folio['id']}-{folio['name'][:23]}-{variant['voice']}.wav"
+                wav_dir = os.path.dirname(wav_path)
+                os.makedirs(wav_dir, exist_ok=True)
                 if not os.path.isfile(wav_path):
                     ogg_path = f"{self.ogg_store_dir}/{folio['id']}-{variant['voice']}.ogg"
                     #check the ogg cache
                     if not os.path.isfile(ogg_path):
                         print(f"downloadin{variant['variant_id']}")
-                        print(f"{self.pp.config['audio']['external_store_url']}{variant['variant_id']}.ogg")
-                        request.urlretrieve(f"{self.pp.config['audio']['external_store_url']}{variant['variant_id']}.ogg", ogg_path)
+                        ogg_url=f"{self.pp.config['audio']['external_store_url']}{variant['variant_id']}.ogg"
+                        await self.download(ogg_url,ogg_path)
+                               
                     subprocess.run(['opusdec', '--rate', '48000', ogg_path, wav_path], check=True)
                 folio['wavs'][variant['voice']]=wav_path
 
+    async def download(self,url, filename, retries=3, delay=5):
+        try:
+            filename.replace('//','/')
+            # Ensure URL is a string
+            if not isinstance(url, (str, bytes)):
+                url = str(url)
+
+            # Attempt to download the image with retries
+            for attempt in range(retries):
+                try:
+                    response = requests.get(url, stream=True)
+                    response.raise_for_status()
+                
+                 # Save the response content to a file
+                    with open(filename, 'wb') as f:
+                        shutil.copyfileobj(response.raw, f)
+                
+                    print(f"File downloaded successfully and saved as {filename}")
+                    return  # Exit after a successful download
+
+                except requests.exceptions.RequestException as e:
+                    print(f"Attempt {attempt + 1} failed: {e}")
+                    if attempt + 1 < retries:
+                        print(f"Retrying in {delay} seconds...")
+                        asyncio.sleep(delay)
+                    else:
+                        print("Max retries reached. Download failed.")
+                        raise
+
+        except Exception as e:
+            print(f"An error occurred: {e}")
 
     async def preload_imgs(self,folio):
         if type(folio['imgs']) is list:
@@ -103,15 +139,25 @@ class Exercise(Curriculum):
                 if not os.path.exists(dir_path):
                     os.makedirs(dir_path)
                 if not os.path.isfile(img_path):
-                    url = f"{self.pp.config['gfx']['external_store_url']}/{parse.quote(img)}"
+                    if img.startswith("http"):
+                        url=img
+                    else:
+                        url = f"{self.pp.config['gfx']['external_store_url']}/{parse.quote(img)}"
                     print(f"WTF {url}")
-                    request.urlretrieve(url, img_path)
+                    parsed_url = parse.urlparse(url)
+                    path = parse.quote(parsed_url.path)
+                    encoded_url = parse.urlunparse(parsed_url._replace(path=path))
+                    #request.urlretrieve(encoded_url, img_path)
+                    await self.download(url,img_path)
+                    #print(img_path)
                     image = Image.open(img_path)
                     resized = image.resize((600, 800))
                     resized_path = f"{self.image_path}/600x800/{img}"
                     if not os.path.exists(os.path.dirname(resized_path)):
                         os.makedirs(os.path.dirname(resized_path))
                     resized.convert('L').save(resized_path)
+                    print("DISPLAYIN"+resized_path)
+                    await self.pp.queue['display'].put({"i":resized_path})
 
     async def preload_folio(self, folio):
         #load images

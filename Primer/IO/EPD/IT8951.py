@@ -76,7 +76,9 @@ class EInkDisplay:
         print(message)
 
         if 'i' in message and message['i']!=self.pp.folio.image_name:
-            if os.path.exists(self.gfx_config['image_path']+'/600x800/'+message['i']):
+            if os.path.exists(message['i']):
+                display_image_8bpp(self.display, message['i'])
+            elif os.path.exists(self.gfx_config['image_path']+'/600x800/'+message['i']):
                 display_image_8bpp(self.display, self.gfx_config['image_path']+'/600x800/'+message['i'])
             else:
                 display_image_8bpp(self.display, self.gfx_config['image_path']+message['i'])
