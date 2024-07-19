@@ -8,10 +8,10 @@ import ssl
 
 class Recorder:
     def __init__(self,pp):
-        self.pp=pp
-        config=pp.config['audio']
-        self.soundcard=config['soundcard']
-        self.wav_store_dir=config['wav_store_dir']
+        self.pp = pp
+        config = pp.config['audio']
+        self.soundcard = config['soundcard']
+        self.wav_store_dir = config['wav_store_dir']
         self.p = pyaudio.PyAudio()
         self.frames = []
         self.channels = 1
@@ -22,7 +22,7 @@ class Recorder:
         self.is_recording = False
         self.device_index = 0
         self.audio_dir = config['session_audio_dir']
-        self.scorer_id=0
+        self.scorer_id = 0
 
     async def stop_recording(self):
         self.append_frames()
@@ -39,9 +39,15 @@ class Recorder:
         await self.check_device()
         print("DEVICE INDEX")
         print(self.device_index)
-        self.stream = self.p.open(channels=self.channels,rate=self.fs,format=self.p.get_format_from_width(self.sample_width),input=True,input_device_index=self.device_index)
-        self.text=text
-        self.is_recording=True
+        self.stream = self.p.open(
+            channels=self.channels,
+            rate=self.fs,
+            format=self.p.get_format_from_width(self.sample_width),
+            input=True,
+            input_device_index=self.device_index
+        )
+        self.text = text
+        self.is_recording = True
         #print("startin recording")
         while self.is_recording:
             #print("recordin")
@@ -57,7 +63,7 @@ class Recorder:
         self.stream.stop_stream()
         self.stream.close()
         #print('name: ' + text)
-        audio_file=self.audio_dir+self.pp.student.session_id+'/'+text
+        audio_file = f"{self.audio_dir}{self.pp.student.session_id}/{text}"
         #print('write audiofile to %s' % audio_file)
         waveFile = wave.open(audio_file,'wb')
         waveFile.setnchannels(self.channels)

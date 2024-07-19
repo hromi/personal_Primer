@@ -368,13 +368,13 @@ class Gesture:
         #Initialize the sensors
         def init(self, busno=1, caseflag=1):
                 self.busnum = busno
-                print("set busnum to "+str(self.busnum))
-                sys.stderr.write("init"+str(busno))
+                print(f"set busnum to {str(self.busnum)}")
+                sys.stderr.write(f"init{str(busno)}")
                 self.bus = Bus(busno)
                 self.case = caseflag
                 self.paj7620SelectBank(self.BANK0)
                 self.paj7620SelectBank(self.BANK0)
-                
+
                 data0 = self.paj7620ReadReg(0, 1)[0]
                 data1 = self.paj7620ReadReg(1, 1)[0]
 
@@ -387,7 +387,7 @@ class Gesture:
                 if data0 == 0x20:
                         if self.debug:
                                 sys.stderr.write("wake-up finish.")
-                        
+
                 for i in range(len(self.initRegisterArray)):
                         self.paj7620WriteReg(self.initRegisterArray[i][0],self.initRegisterArray[i][1])
                 self.paj7620SelectBank(self.BANK0)

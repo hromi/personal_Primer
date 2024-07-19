@@ -1,4 +1,13 @@
+primer.yaml
+lessons/*
 bin/*
 lib/*
+data/*
+assets/fonts/licensed/*
 students/*
 *__pycache__*
+*.swp
+*.swo
+*.swn
+*.swl
+*.swm
