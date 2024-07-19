@@ -1,0 +1,169 @@
+[
+{"name":"Der Schakal und die Pauke",
+"lang":"de",
+"exercise_action":"narrate",
+"voices":"[]",
+"imgs":["24474.Jackal _and_the_Drum.png"],
+"leaf":0,
+"id":"24474",
+"content":"Der Schakal und die Pauke",
+"primer_title":"parent",
+"children": [
+	{
+		"imgs":["24474.Jackal _and_the_Drum.png"],
+		"leaf":0,
+		"name":"Der Schakal und die Pauke",
+		"id":"24474",
+		"content":"Der Schakal und die Pauke",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 27528}, {"voice" : "🇸🇰♂️", "variant_id" : 27825}, {"voice" : "🇸🇰♂️", "variant_id" : 31432}]
+	},
+	{
+		"imgs":["24474.Jackal _and_the_Drum.png"],
+		"leaf":0,
+		"name":"Folio 2",
+		"id":"26809",
+		"content":" In einem gewissen Lande irrte ein Schakal namens Gomayu („Schakal“) mit vor Hunger abgezehrter Kehle hier und dort im Wald umher und sah das Schlachtfeld zweier Heere. ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 27702}, {"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30815}, {"voice" : "🇸🇰♂️", "variant_id" : 27826}]
+	},
+	{
+		"imgs":["24474.Jackal _and_the_Drum.png"],
+		"leaf":0,
+		"name":"Folio 3",
+		"id":"26810",
+		"content":" Dort hörte er den Ton einer Pauke, welche dort lag und von den Spitzen einiger vom Winde bewegter Baumzweige geschlagen ward. ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30816}, {"voice" : "🇩🇪♀", "variant_id" : 27703}, {"voice" : "🇩🇪♀", "variant_id" : 27704}, {"voice" : "🇸🇰♂️", "variant_id" : 27827}]
+	},
+	{
+		"imgs":["24474.Jackal _and_the_Drum.png"],
+		"leaf":0,
+		"name":"Folio 4",
+		"id":"26811",
+		"content":" Da dachte er mit Schrecken im Herzen „Oh weh! ich bin verloren! Ich will anderswohin gehen, ehe ich noch in den Gesichtskreis dieses brüllenden Tieres gerate. ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 27705}, {"voice" : "🇸🇰♂️", "variant_id" : 27828}, {"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30817}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 5",
+		"id":"26812",
+		"content":" Doch nein! Es ziemt sich nicht den von den Vätern ererbten Wald urplötzlich aufzugeben. ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30818}, {"voice" : "🇩🇪♀", "variant_id" : 27706}, {"voice" : "🇸🇰♂️", "variant_id" : 27829}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 6",
+		"id":"26813",
+		"content":" Man sagt auch: ``Wer bei Schrecken und bei Freude zuerst sorgfältig untersucht und nimmer übereilt handelt, der hat später nichts zu bereuen.´´",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 27830}, {"voice" : "🇩🇪♀", "variant_id" : 27707}, {"voice" : "🇩🇪♀", "variant_id" : 29050}, {"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30819}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 7",
+		"id":"26814",
+		"content":" Darum will ich erst sehen, von wem dieser Ton ausgeht!“ ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30820}, {"voice" : "🇩🇪♀", "variant_id" : 27708}, {"voice" : "🇸🇰♂️", "variant_id" : 27831}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 8",
+		"id":"26815",
+		"content":" So faßte er Mut und untersuchte. ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 27832}, {"voice" : "🇩🇪♀", "variant_id" : 27709}, {"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30796}, {"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30821}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 9",
+		"id":"26816",
+		"content":" Wie er sich nun Schritt für Schritt näherte, sah er die Pauke. ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30822}, {"voice" : "🇸🇰♂️", "variant_id" : 27833}, {"voice" : "🇩🇪♀", "variant_id" : 27710}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 10",
+		"id":"26817",
+		"content":" Wenn sie vermittelst des Windes von den Spitzen der Zweige bewegt wurde, dann tönte sie, sonst war sie still. ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30823}, {"voice" : "🇸🇰♂️", "variant_id" : 27834}, {"voice" : "🇩🇪♀", "variant_id" : 27711}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 11",
+		"id":"26818",
+		"content":" Nachdem er sie genau betrachtet hatte, ging er nah und schlug selbst vergnügt darauf. ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 27835}, {"voice" : "🇩🇪♀", "variant_id" : 27712}, {"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30824}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 12",
+		"id":"26819",
+		"content":" Doch weiter dachte er voller Freude: „Es ist lange her, daß mir ein so großes Fressen zugefallen ist! ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30825}, {"voice" : "🇸🇰♂️", "variant_id" : 27836}, {"voice" : "🇩🇪♀", "variant_id" : 27713}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 13",
+		"id":"26820",
+		"content":" Das (tote Tier) wird sicherlich voll von Fleisch, Mark und Blut sein!“ ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30826}, {"voice" : "🇸🇰♂️", "variant_id" : 27837}, {"voice" : "🇩🇪♀", "variant_id" : 27714}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 14",
+		"id":"26821",
+		"content":" Nachdem er darauf die aus hartem Fell bestehende Decke mit Mühe zerbissen, an einer Stelle ein Loch gemacht und sich sogar eine Zahn abgebrochen hatte, drang er hinein. ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30827}, {"voice" : "🇸🇰♂️", "variant_id" : 27838}, {"voice" : "🇩🇪♀", "variant_id" : 27715}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"Folio 15",
+		"id":"26822",
+		"content":" Da er nun sah, daß es nur aus Holz und Fell bestand, verlor er alle Hoffnung und sagte jene Strophe her: ",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30828}, {"voice" : "🇩🇪♀", "variant_id" : 27716}, {"voice" : "🇸🇰♂️", "variant_id" : 27839}]
+	},
+	{
+		"imgs":["24474.Jackal _and_the_Drum.png"],
+		"leaf":0,
+		"name":"Folio 16",
+		"id":"26823",
+		"content":"„Erst habe ich gedacht, dieses wäre ganz von Fleisch angefüllt, doch eingedrungen sehe ich nun, daß es nichts als Fell und Holz ist. Daher darf man sich nicht vor einem bloßen Ton fürchten.“",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇩🇪🤹‍♂️", "variant_id" : 30829}, {"voice" : "🇸🇰♂️", "variant_id" : 27840}, {"voice" : "🇩🇪♀", "variant_id" : 27717}]
+	},
+	{
+		"imgs":["24474.Jackal _and_the_Drum.png"],
+		"leaf":0,
+		"name":"Der Schakal und die Pauke",
+		"id":"24474",
+		"content":"Der Schakal und die Pauke",
+		"exercise_action":"",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 27825}, {"voice" : "🇩🇪♀", "variant_id" : 27528}, {"voice" : "🇸🇰♂️", "variant_id" : 31432}]
+	}
+	]
+}
+]
+
+

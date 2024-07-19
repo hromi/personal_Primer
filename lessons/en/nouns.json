@@ -1,0 +1,464 @@
+[{"name":"nouns",
+"language":"en",
+"exercise_action":"naming",
+"voices":[],
+"imgs":[],
+"leaf":0,
+"id":"22427",
+"content":"",
+"primer_title":"name",
+"children": [
+	{
+		"imgs":["18292.dalle_heart.png"],
+		"leaf":0,
+		"name":"a heart",
+		"id":"22423",
+		"content":"a heart",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22629}]
+	},
+	{
+		"imgs":["/klee/Messer.png"],
+		"leaf":0,
+		"name":"a knife",
+		"id":"22424",
+		"content":"a knife",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22630}]
+	},
+	{
+		"imgs":["/klee/Fahrrad.png"],
+		"leaf":0,
+		"name":"a bicycle",
+		"id":"22425",
+		"content":"a bicycle",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22631}]
+	},
+	{
+		"imgs":["6885.Buch.png","/klee/Buch.png"],
+		"leaf":0,
+		"name":"a book",
+		"id":"22426",
+		"content":"a book",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22632}]
+	},
+	{
+		"imgs":["8837.Augebraun.png"],
+		"leaf":0,
+		"name":"an eye",
+		"id":"22428",
+		"content":"an eye",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22633}]
+	},
+	{
+		"imgs":["6734.trabant.png","7066.Auto.png","/klee/Auto.png"],
+		"leaf":0,
+		"name":"a car",
+		"id":"22429",
+		"content":"a car",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22634}]
+	},
+	{
+		"imgs":["/klee/Ei.png"],
+		"leaf":0,
+		"name":"an egg",
+		"id":"22430",
+		"content":"an egg",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22635}]
+	},
+	{
+		"imgs":["8848.Feuer.png"],
+		"leaf":0,
+		"name":"a fire",
+		"id":"22431",
+		"content":"a fire",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22636}]
+	},
+	{
+		"imgs":["7694.Haus.png"],
+		"leaf":0,
+		"name":"a house",
+		"id":"22432",
+		"content":"a house",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22637}]
+	},
+	{
+		"imgs":["12106.Kamel.png"],
+		"leaf":0,
+		"name":"a camel",
+		"id":"22433",
+		"content":"a camel",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22638}]
+	},
+	{
+		"imgs":["12928.Pferd.png","22309.horse.png"],
+		"leaf":0,
+		"name":"a horse",
+		"id":"22434",
+		"content":"a horse",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22639}]
+	},
+	{
+		"imgs":["7710.Radio.png","7711.Radio2.png","/klee/Radio.png"],
+		"leaf":0,
+		"name":"a radio",
+		"id":"22435",
+		"content":"a radio",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22640}]
+	},
+	{
+		"imgs":["12948.Schwein.png","12949.Schwein2.png","/klee/Schwein.png"],
+		"leaf":0,
+		"name":"a pig",
+		"id":"22436",
+		"content":"a pig",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22641}]
+	},
+	{
+		"imgs":["/klee/Schule.png"],
+		"leaf":0,
+		"name":"a school",
+		"id":"22437",
+		"content":"a school",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22642}]
+	},
+	{
+		"imgs":["/klee/Orange.png"],
+		"leaf":0,
+		"name":"an orange",
+		"id":"22438",
+		"content":"an orange",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22643}]
+	},
+	{
+		"imgs":["/klee/Gabel.png"],
+		"leaf":0,
+		"name":"a fork",
+		"id":"22439",
+		"content":"a fork",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22644}]
+	},
+	{
+		"imgs":["7674.Banane1.png","/klee/Banane.png"],
+		"leaf":0,
+		"name":"a banana",
+		"id":"22440",
+		"content":"a banana",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22645}]
+	},
+	{
+		"imgs":["8833.Ampel.png"],
+		"leaf":0,
+		"name":"a traffic light",
+		"id":"22441",
+		"content":"a traffic light",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22646}]
+	},
+	{
+		"imgs":["8846.Brille.png","8847.Brille2.png","/klee/Brille.png"],
+		"leaf":0,
+		"name":"glasses",
+		"id":"22442",
+		"content":"glasses",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22647}]
+	},
+	{
+		"imgs":["7071.Feder.png"],
+		"leaf":0,
+		"name":"a feather",
+		"id":"22443",
+		"content":"a feather",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22648}]
+	},
+	{
+		"imgs":["22179.gitarre.png"],
+		"leaf":0,
+		"name":"a guitar",
+		"id":"22445",
+		"content":"a guitar",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22649}]
+	},
+	{
+		"imgs":["8868.Hand.png"],
+		"leaf":0,
+		"name":"a hand",
+		"id":"22446",
+		"content":"a hand",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22650}]
+	},
+	{
+		"imgs":["13030.Kuh.png","14259.Kuh2.png"],
+		"leaf":0,
+		"name":"a cow",
+		"id":"22447",
+		"content":"a cow",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22651}]
+	},
+	{
+		"imgs":["7712.Schere.png","/klee/Schere.png"],
+		"leaf":0,
+		"name":"scissors",
+		"id":"22448",
+		"content":"scissors",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22652}]
+	},
+	{
+		"imgs":["12941.Schokolade.png","/klee/Schokolade.png"],
+		"leaf":0,
+		"name":"a chocolate",
+		"id":"22449",
+		"content":"a chocolate",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22653}]
+	},
+	{
+		"imgs":["22178.tasse.png","22294.Screenshot from 2022-08-16 11-17-16.png","22295.Screenshot from 2022-08-16 11-17-22.png","/klee/Tasse.png"],
+		"leaf":0,
+		"name":"a cup",
+		"id":"22450",
+		"content":"a cup",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22654}]
+	},
+	{
+		"imgs":["12973.Uhr2.png","12974.Uhr.png","/klee/Uhr.png"],
+		"leaf":0,
+		"name":"a clock",
+		"id":"22451",
+		"content":"a clock",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22655}]
+	},
+	{
+		"imgs":["7721.Zahnbürste.png"],
+		"leaf":0,
+		"name":"a toothbrush",
+		"id":"22452",
+		"content":"a toothbrush",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22656}]
+	},
+	{
+		"imgs":["/klee/Tisch.png"],
+		"leaf":0,
+		"name":"a table",
+		"id":"22453",
+		"content":"a table",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22657}]
+	},
+	{
+		"imgs":["/klee/Schlüssel.png"],
+		"leaf":0,
+		"name":"a key",
+		"id":"22454",
+		"content":"a key",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22658}]
+	},
+	{
+		"imgs":["12945.Schuh2.png","22176.schuhe 2.png","8883.Schuh.png"],
+		"leaf":0,
+		"name":"a shoe",
+		"id":"22455",
+		"content":"a shoe",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22659}]
+	},
+	{
+		"imgs":["/klee/Löffel.png"],
+		"leaf":0,
+		"name":"a spoon",
+		"id":"22456",
+		"content":"a spoon",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22660}]
+	},
+	{
+		"imgs":["22305.ketchup.JPG"],
+		"leaf":0,
+		"name":"a ketchup",
+		"id":"22457",
+		"content":"a ketchup",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22661}]
+	},
+	{
+		"imgs":["3013.baer.png"],
+		"leaf":0,
+		"name":"a bear",
+		"id":"22458",
+		"content":"a bear",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22662}]
+	},
+	{
+		"imgs":["12754.Igel.png"],
+		"leaf":0,
+		"name":"a hedgehog",
+		"id":"22459",
+		"content":"a hedgehog",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22663}]
+	},
+	{
+		"imgs":["13062.Elefant.png"],
+		"leaf":0,
+		"name":"an elephant",
+		"id":"22460",
+		"content":"an elephant",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22664}]
+	},
+	{
+		"imgs":["/klee/Fisch.png"],
+		"leaf":0,
+		"name":"a fish",
+		"id":"22461",
+		"content":"a fish",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22665}]
+	},
+	{
+		"imgs":["7692.Hammer.png"],
+		"leaf":0,
+		"name":"a hammer",
+		"id":"22462",
+		"content":"a hammer",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22666}]
+	},
+	{
+		"imgs":["13057.Hund.png"],
+		"leaf":0,
+		"name":"a dog",
+		"id":"22463",
+		"content":"a dog",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22667}]
+	},
+	{
+		"imgs":["12104.Hase.png"],
+		"leaf":0,
+		"name":"a rabbit",
+		"id":"22464",
+		"content":"a rabbit",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22668}]
+	},
+	{
+		"imgs":["22183.dalle_kafer.png"],
+		"leaf":0,
+		"name":"a beetle",
+		"id":"22465",
+		"content":"a beetle",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22669}]
+	},
+	{
+		"imgs":["7703.Käse.png","/klee/Käse.png"],
+		"leaf":0,
+		"name":"a cheese",
+		"id":"22466",
+		"content":"a cheese",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22670}]
+	},
+	{
+		"imgs":["13051.Mond.png"],
+		"leaf":0,
+		"name":"the Moon",
+		"id":"22467",
+		"content":"the Moon",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22671}]
+	},
+	{
+		"imgs":["22175.pinsel.png","/klee/Pinsel.png"],
+		"leaf":0,
+		"name":"a paint brush",
+		"id":"22468",
+		"content":"a paint brush",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22672}]
+	},
+	{
+		"imgs":["8876.Stern.png"],
+		"leaf":0,
+		"name":"a star",
+		"id":"22469",
+		"content":"a star",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22673}]
+	},
+	{
+		"imgs":["7090.Stuhl2.png","7098.Stuhl.png","/klee/Stuhl.png"],
+		"leaf":0,
+		"name":"a chair",
+		"id":"22470",
+		"content":"a chair",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22674}]
+	},
+	{
+		"imgs":["7091.Topf2.png","7099.Topf.png","/klee/Topf.png"],
+		"leaf":0,
+		"name":"a pot",
+		"id":"22471",
+		"content":"a pot",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22675}]
+	},
+	{
+		"imgs":["7093.Zahn.png"],
+		"leaf":0,
+		"name":"a tooth",
+		"id":"22472",
+		"content":"a tooth",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22676}]
+	},
+	{
+		"imgs":["13041.Zug.png","/klee/Zug.png"],
+		"leaf":0,
+		"name":"a train",
+		"id":"22473",
+		"content":"a train",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22677}]
+	},
+	{
+		"imgs":["22172.apple_orange.png","/klee/Apfel.png"],
+		"leaf":0,
+		"name":"an apple",
+		"id":"22474",
+		"content":"an apple",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 22678}]
+	}
+	]
+}]
+
+

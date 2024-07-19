@@ -1,0 +1,140 @@
+[{"imgs":null,"voices":null,"leaf":0,"name":"schwarz und blau","id":"16284","content":"In schwarz-blauen Silben wird ein Mitlaut von einem Vokal gefolgt. Ein Konsonant, auch Mitlaut genannt, ist ein Laut der nicht ungehindert ausgesprochen werden kann. Konsonant kann nur mit einem Vokal ausgesprochen und vorgelesen werden.","language":"de","primer_title":"content","exercise_action":"read","children": [
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"pu",
+		"id":"10094",
+		"content":"pu pu pu pu pu",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 10354}, {"voice" : "🇩🇪♀", "variant_id" : 10831}, {"voice" : "🇩🇪♀", "variant_id" : 10313}, {"voice" : "🇹🇼♀️", "variant_id" : 10723}, {"voice" : "🇩🇪♀", "variant_id" : 10268}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"po",
+		"id":"10095",
+		"content":"po po po po po",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 10838}, {"voice" : "🇩🇪♀", "variant_id" : 10267}, {"voice" : "🇩🇪♀", "variant_id" : 10312}, {"voice" : "🇹🇼♀️", "variant_id" : 10729}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"pi",
+		"id":"10096",
+		"content":"pi pi pi pi pi",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 10311}, {"voice" : "🇸🇰♂️", "variant_id" : 10353}, {"voice" : "🇹🇼♀️", "variant_id" : 10730}, {"voice" : "🇩🇪♀", "variant_id" : 10839}, {"voice" : "🇩🇪♀", "variant_id" : 10266}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"pe",
+		"id":"10097",
+		"content":"pe pe pe pe pe",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 10265}, {"voice" : "🇩🇪♀", "variant_id" : 10310}, {"voice" : "🇸🇰♂️", "variant_id" : 10351}, {"voice" : "🇹🇼♀️", "variant_id" : 10722}, {"voice" : "🇩🇪♀", "variant_id" : 10830}, {"voice" : "🇩🇪👧💎", "variant_id" : 17619}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"pa",
+		"id":"10098",
+		"content":"pa pa pa pa pa",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 10350}, {"voice" : "🇩🇪♀", "variant_id" : 10829}, {"voice" : "🇩🇪♀", "variant_id" : 10264}, {"voice" : "🇩🇪♀", "variant_id" : 10309}, {"voice" : "🇹🇼♀️", "variant_id" : 10719}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"bu",
+		"id":"10104",
+		"content":"bu bu bu bu bu",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 10717}, {"voice" : "🇩🇪👧💎", "variant_id" : 17228}, {"voice" : "🇩🇪♀", "variant_id" : 10818}, {"voice" : "🇹🇼♀️", "variant_id" : 10702}, {"voice" : "🇸🇰♂️", "variant_id" : 10344}, {"voice" : "🇩🇪♀", "variant_id" : 10295}, {"voice" : "🇩🇪♀", "variant_id" : 10258}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"bo",
+		"id":"10105",
+		"content":"bo bo bo bo bo",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪👧💎", "variant_id" : 17227}, {"voice" : "🇩🇪♀", "variant_id" : 10257}, {"voice" : "🇩🇪♀", "variant_id" : 10294}, {"voice" : "🇸🇰♂️", "variant_id" : 10343}, {"voice" : "🇹🇼♀️", "variant_id" : 10700}, {"voice" : "🇸🇰♂️", "variant_id" : 10715}, {"voice" : "🇩🇪♀", "variant_id" : 10816}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"bi",
+		"id":"10106",
+		"content":"bi bi bi bi bi",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 10352}, {"voice" : "🇩🇪👧💎", "variant_id" : 17226}, {"voice" : "🇹🇼♀️", "variant_id" : 10697}, {"voice" : "🇩🇪♀", "variant_id" : 10815}, {"voice" : "🇸🇰♂️", "variant_id" : 10711}, {"voice" : "🇩🇪♀", "variant_id" : 10256}, {"voice" : "🇩🇪♀", "variant_id" : 10293}, {"voice" : "🇸🇰♂️", "variant_id" : 10341}, {"voice" : "🇸🇰♂️", "variant_id" : 10342}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"be",
+		"id":"10107",
+		"content":"be be be be be",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪👧💎", "variant_id" : 17224}, {"voice" : "🇩🇪♀", "variant_id" : 10255}, {"voice" : "🇩🇪♀", "variant_id" : 10292}, {"voice" : "🇸🇰♂️", "variant_id" : 10340}, {"voice" : "🇹🇼♀️", "variant_id" : 10695}, {"voice" : "🇸🇰♂️", "variant_id" : 10707}, {"voice" : "🇩🇪♀", "variant_id" : 10813}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"ba",
+		"id":"10108",
+		"content":"ba ba ba ba ba",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 30202}, {"voice" : "🇸🇰♂️", "variant_id" : 10705}, {"voice" : "🇩🇪♀", "variant_id" : 10812}, {"voice" : "🇩🇪👧💎", "variant_id" : 17223}, {"voice" : "🇹🇼♀️", "variant_id" : 10693}, {"voice" : "🇰🇷♂️", "variant_id" : 10594}, {"voice" : "🇸🇰♂️", "variant_id" : 10339}, {"voice" : "🇸🇰♂️", "variant_id" : 10332}, {"voice" : "🇩🇪♀", "variant_id" : 10291}, {"voice" : "🇩🇪♀", "variant_id" : 10254}, {"voice" : "🇩🇪👧💎", "variant_id" : 17620}, {"voice" : "🇸🇰♂️", "variant_id" : 25305}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"mu",
+		"id":"10109",
+		"content":"mu mu mu mu mu",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 10811}, {"voice" : "🇩🇪♀", "variant_id" : 10253}, {"voice" : "🇩🇪♀", "variant_id" : 10290}, {"voice" : "🇸🇰♂️", "variant_id" : 10331}, {"voice" : "🇸🇰♂️", "variant_id" : 10338}, {"voice" : "🇰🇷♂️", "variant_id" : 10593}, {"voice" : "🇹🇼♀️", "variant_id" : 10692}, {"voice" : "🇸🇰♂️", "variant_id" : 30201}, {"voice" : "🇸🇰♂️", "variant_id" : 25304}, {"voice" : "🇩🇪👧💎", "variant_id" : 17621}, {"voice" : "🇩🇪👧💎", "variant_id" : 17222}, {"voice" : "🇸🇰♂️", "variant_id" : 10703}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"mo",
+		"id":"10110",
+		"content":"mo mo mo mo mo",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 10252}, {"voice" : "🇩🇪♀", "variant_id" : 10289}, {"voice" : "🇸🇰♂️", "variant_id" : 10330}, {"voice" : "🇸🇰♂️", "variant_id" : 10337}, {"voice" : "🇰🇷♂️", "variant_id" : 10592}, {"voice" : "🇹🇼♀️", "variant_id" : 10691}, {"voice" : "🇸🇰♂️", "variant_id" : 10701}, {"voice" : "🇩🇪♀", "variant_id" : 10809}, {"voice" : "🇩🇪👧💎", "variant_id" : 17221}, {"voice" : "🇩🇪👧💎", "variant_id" : 17622}, {"voice" : "🇸🇰♂️", "variant_id" : 30200}, {"voice" : "🇰🇷♀️", "variant_id" : 30261}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"mi",
+		"id":"10111",
+		"content":"mi mi mi mi mi",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇰🇷♀️", "variant_id" : 30260}, {"voice" : "🇸🇰♂️", "variant_id" : 30199}, {"voice" : "🇩🇪👧💎", "variant_id" : 17623}, {"voice" : "🇩🇪👧💎", "variant_id" : 17220}, {"voice" : "🇩🇪♀", "variant_id" : 10807}, {"voice" : "🇸🇰♂️", "variant_id" : 10699}, {"voice" : "🇹🇼♀️", "variant_id" : 10690}, {"voice" : "🇰🇷♂️", "variant_id" : 10591}, {"voice" : "🇸🇰♂️", "variant_id" : 10336}, {"voice" : "🇸🇰♂️", "variant_id" : 10329}, {"voice" : "🇩🇪♀", "variant_id" : 10288}, {"voice" : "🇩🇪♀", "variant_id" : 10285}, {"voice" : "🇩🇪♀", "variant_id" : 10251}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"me",
+		"id":"10112",
+		"content":"me me me me me",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 10250}, {"voice" : "🇰🇷♀️", "variant_id" : 30259}, {"voice" : "🇸🇰♂️", "variant_id" : 30198}, {"voice" : "🇩🇪👧💎", "variant_id" : 17219}, {"voice" : "🇩🇪♀", "variant_id" : 10806}, {"voice" : "🇸🇰♂️", "variant_id" : 10698}, {"voice" : "🇹🇼♀️", "variant_id" : 10689}, {"voice" : "🇸🇰♂️", "variant_id" : 10615}, {"voice" : "🇰🇷♂️", "variant_id" : 10590}, {"voice" : "🇸🇰♂️", "variant_id" : 10335}, {"voice" : "🇸🇰♂️", "variant_id" : 10328}, {"voice" : "🇩🇪♀", "variant_id" : 10287}, {"voice" : "🇩🇪♀", "variant_id" : 10284}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"ma",
+		"id":"10113",
+		"content":"ma ma ma ma ma",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 10283}, {"voice" : "🇩🇪♀", "variant_id" : 10249}, {"voice" : "🇰🇷♀️", "variant_id" : 30258}, {"voice" : "🇸🇰♂️", "variant_id" : 30197}, {"voice" : "🇩🇪👧💎", "variant_id" : 17218}, {"voice" : "🇩🇪♀", "variant_id" : 10805}, {"voice" : "🇸🇰♂️", "variant_id" : 10694}, {"voice" : "🇹🇼♀️", "variant_id" : 10687}, {"voice" : "🇸🇰♂️", "variant_id" : 10614}, {"voice" : "🇰🇷♂️", "variant_id" : 10589}, {"voice" : "🇸🇰♂️", "variant_id" : 10567}, {"voice" : "🇩🇪♀", "variant_id" : 10566}, {"voice" : "🇸🇰♂️", "variant_id" : 10334}, {"voice" : "🇸🇰♂️", "variant_id" : 10327}, {"voice" : "🇩🇪♀", "variant_id" : 10286}]
+	}
+	]
+}]
+
+

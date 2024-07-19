@@ -1,0 +1,1174 @@
+[{"voices":"","imgs":null,"leaf":0,"name":"weibliche Nomen","id":"16602","content":"Ein weibliches Nomen, auch weibliches Substantiv oder Femininum genannt, ist ein Nomen dass mit dem Artikel 'die' in Nominativ, 'der' in Genitiv, 'der' in Dativ und 'die' in Akusatif bezeichnet wird. ","lang":"de","primer_title":"name","exercise_action":"read","children": [	{
+		"imgs":["12983.Zunge.png", "12984.Zunge2.png"],
+		"leaf":0,
+		"name":"die Zunge",
+		"id":"2779",
+		"content":"die Zunge",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇰🇷♂️", "variant_id" : 12514}, {"voice" : "🇸🇰♂️", "variant_id" : 12128}, {"voice" : "🇹🇷♂️", "variant_id" : 13247}, {"voice" : "🇩🇪♀", "variant_id" : 3389}]
+	},
+	{
+		"imgs":["7724.Zitronen.png", "/klee/Zitrone.png"],
+		"leaf":0,
+		"name":"die Zitrone",
+		"id":"2780",
+		"content":"die Zitrone",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 3388}, {"voice" : "🇰🇷♂️", "variant_id" : 12515}, {"voice" : "🇸🇰♂️", "variant_id" : 12129}]
+	},
+	{
+		"imgs":["12982.Zigarre.png"],
+		"leaf":0,
+		"name":"die Zigarre",
+		"id":"2781",
+		"content":"die Zigarre",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇰🇷♂️", "variant_id" : 12516}, {"voice" : "🇸🇰♂️", "variant_id" : 12130}, {"voice" : "🇩🇪♀", "variant_id" : 3387}]
+	},
+	{
+		"imgs":["14269.Ziege.png"],
+		"leaf":0,
+		"name":"die Ziege",
+		"id":"2782",
+		"content":"die Ziege",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 12131}, {"voice" : "🇩🇪♀", "variant_id" : 3386}, {"voice" : "🇰🇷♂️", "variant_id" : 12517}]
+	},
+	{
+		"imgs":["12981.Zange.png"],
+		"leaf":0,
+		"name":"die Zange",
+		"id":"2783",
+		"content":"die Zange",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 12132}, {"voice" : "🇰🇷♂️", "variant_id" : 12518}, {"voice" : "🇩🇪♀", "variant_id" : 3385}]
+	},
+	{
+		"imgs":["7723.Zhanpasta2.png", "7722.Zahnpasta.png", "/klee/Zahnpasta.png"],
+		"leaf":0,
+		"name":"die Zahnpasta",
+		"id":"2784",
+		"content":"die Zahnpasta",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇰🇷♂️", "variant_id" : 12519}, {"voice" : "🇩🇪♀", "variant_id" : 3384}, {"voice" : "🇹🇼♀️", "variant_id" : 14615}, {"voice" : "🇸🇰♂️", "variant_id" : 12133}]
+	},
+	{
+		"imgs":["7721.Zahnbürste.png"],
+		"leaf":0,
+		"name":"die Zahnbürste",
+		"id":"2785",
+		"content":"die Zahnbürste",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇰🇷♂️", "variant_id" : 12520}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 13989}, {"voice" : "🇸🇰♂️", "variant_id" : 12134}, {"voice" : "🇩🇪♀", "variant_id" : 3383}]
+	},
+	{
+		"imgs":["/klee/Wurst.png"],
+		"leaf":0,
+		"name":"die Wurst",
+		"id":"2786",
+		"content":"die Wurst",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 3382}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 13990}, {"voice" : "🇰🇷♂️", "variant_id" : 12521}, {"voice" : "🇸🇰♂️", "variant_id" : 12135}]
+	},
+	{
+		"imgs":["/klee/Waschmaschine.png", "12978.Waschmaschine.png"],
+		"leaf":0,
+		"name":"die Waschmaschine",
+		"id":"2787",
+		"content":"die Waschmaschine",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 3381}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 13991}, {"voice" : "🇰🇷♂️", "variant_id" : 12522}, {"voice" : "🇸🇰♂️", "variant_id" : 12136}]
+	},
+	{
+		"imgs":["12977.Wäscheleine.png"],
+		"leaf":0,
+		"name":"die Wäscheleine",
+		"id":"2788",
+		"content":"die Wäscheleine",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪👧 🧘", "variant_id" : 13992}, {"voice" : "🇹🇼♀️", "variant_id" : 14619}, {"voice" : "🇰🇷♂️", "variant_id" : 12523}, {"voice" : "🇸🇰♂️", "variant_id" : 12137}, {"voice" : "🇩🇪♀", "variant_id" : 3380}]
+	},
+	{
+		"imgs":["12975.Wäscheklammer.png", "12976.Wäscheklammern.png"],
+		"leaf":0,
+		"name":"die Wäscheklammer",
+		"id":"2789",
+		"content":"die Wäscheklammer",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 12138}, {"voice" : "🇰🇷♂️", "variant_id" : 12524}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 13993}, {"voice" : "🇩🇪♀", "variant_id" : 3379}]
+	},
+	{
+		"imgs":["12974.Uhr.png", "/klee/Uhr.png", "12973.Uhr2.png"],
+		"leaf":0,
+		"name":"die Uhr",
+		"id":"2790",
+		"content":"die Uhr",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇰🇷♂️", "variant_id" : 12525}, {"voice" : "🇹🇼♀️", "variant_id" : 14621}, {"voice" : "🇩🇪♀", "variant_id" : 3378}, {"voice" : "🇸🇰♂️", "variant_id" : 12139}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 13994}, {"voice" : "🇩🇪♂️🌚", "variant_id" : 22231}]
+	},
+	{
+		"imgs":["12972.Tür.png"],
+		"leaf":0,
+		"name":"die Tür",
+		"id":"2791",
+		"content":"die Tür",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 3377}, {"voice" : "🇸🇰♂️", "variant_id" : 12140}, {"voice" : "🇰🇷♂️", "variant_id" : 12526}]
+	},
+	{
+		"imgs":["12998.Truhe.png", "12997.Truhe2.png"],
+		"leaf":0,
+		"name":"die Truhe",
+		"id":"2792",
+		"content":"die Truhe",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇹🇼♀️", "variant_id" : 14623}, {"voice" : "🇸🇰♂️", "variant_id" : 12141}, {"voice" : "🇩🇪♀", "variant_id" : 3376}, {"voice" : "🇰🇷♂️", "variant_id" : 12527}]
+	},
+	{
+		"imgs":["12971.Trompete.png"],
+		"leaf":0,
+		"name":"die Trompete",
+		"id":"2793",
+		"content":"die Trompete",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 3375}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 13997}, {"voice" : "🇸🇰♂️", "variant_id" : 12142}, {"voice" : "🇰🇷♂️", "variant_id" : 12528}, {"voice" : "🇹🇼♀️", "variant_id" : 14624}]
+	},
+	{
+		"imgs":["12970.Trommel.png"],
+		"leaf":0,
+		"name":"die Trommel",
+		"id":"2794",
+		"content":"die Trommel",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 12143}, {"voice" : "🇰🇷♂️", "variant_id" : 12529}, {"voice" : "🇩🇪♀", "variant_id" : 3374}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 13998}]
+	},
+	{
+		"imgs":["12969.Torte.png"],
+		"leaf":0,
+		"name":"die Torte",
+		"id":"2795",
+		"content":"die Torte",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪👧 🧘", "variant_id" : 13999}, {"voice" : "🇩🇪♀", "variant_id" : 3373}, {"voice" : "🇸🇰♂️", "variant_id" : 12144}, {"voice" : "🇹🇼♀️", "variant_id" : 14626}, {"voice" : "🇰🇷♂️", "variant_id" : 12530}]
+	},
+	{
+		"imgs":["12957.Töpfe.png"],
+		"leaf":0,
+		"name":"die Töpfe",
+		"id":"2796",
+		"content":"die Töpfe",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇰🇷♂️", "variant_id" : 12531}, {"voice" : "🇸🇰♂️", "variant_id" : 12145}, {"voice" : "🇩🇪♀", "variant_id" : 3372}, {"voice" : "🇹🇼♀️", "variant_id" : 14627}]
+	},
+	{
+		"imgs":["8852.Tomate.png", "/klee/Tomate.png"],
+		"leaf":0,
+		"name":"die Tomate",
+		"id":"2797",
+		"content":"die Tomate",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇹🇼♀️", "variant_id" : 14628}, {"voice" : "🇩🇪♀", "variant_id" : 3371}, {"voice" : "🇰🇷♂️", "variant_id" : 12532}, {"voice" : "🇸🇰♂️", "variant_id" : 12146}]
+	},
+	{
+		"imgs":["13001.Thermoskanne.png"],
+		"leaf":0,
+		"name":"die Thermoskanne",
+		"id":"2798",
+		"content":"die Thermoskanne",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇰🇷♂️", "variant_id" : 12533}, {"voice" : "🇹🇼♀️", "variant_id" : 14629}, {"voice" : "🇸🇰♂️", "variant_id" : 12147}, {"voice" : "🇩🇪♀", "variant_id" : 3370}]
+	},
+	{
+		"imgs":["12994.Teekanne.png", "12996.Teekanne3.png", "12995.Teekanne2.png"],
+		"leaf":0,
+		"name":"die Teekanne",
+		"id":"2799",
+		"content":"die Teekanne",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 12148}, {"voice" : "🇰🇷♂️", "variant_id" : 12547}, {"voice" : "🇰🇷♂️", "variant_id" : 12534}, {"voice" : "🇩🇪♀", "variant_id" : 3369}]
+	},
+	{
+		"imgs":["12956.Taube.png"],
+		"leaf":0,
+		"name":"die Taube",
+		"id":"2800",
+		"content":"die Taube",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 12149}, {"voice" : "🇩🇪♀", "variant_id" : 3368}, {"voice" : "🇰🇷♂️", "variant_id" : 12535}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14000}, {"voice" : "🇹🇼♀️", "variant_id" : 14631}, {"voice" : "🇰🇷♂️", "variant_id" : 12548}]
+	},
+	{
+		"imgs":["22178.tasse.png", "22294.Screenshot from 2022-08-16 11-17-16.png", "22295.Screenshot from 2022-08-16 11-17-22.png", "/klee/Tasse.png"],
+		"leaf":0,
+		"name":"die Tasse",
+		"id":"2801",
+		"content":"die Tasse",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪👧 🧘", "variant_id" : 14001}, {"voice" : "🇩🇪♀", "variant_id" : 3367}, {"voice" : "🇰🇷♂️", "variant_id" : 12536}, {"voice" : "🇹🇼♀️", "variant_id" : 14632}, {"voice" : "🇰🇷♂️", "variant_id" : 12549}, {"voice" : "🇸🇰♂️", "variant_id" : 12150}]
+	},
+	{
+		"imgs":["13018.Taschenlampe.png"],
+		"leaf":0,
+		"name":"die Taschenlampe",
+		"id":"2802",
+		"content":"die Taschenlampe",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 3366}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14002}, {"voice" : "🇸🇰♂️", "variant_id" : 12151}, {"voice" : "🇰🇷♂️", "variant_id" : 12537}, {"voice" : "🇰🇷♂️", "variant_id" : 12550}]
+	},
+	{
+		"imgs":["8863.Tasche.png", "8864.Tascherosa.png"],
+		"leaf":0,
+		"name":"die Tasche",
+		"id":"2803",
+		"content":"die Tasche",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 3365}, {"voice" : "🇰🇷♂️", "variant_id" : 12538}, {"voice" : "🇰🇷♂️", "variant_id" : 12551}, {"voice" : "🇸🇰♂️", "variant_id" : 12152}]
+	},
+	{
+		"imgs":["12954.Tapete.png", "12955.Tapete2.png"],
+		"leaf":0,
+		"name":"die Tapete",
+		"id":"2804",
+		"content":"die Tapete",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 3364}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14004}]
+	},
+	{
+		"imgs":["12953.Tafel.png", "/klee/Tafel.png"],
+		"leaf":0,
+		"name":"die Tafel",
+		"id":"2805",
+		"content":"die Tafel",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 3363}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14005}]
+	},
+	{
+		"imgs":["12952.STraßenbahn.png"],
+		"leaf":0,
+		"name":"die Straßenbahn",
+		"id":"2806",
+		"content":"die Straßenbahn",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪👧 🧘", "variant_id" : 14006}, {"voice" : "🇹🇼♀️", "variant_id" : 14637}, {"voice" : "🇰🇷♂️", "variant_id" : 12554}, {"voice" : "🇩🇪♀", "variant_id" : 3362}, {"voice" : "🇰🇷♂️", "variant_id" : 12541}]
+	},
+	{
+		"imgs":["12968.Spinne.png"],
+		"leaf":0,
+		"name":"die Spinne",
+		"id":"2807",
+		"content":"die Spinne",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇰🇷♂️", "variant_id" : 12555}, {"voice" : "🇩🇪♀", "variant_id" : 3361}]
+	},
+	{
+		"imgs":["7706.photo_2021-08-25_20-07-50 (3).png"],
+		"leaf":0,
+		"name":"die Sonnenbrille",
+		"id":"2808",
+		"content":"die Sonnenbrille",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 3360}]
+	},
+	{
+		"imgs":["12951.Sonnenblume.png"],
+		"leaf":0,
+		"name":"die Sonnenblume",
+		"id":"2809",
+		"content":"die Sonnenblume",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 3359}]
+	},
+	{
+		"imgs":["12993.Sonne.png"],
+		"leaf":0,
+		"name":"die Sonne",
+		"id":"2810",
+		"content":"die Sonne",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪👧 🧘", "variant_id" : 14010}, {"voice" : "🇰🇷♂️", "variant_id" : 12558}, {"voice" : "🇩🇪♀", "variant_id" : 3358}]
+	},
+	{
+		"imgs":["/klee/Socken.png", "12990.Socken.png"],
+		"leaf":0,
+		"name":"die Socken",
+		"id":"2811",
+		"content":"die Socken",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪♂️🌚", "variant_id" : 22233}, {"voice" : "🇰🇷♂️", "variant_id" : 12546}, {"voice" : "🇩🇪♀", "variant_id" : 3357}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"die Schweine",
+		"id":"2812",
+		"content":"die Schweine",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇹🇼♀️", "variant_id" : 14643}, {"voice" : "🇩🇪♀", "variant_id" : 3356}, {"voice" : "🇰🇷♂️", "variant_id" : 12560}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14012}, {"voice" : "🇸🇰♂️", "variant_id" : 19796}]
+	},
+	{
+		"imgs":["13024.Schüssel.png"],
+		"leaf":0,
+		"name":"die Schüssel",
+		"id":"2813",
+		"content":"die Schüssel",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪👧 🧘", "variant_id" : 14013}, {"voice" : "🇩🇪♀", "variant_id" : 3355}]
+	},
+	{
+		"imgs":["7714.Schultüte.png"],
+		"leaf":0,
+		"name":"die Schultüte",
+		"id":"2814",
+		"content":"die Schultüte",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 12163}, {"voice" : "🇩🇪♀", "variant_id" : 3354}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14014}]
+	},
+	{
+		"imgs":["12944.Schublade.png"],
+		"leaf":0,
+		"name":"die Schublade",
+		"id":"2815",
+		"content":"die Schublade",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇰🇷♂️", "variant_id" : 12563}, {"voice" : "🇹🇼♀️", "variant_id" : 15222}, {"voice" : "🇩🇪♀", "variant_id" : 3353}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14015}]
+	},
+	{
+		"imgs":["12961.Schubkarre.png"],
+		"leaf":0,
+		"name":"die Schubkarre",
+		"id":"2816",
+		"content":"die Schubkarre",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇰🇷♂️", "variant_id" : 12564}, {"voice" : "🇩🇪♀", "variant_id" : 3352}]
+	},
+	{
+		"imgs":["12941.Schokolade.png", "/klee/Schokolade.png", "22311.Chocolate.svg"],
+		"leaf":0,
+		"name":"die Schokolade",
+		"id":"2817",
+		"content":"die Schokolade",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇰🇷♂️", "variant_id" : 12565}, {"voice" : "🇩🇪♀", "variant_id" : 3351}, {"voice" : "🇩🇪♂️🌚", "variant_id" : 22234}, {"voice" : "🇸🇰♂️", "variant_id" : 12166}, {"voice" : "🇹🇼♀️", "variant_id" : 15224}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14017}]
+	},
+	{
+		"imgs":["12940.Schlittschuh.png"],
+		"leaf":0,
+		"name":"die Schlittschuhe",
+		"id":"2818",
+		"content":"die Schlittschuhe",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇰🇷♂️", "variant_id" : 12566}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14018}, {"voice" : "🇩🇪♀", "variant_id" : 3350}, {"voice" : "🇹🇼♀️", "variant_id" : 15225}]
+	},
+	{
+		"imgs":["12939.Schlange.png"],
+		"leaf":0,
+		"name":"die Schlange",
+		"id":"2819",
+		"content":"die Schlange",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 3349}, {"voice" : "🇹🇼♀️", "variant_id" : 15226}, {"voice" : "🇸🇰♂️", "variant_id" : 12168}, {"voice" : "🇰🇷♂️", "variant_id" : 12567}]
+	},
+	{
+		"imgs":["12938.Schildkröte2.png", "12937.Schildkröte.png"],
+		"leaf":0,
+		"name":"die Schildkröte",
+		"id":"2820",
+		"content":"die Schildkröte",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 3348}, {"voice" : "🇸🇰♂️", "variant_id" : 12169}]
+	},
+	{
+		"imgs":["13025.Schiffe.png"],
+		"leaf":0,
+		"name":"die Schiffe",
+		"id":"2821",
+		"content":"die Schiffe",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪👧 🧘", "variant_id" : 14021}, {"voice" : "🇹🇼♀️", "variant_id" : 15228}, {"voice" : "🇸🇰♂️", "variant_id" : 12170}, {"voice" : "🇩🇪♀", "variant_id" : 3347}, {"voice" : "🇰🇷♂️", "variant_id" : 12569}]
+	},
+	{
+		"imgs":["7712.Schere.png", "/klee/Schere.png"],
+		"leaf":0,
+		"name":"die Schere",
+		"id":"2822",
+		"content":"die Schere",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪👧 🧘", "variant_id" : 14022}, {"voice" : "🇩🇪♂️🌚", "variant_id" : 22235}, {"voice" : "🇰🇷♂️", "variant_id" : 12570}, {"voice" : "🇹🇼♀️", "variant_id" : 15229}, {"voice" : "🇩🇪♀", "variant_id" : 3346}]
+	},
+	{
+		"imgs":["12934.Schaukel2.png", "12933.Schaukel.png"],
+		"leaf":0,
+		"name":"die Schaukel",
+		"id":"2823",
+		"content":"die Schaukel",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪👧 🧘", "variant_id" : 14023}, {"voice" : "🇩🇪♀", "variant_id" : 3345}, {"voice" : "🇰🇷♂️", "variant_id" : 12571}, {"voice" : "🇸🇰♂️", "variant_id" : 12172}]
+	},
+	{
+		"imgs":["8886.Schaufel.png", "12935.Schaufel.png"],
+		"leaf":0,
+		"name":"die Schaufel",
+		"id":"2824",
+		"content":"die Schaufel",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇹🇼♀️", "variant_id" : 15231}, {"voice" : "🇩🇪♀", "variant_id" : 3344}, {"voice" : "🇰🇷♂️", "variant_id" : 12572}, {"voice" : "🇸🇰♂️", "variant_id" : 12173}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"die Schafe",
+		"id":"2825",
+		"content":"die Schafe",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 19802}, {"voice" : "🇸🇰♂️", "variant_id" : 19801}, {"voice" : "🇹🇼♀️", "variant_id" : 15232}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14024}, {"voice" : "🇩🇪♀", "variant_id" : 3343}, {"voice" : "🇯🇵♂️", "variant_id" : 23678}, {"voice" : "🇰🇷♂️", "variant_id" : 12573}, {"voice" : "🇸🇰♂️", "variant_id" : 12174}]
+	},
+	{
+		"imgs":["12930.Rosen.png"],
+		"leaf":0,
+		"name":"die Rosen",
+		"id":"2826",
+		"content":"die Rosen",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 19803}, {"voice" : "🇰🇷♂️", "variant_id" : 12574}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14025}, {"voice" : "🇸🇰♂️", "variant_id" : 12175}, {"voice" : "🇯🇵♂️", "variant_id" : 23677}, {"voice" : "🇩🇪♀", "variant_id" : 3342}, {"voice" : "🇹🇼♀️", "variant_id" : 15233}]
+	},
+	{
+		"imgs":["12929.Regenwolke.png"],
+		"leaf":0,
+		"name":"die Regenwolken",
+		"id":"2827",
+		"content":"die Regenwolken",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 12176}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14029}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14026}, {"voice" : "🇰🇷♂️", "variant_id" : 12575}, {"voice" : "🇸🇰♂️", "variant_id" : 19804}, {"voice" : "🇩🇪♀", "variant_id" : 3341}, {"voice" : "🇯🇵♂️", "variant_id" : 23676}, {"voice" : "🇹🇼♀️", "variant_id" : 15234}]
+	},
+	{
+		"imgs":["13027.Ratte1.png"],
+		"leaf":0,
+		"name":"die Ratte",
+		"id":"2828",
+		"content":"die Ratte",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪👧 🧘", "variant_id" : 14030}, {"voice" : "🇹🇼♀️", "variant_id" : 15235}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14027}, {"voice" : "🇰🇷♂️", "variant_id" : 12576}, {"voice" : "🇸🇰♂️", "variant_id" : 12177}, {"voice" : "🇩🇪♀", "variant_id" : 3340}]
+	},
+	{
+		"imgs":["13013.Rakete.png"],
+		"leaf":0,
+		"name":"die Rakete",
+		"id":"2829",
+		"content":"die Rakete",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪👧 🧘", "variant_id" : 14028}, {"voice" : "🇸🇰♂️", "variant_id" : 12178}, {"voice" : "🇰🇷♂️", "variant_id" : 12577}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14031}, {"voice" : "🇩🇪♀", "variant_id" : 3339}, {"voice" : "🇹🇼♀️", "variant_id" : 15236}]
+	},
+	{
+		"imgs":["8853.Radieschen.png"],
+		"leaf":0,
+		"name":"die Radieschen",
+		"id":"2830",
+		"content":"die Radieschen",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 12179}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14032}, {"voice" : "🇩🇪♀", "variant_id" : 3338}, {"voice" : "🇸🇰♂️", "variant_id" : 19805}, {"voice" : "🇯🇵♂️", "variant_id" : 23675}, {"voice" : "🇰🇷♂️", "variant_id" : 12578}, {"voice" : "🇹🇼♀️", "variant_id" : 15237}]
+	},
+	{
+		"imgs":["13028.Pinzessin.png", "14270.Pinzessinnenkleid.png"],
+		"leaf":0,
+		"name":"die Prinzessin",
+		"id":"2831",
+		"content":"die Prinzessin",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇰🇷♂️", "variant_id" : 12579}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14033}, {"voice" : "🇸🇰♂️", "variant_id" : 12180}, {"voice" : "🇹🇼♀️", "variant_id" : 15238}, {"voice" : "🇩🇪♀", "variant_id" : 3337}]
+	},
+	{
+		"imgs":["12992.Pinzette.png", "/klee/Pinzette.png"],
+		"leaf":0,
+		"name":"die Pinzette",
+		"id":"2832",
+		"content":"die Pinzette",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇰🇷♂️", "variant_id" : 12580}, {"voice" : "🇹🇼♀️", "variant_id" : 15239}, {"voice" : "🇸🇰♂️", "variant_id" : 12181}, {"voice" : "🇩🇪♀", "variant_id" : 3336}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14034}]
+	},
+	{
+		"imgs":["13006.Pfeile.png"],
+		"leaf":0,
+		"name":"die Pfeile",
+		"id":"2833",
+		"content":"die Pfeile",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇹🇼♀️", "variant_id" : 15240}, {"voice" : "🇸🇰♂️", "variant_id" : 19806}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14035}, {"voice" : "🇩🇪♀", "variant_id" : 3335}, {"voice" : "🇰🇷♂️", "variant_id" : 12581}, {"voice" : "🇸🇰♂️", "variant_id" : 12182}]
+	},
+	{
+		"imgs":["12927.Pfeife.png"],
+		"leaf":0,
+		"name":"die Pfeife",
+		"id":"2834",
+		"content":"die Pfeife",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇹🇼♀️", "variant_id" : 15241}, {"voice" : "🇩🇪♀", "variant_id" : 3334}, {"voice" : "🇰🇷♂️", "variant_id" : 12582}, {"voice" : "🇸🇰♂️", "variant_id" : 12183}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14036}]
+	},
+	{
+		"imgs":["/klee/Paprika.png", "12926.Paprika.png"],
+		"leaf":0,
+		"name":"die Paprika",
+		"id":"2835",
+		"content":"die Paprika",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 3333}, {"voice" : "🇸🇰♂️", "variant_id" : 12184}, {"voice" : "🇰🇷♂️", "variant_id" : 12583}, {"voice" : "🇹🇼♀️", "variant_id" : 15242}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14037}]
+	},
+	{
+		"imgs":["13015.Pakete.png"],
+		"leaf":0,
+		"name":"die Pakete",
+		"id":"2836",
+		"content":"die Pakete",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 19807}, {"voice" : "🇸🇰♂️", "variant_id" : 12185}, {"voice" : "🇰🇷♂️", "variant_id" : 12584}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14038}, {"voice" : "🇩🇪♀", "variant_id" : 3332}, {"voice" : "🇹🇼♀️", "variant_id" : 15243}]
+	},
+	{
+		"imgs":["12925.Nase.png"],
+		"leaf":0,
+		"name":"die Nase",
+		"id":"2837",
+		"content":"die Nase",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 12186}, {"voice" : "🇩🇪♀", "variant_id" : 3331}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14039}, {"voice" : "🇰🇷♂️", "variant_id" : 12585}, {"voice" : "🇹🇼♀️", "variant_id" : 15244}]
+	},
+	{
+		"imgs":["12924.Nadel.png"],
+		"leaf":0,
+		"name":"die Nadel",
+		"id":"2838",
+		"content":"die Nadel",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇰🇷♂️", "variant_id" : 12586}, {"voice" : "🇩🇪♀", "variant_id" : 3330}, {"voice" : "🇹🇼♀️", "variant_id" : 15245}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14040}, {"voice" : "🇸🇰♂️", "variant_id" : 12187}]
+	},
+	{
+		"imgs":["/klee/Melone.png"],
+		"leaf":0,
+		"name":"die Melone",
+		"id":"2839",
+		"content":"die Melone",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 3329}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14041}, {"voice" : "🇹🇼♀️", "variant_id" : 15246}, {"voice" : "🇰🇷♂️", "variant_id" : 12587}, {"voice" : "🇸🇰♂️", "variant_id" : 12188}]
+	},
+	{
+		"imgs":["8862.Maus.png"],
+		"leaf":0,
+		"name":"die Maus",
+		"id":"2840",
+		"content":"die Maus",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇹🇼♀️", "variant_id" : 15247}, {"voice" : "🇸🇰♂️", "variant_id" : 12189}, {"voice" : "🇩🇪♀", "variant_id" : 3328}, {"voice" : "🇰🇷♂️", "variant_id" : 12588}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14042}]
+	},
+	{
+		"imgs":["8860.Lupe.png"],
+		"leaf":0,
+		"name":"die Lupe",
+		"id":"2841",
+		"content":"die Lupe",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 3327}, {"voice" : "🇰🇷♂️", "variant_id" : 12589}, {"voice" : "🇸🇰♂️", "variant_id" : 12190}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14043}, {"voice" : "🇹🇼♀️", "variant_id" : 15248}]
+	},
+	{
+		"imgs":["12959.Ballon.png"],
+		"leaf":0,
+		"name":"die Luftballons",
+		"id":"2842",
+		"content":"die Luftballons",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇹🇼♀️", "variant_id" : 15249}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14044}, {"voice" : "🇩🇪♀", "variant_id" : 3326}, {"voice" : "🇰🇷♂️", "variant_id" : 12590}, {"voice" : "🇸🇰♂️", "variant_id" : 19808}, {"voice" : "🇸🇰♂️", "variant_id" : 12191}]
+	},
+	{
+		"imgs":["7076.Lilie2.png"],
+		"leaf":0,
+		"name":"die Lilie",
+		"id":"2843",
+		"content":"die Lilie",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇹🇼♀️", "variant_id" : 15250}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14045}, {"voice" : "🇰🇷♂️", "variant_id" : 12591}, {"voice" : "🇸🇰♂️", "variant_id" : 12192}, {"voice" : "🇩🇪♀", "variant_id" : 3325}]
+	},
+	{
+		"imgs":["8882.Leiter.png"],
+		"leaf":0,
+		"name":"die Leiter",
+		"id":"2844",
+		"content":"die Leiter",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 3324}, {"voice" : "🇰🇷♂️", "variant_id" : 12592}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14046}, {"voice" : "🇹🇼♀️", "variant_id" : 15251}, {"voice" : "🇸🇰♂️", "variant_id" : 12193}]
+	},
+	{
+		"imgs":["8875.Lampe.png", "/klee/Lampe.png"],
+		"leaf":0,
+		"name":"die Lampe",
+		"id":"2845",
+		"content":"die Lampe",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 12194}, {"voice" : "🇩🇪♀", "variant_id" : 3323}, {"voice" : "🇹🇼♀️", "variant_id" : 15252}, {"voice" : "🇰🇷♂️", "variant_id" : 12593}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14047}]
+	},
+	{
+		"imgs":["13029.Kutsche.png"],
+		"leaf":0,
+		"name":"die Kutsche",
+		"id":"2846",
+		"content":"die Kutsche",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇰🇷♂️", "variant_id" : 12594}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14048}, {"voice" : "🇩🇪♀", "variant_id" : 3322}, {"voice" : "🇸🇰♂️", "variant_id" : 12195}, {"voice" : "🇹🇼♀️", "variant_id" : 15253}]
+	},
+	{
+		"imgs":["13030.Kuh.png", "14259.Kuh2.png"],
+		"leaf":0,
+		"name":"die Kuh",
+		"id":"2847",
+		"content":"die Kuh",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇹🇼♀️", "variant_id" : 15254}, {"voice" : "🇰🇷♂️", "variant_id" : 12595}, {"voice" : "🇩🇪♂️🌚", "variant_id" : 22236}, {"voice" : "🇸🇰♂️", "variant_id" : 12196}, {"voice" : "🇩🇪♀", "variant_id" : 3321}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14049}]
+	},
+	{
+		"imgs":["12923.Küche.png"],
+		"leaf":0,
+		"name":"die Küche",
+		"id":"2848",
+		"content":"die Küche",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 12197}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14050}, {"voice" : "🇩🇪♀", "variant_id" : 3320}, {"voice" : "🇹🇼♀️", "variant_id" : 15255}, {"voice" : "🇰🇷♂️", "variant_id" : 12596}]
+	},
+	{
+		"imgs":["8880.Krone.png"],
+		"leaf":0,
+		"name":"die Krone",
+		"id":"2849",
+		"content":"die Krone",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇹🇼♀️", "variant_id" : 15256}, {"voice" : "🇩🇪♀", "variant_id" : 3319}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14051}, {"voice" : "🇸🇰♂️", "variant_id" : 12198}, {"voice" : "🇰🇷♂️", "variant_id" : 12597}]
+	},
+	{
+		"imgs":["13014.Kreise.png"],
+		"leaf":0,
+		"name":"die Kreise",
+		"id":"2850",
+		"content":"die Kreise",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇹🇼♀️", "variant_id" : 15257}, {"voice" : "🇰🇷♂️", "variant_id" : 12598}, {"voice" : "🇸🇰♂️", "variant_id" : 12199}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14052}, {"voice" : "🇩🇪♀", "variant_id" : 3318}]
+	},
+	{
+		"imgs":["7327.Krawatte.png"],
+		"leaf":0,
+		"name":"die Krawatte",
+		"id":"2851",
+		"content":"die Krawatte",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 3317}, {"voice" : "🇸🇰♂️", "variant_id" : 12200}, {"voice" : "🇰🇷♂️", "variant_id" : 12599}, {"voice" : "🇹🇼♀️", "variant_id" : 15258}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14053}]
+	},
+	{
+		"imgs":["12921.Krallen.png"],
+		"leaf":0,
+		"name":"die Krallen",
+		"id":"2852",
+		"content":"die Krallen",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪👧 🧘", "variant_id" : 14054}, {"voice" : "🇹🇼♀️", "variant_id" : 15259}, {"voice" : "🇩🇪♀", "variant_id" : 3316}, {"voice" : "🇰🇷♂️", "variant_id" : 12600}, {"voice" : "🇸🇰♂️", "variant_id" : 12201}, {"voice" : "🇸🇰♂️", "variant_id" : 19809}]
+	},
+	{
+		"imgs":["12920.Kommode.png"],
+		"leaf":0,
+		"name":"die Kommode",
+		"id":"2853",
+		"content":"die Kommode",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪👧 🧘", "variant_id" : 14055}, {"voice" : "🇹🇼♀️", "variant_id" : 15260}, {"voice" : "🇸🇰♂️", "variant_id" : 12202}, {"voice" : "🇩🇪♀", "variant_id" : 3315}, {"voice" : "🇰🇷♂️", "variant_id" : 12601}]
+	},
+	{
+		"imgs":["12919.Knochen.png"],
+		"leaf":0,
+		"name":"die Knochen",
+		"id":"2854",
+		"content":"die Knochen",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 19810}, {"voice" : "🇩🇪♀", "variant_id" : 3314}, {"voice" : "🇰🇷♂️", "variant_id" : 12602}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14056}, {"voice" : "🇸🇰♂️", "variant_id" : 12203}, {"voice" : "🇹🇼♀️", "variant_id" : 15261}]
+	},
+	{
+		"imgs":["13009.Kleider.png"],
+		"leaf":0,
+		"name":"die Kleider",
+		"id":"2855",
+		"content":"die Kleider",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 12204}, {"voice" : "🇩🇪♀", "variant_id" : 3313}, {"voice" : "🇹🇼♀️", "variant_id" : 15262}, {"voice" : "🇰🇷♂️", "variant_id" : 12603}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14057}]
+	},
+	{
+		"imgs":["13000.Kiste.png"],
+		"leaf":0,
+		"name":"die Kiste",
+		"id":"2856",
+		"content":"die Kiste",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 12205}, {"voice" : "🇰🇷♂️", "variant_id" : 12604}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14058}, {"voice" : "🇹🇼♀️", "variant_id" : 15263}, {"voice" : "🇩🇪♀", "variant_id" : 3312}]
+	},
+	{
+		"imgs":["7704.Kirsche.png", "/klee/Kirsche.png"],
+		"leaf":0,
+		"name":"die Kirsche",
+		"id":"2857",
+		"content":"die Kirsche",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 12206}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14059}, {"voice" : "🇰🇷♂️", "variant_id" : 12605}, {"voice" : "🇹🇼♀️", "variant_id" : 15264}, {"voice" : "🇩🇪♀", "variant_id" : 3311}]
+	},
+	{
+		"imgs":["13031.Kirche.png"],
+		"leaf":0,
+		"name":"die Kirche",
+		"id":"2858",
+		"content":"die Kirche",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪👧 🧘", "variant_id" : 14060}, {"voice" : "🇹🇼♀️", "variant_id" : 15265}, {"voice" : "🇸🇰♂️", "variant_id" : 12207}, {"voice" : "🇩🇪♀", "variant_id" : 3310}, {"voice" : "🇰🇷♂️", "variant_id" : 12606}]
+	},
+	{
+		"imgs":["8859.Kerze.png"],
+		"leaf":0,
+		"name":"die Kerze",
+		"id":"2859",
+		"content":"die Kerze",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪👧 🧘", "variant_id" : 14061}, {"voice" : "🇸🇰♂️", "variant_id" : 12208}, {"voice" : "🇹🇼♀️", "variant_id" : 15266}, {"voice" : "🇰🇷♂️", "variant_id" : 12607}, {"voice" : "🇩🇪♀", "variant_id" : 3309}]
+	},
+	{
+		"imgs":["7072.Keks.png"],
+		"leaf":0,
+		"name":"die Kekse",
+		"id":"2860",
+		"content":"die Kekse",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪👧 🧘", "variant_id" : 14062}, {"voice" : "🇸🇰♂️", "variant_id" : 12209}, {"voice" : "🇩🇪♀", "variant_id" : 3308}, {"voice" : "🇰🇷♂️", "variant_id" : 12608}, {"voice" : "🇹🇼♀️", "variant_id" : 15267}]
+	},
+	{
+		"imgs":["13032.Katze.png"],
+		"leaf":0,
+		"name":"die Katze",
+		"id":"2861",
+		"content":"die Katze",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇹🇼♀️", "variant_id" : 15268}, {"voice" : "🇸🇰♂️", "variant_id" : 12210}, {"voice" : "🇰🇷♂️", "variant_id" : 12609}, {"voice" : "🇩🇪♀", "variant_id" : 3307}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14063}]
+	},
+	{
+		"imgs":["13033.Kätzchen.png"],
+		"leaf":0,
+		"name":"die Kätzchen",
+		"id":"2862",
+		"content":"die Kätzchen",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇹🇼♀️", "variant_id" : 15269}, {"voice" : "🇸🇰♂️", "variant_id" : 12211}, {"voice" : "🇩🇪♀", "variant_id" : 3306}, {"voice" : "🇸🇰♂️", "variant_id" : 19811}, {"voice" : "🇰🇷♂️", "variant_id" : 12610}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14064}]
+	},
+	{
+		"imgs":["14257.Kastanien.png", "13034.Kastanien2.png"],
+		"leaf":0,
+		"name":"die Kastanien",
+		"id":"2863",
+		"content":"die Kastanien",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 12212}, {"voice" : "🇹🇼♀️", "variant_id" : 15270}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14065}, {"voice" : "🇸🇰♂️", "variant_id" : 19812}, {"voice" : "🇰🇷♂️", "variant_id" : 12611}, {"voice" : "🇩🇪♀", "variant_id" : 3305}]
+	},
+	{
+		"imgs":["7702.Kartoffel2.png"],
+		"leaf":0,
+		"name":"die Kartoffeln",
+		"id":"2864",
+		"content":"die Kartoffeln",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 12213}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14066}, {"voice" : "🇹🇼♀️", "variant_id" : 15271}, {"voice" : "🇸🇰♂️", "variant_id" : 19813}, {"voice" : "🇰🇷♂️", "variant_id" : 12612}, {"voice" : "🇯🇵♂️", "variant_id" : 23667}, {"voice" : "🇩🇪♀", "variant_id" : 3304}]
+	},
+	{
+		"imgs":["/klee/Karotte.png", "7701.Karotte.png"],
+		"leaf":0,
+		"name":"die Karotte",
+		"id":"2865",
+		"content":"die Karotte",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇰🇷♂️", "variant_id" : 12613}, {"voice" : "🇩🇪♀", "variant_id" : 3303}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14067}, {"voice" : "🇹🇼♀️", "variant_id" : 15272}, {"voice" : "🇸🇰♂️", "variant_id" : 12214}]
+	},
+	{
+		"imgs":["13011.Karaffe2.png", "13010.Karaffe.png"],
+		"leaf":0,
+		"name":"die Karaffe",
+		"id":"2866",
+		"content":"die Karaffe",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇹🇼♀️", "variant_id" : 15273}, {"voice" : "🇸🇰♂️", "variant_id" : 12215}, {"voice" : "🇩🇪♀", "variant_id" : 3302}, {"voice" : "🇰🇷♂️", "variant_id" : 12614}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14068}]
+	},
+	{
+		"imgs":["14271.Insel.png"],
+		"leaf":0,
+		"name":"die Insel",
+		"id":"2867",
+		"content":"die Insel",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇰🇷♂️", "variant_id" : 12615}, {"voice" : "🇩🇪♀", "variant_id" : 3301}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14069}, {"voice" : "🇸🇰♂️", "variant_id" : 12216}, {"voice" : "🇹🇼♀️", "variant_id" : 15274}]
+	},
+	{
+		"imgs":["/klee/Hose.png", "12958.Hose.png"],
+		"leaf":0,
+		"name":"die Hose",
+		"id":"2868",
+		"content":"die Hose",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇰🇷♂️", "variant_id" : 12616}, {"voice" : "🇸🇰♂️", "variant_id" : 12217}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14070}, {"voice" : "🇹🇼♀️", "variant_id" : 15275}, {"voice" : "🇩🇪♀", "variant_id" : 3300}, {"voice" : "🇩🇪♂️🌚", "variant_id" : 22237}]
+	},
+	{
+		"imgs":["13021.Hexe.png"],
+		"leaf":0,
+		"name":"die Hexe",
+		"id":"2869",
+		"content":"die Hexe",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 3299}, {"voice" : "🇹🇼♀️", "variant_id" : 15276}, {"voice" : "🇰🇷♂️", "variant_id" : 12617}, {"voice" : "🇸🇰♂️", "variant_id" : 12218}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14071}]
+	},
+	{
+		"imgs":["12916.Hausschuhe.png"],
+		"leaf":0,
+		"name":"die Hausschuhe",
+		"id":"2870",
+		"content":"die Hausschuhe",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 12219}, {"voice" : "🇸🇰♂️", "variant_id" : 19814}, {"voice" : "🇩🇪♀", "variant_id" : 3298}, {"voice" : "🇰🇷♂️", "variant_id" : 12618}, {"voice" : "🇹🇼♀️", "variant_id" : 15277}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14072}, {"voice" : "🇯🇵♂️", "variant_id" : 23666}]
+	},
+	{
+		"imgs":["12985.Häuser.png"],
+		"leaf":0,
+		"name":"die Häuser",
+		"id":"2871",
+		"content":"die Häuser",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 3297}, {"voice" : "🇰🇷♂️", "variant_id" : 12619}, {"voice" : "🇸🇰♂️", "variant_id" : 12220}, {"voice" : "🇹🇼♀️", "variant_id" : 15278}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14073}]
+	},
+	{
+		"imgs":["12960.Handschuhe.png", "/klee/Handschuhe.png"],
+		"leaf":0,
+		"name":"die Handschuhe",
+		"id":"2872",
+		"content":"die Handschuhe",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 12221}, {"voice" : "🇯🇵♂️", "variant_id" : 23665}, {"voice" : "🇸🇰♂️", "variant_id" : 19815}, {"voice" : "🇰🇷♂️", "variant_id" : 12620}, {"voice" : "🇩🇪♀", "variant_id" : 3296}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14074}, {"voice" : "🇹🇼♀️", "variant_id" : 15279}]
+	},
+	{
+		"imgs":["12102.Hände.png"],
+		"leaf":0,
+		"name":"die Hände",
+		"id":"2873",
+		"content":"die Hände",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇰🇷♂️", "variant_id" : 12621}, {"voice" : "🇸🇰♂️", "variant_id" : 12222}, {"voice" : "🇸🇰♂️", "variant_id" : 19816}, {"voice" : "🇩🇪♀", "variant_id" : 3295}, {"voice" : "🇹🇼♀️", "variant_id" : 15280}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14075}]
+	},
+	{
+		"imgs":["8868.Hand.png"],
+		"leaf":0,
+		"name":"die Hand",
+		"id":"2874",
+		"content":"die Hand",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 3294}, {"voice" : "🇩🇪♂️🌚", "variant_id" : 22238}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14076}, {"voice" : "🇹🇼♀️", "variant_id" : 15281}, {"voice" : "🇸🇰♂️", "variant_id" : 12223}, {"voice" : "🇰🇷♂️", "variant_id" : 12622}]
+	},
+	{
+		"imgs":["12101.Glocken.png"],
+		"leaf":0,
+		"name":"die Glocke",
+		"id":"2875",
+		"content":"die Glocke",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 12224}, {"voice" : "🇹🇼♀️", "variant_id" : 15282}, {"voice" : "🇩🇪♀", "variant_id" : 3293}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14077}, {"voice" : "🇰🇷♂️", "variant_id" : 12623}]
+	},
+	{
+		"imgs":["22179.gitarre.png"],
+		"leaf":0,
+		"name":"die Gitarre",
+		"id":"2876",
+		"content":"die Gitarre",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪♂️🌚", "variant_id" : 22239}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14078}, {"voice" : "🇸🇰♂️", "variant_id" : 12225}, {"voice" : "🇩🇪♀", "variant_id" : 3292}, {"voice" : "🇹🇼♀️", "variant_id" : 15283}, {"voice" : "🇰🇷♂️", "variant_id" : 12624}]
+	},
+	{
+		"imgs":["13036.Giraffe.png"],
+		"leaf":0,
+		"name":"die Giraffe",
+		"id":"2877",
+		"content":"die Giraffe",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇰🇷♂️", "variant_id" : 12625}, {"voice" : "🇸🇰♂️", "variant_id" : 12226}, {"voice" : "🇩🇪♂️🌚", "variant_id" : 22240}, {"voice" : "🇹🇼♀️", "variant_id" : 15284}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14079}, {"voice" : "🇩🇪♀", "variant_id" : 3291}]
+	},
+	{
+		"imgs":["12100.Gießkanne.png"],
+		"leaf":0,
+		"name":"die Gießkanne",
+		"id":"2878",
+		"content":"die Gießkanne",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 12227}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14080}, {"voice" : "🇹🇼♀️", "variant_id" : 15285}, {"voice" : "🇩🇪♀", "variant_id" : 3290}, {"voice" : "🇰🇷♂️", "variant_id" : 12626}]
+	},
+	{
+		"imgs":["8854.Gespenster.png", "12098.Gespenster.png"],
+		"leaf":0,
+		"name":"die Gespenster",
+		"id":"2879",
+		"content":"die Gespenster",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪👧 🧘", "variant_id" : 14081}, {"voice" : "🇸🇰♂️", "variant_id" : 12228}, {"voice" : "🇩🇪♀", "variant_id" : 3289}, {"voice" : "🇰🇷♂️", "variant_id" : 12627}, {"voice" : "🇹🇼♀️", "variant_id" : 15286}, {"voice" : "🇸🇰♂️", "variant_id" : 19817}]
+	},
+	{
+		"imgs":["12917.Gabeln.png"],
+		"leaf":0,
+		"name":"die Gabeln",
+		"id":"2880",
+		"content":"die Gabeln",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇹🇼♀️", "variant_id" : 15287}, {"voice" : "🇰🇷♂️", "variant_id" : 12628}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14082}, {"voice" : "🇯🇵♂️", "variant_id" : 23662}, {"voice" : "🇩🇪♀", "variant_id" : 3288}, {"voice" : "🇸🇰♂️", "variant_id" : 12229}, {"voice" : "🇸🇰♂️", "variant_id" : 19818}]
+	},
+	{
+		"imgs":["13003.Füße.png"],
+		"leaf":0,
+		"name":"die Füße",
+		"id":"2881",
+		"content":"die Füße",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 12230}, {"voice" : "🇩🇪♀", "variant_id" : 3287}, {"voice" : "🇰🇷♂️", "variant_id" : 12629}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14083}, {"voice" : "🇸🇰♂️", "variant_id" : 19819}, {"voice" : "🇹🇼♀️", "variant_id" : 15288}, {"voice" : "🇯🇵♂️", "variant_id" : 23661}]
+	},
+	{
+		"imgs":["/klee/Frau.png", "13020.Fraumann.png"],
+		"leaf":0,
+		"name":"die Frau",
+		"id":"2882",
+		"content":"die Frau",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪👧 🧘", "variant_id" : 14084}, {"voice" : "🇩🇪♀", "variant_id" : 3286}, {"voice" : "🇸🇰♂️", "variant_id" : 12231}, {"voice" : "🇹🇼♀️", "variant_id" : 15289}, {"voice" : "🇰🇷♂️", "variant_id" : 12630}]
+	},
+	{
+		"imgs":["12096.Flöte.png", "12097.Flöte2.png"],
+		"leaf":0,
+		"name":"die Flöte",
+		"id":"2883",
+		"content":"die Flöte",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪👧 🧘", "variant_id" : 14085}, {"voice" : "🇹🇼♀️", "variant_id" : 15290}, {"voice" : "🇰🇷♂️", "variant_id" : 12631}, {"voice" : "🇩🇪♀", "variant_id" : 3285}, {"voice" : "🇸🇰♂️", "variant_id" : 12232}]
+	},
+	{
+		"imgs":["22308.flasche.JPG"],
+		"leaf":0,
+		"name":"die Flasche",
+		"id":"2885",
+		"content":"die Flasche",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 3283}, {"voice" : "🇹🇼♀️", "variant_id" : 15292}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14087}, {"voice" : "🇰🇷♂️", "variant_id" : 12633}, {"voice" : "🇸🇰♂️", "variant_id" : 12234}, {"voice" : "🇩🇪♂️🌚", "variant_id" : 22241}]
+	},
+	{
+		"imgs":["14147.Feuerwehr.png", "13037.Feuerwehr2.png"],
+		"leaf":0,
+		"name":"die Feuerwehr",
+		"id":"2887",
+		"content":"die Feuerwehr",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 12236}, {"voice" : "🇹🇼♀️", "variant_id" : 15294}, {"voice" : "🇩🇪♀", "variant_id" : 3281}, {"voice" : "🇰🇷♂️", "variant_id" : 12635}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14089}]
+	},
+	{
+		"imgs":["7071.Feder.png"],
+		"leaf":0,
+		"name":"die Feder",
+		"id":"2888",
+		"content":"die Feder",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇹🇼♀️", "variant_id" : 15295}, {"voice" : "🇩🇪♂️🌚", "variant_id" : 22242}, {"voice" : "🇸🇰♂️", "variant_id" : 12237}, {"voice" : "🇩🇪♀", "variant_id" : 3280}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14090}, {"voice" : "🇰🇷♂️", "variant_id" : 12636}]
+	},
+	{
+		"imgs":["13019.Fahne.png"],
+		"leaf":0,
+		"name":"die Fahne",
+		"id":"2889",
+		"content":"die Fahne",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇰🇷♂️", "variant_id" : 12637}, {"voice" : "🇹🇼♀️", "variant_id" : 15296}, {"voice" : "🇩🇪♀", "variant_id" : 3279}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14091}, {"voice" : "🇸🇰♂️", "variant_id" : 12238}]
+	},
+	{
+		"imgs":["13005.Fabrik.png"],
+		"leaf":0,
+		"name":"die Fabrik",
+		"id":"2890",
+		"content":"die Fabrik",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪👧 🧘", "variant_id" : 14092}, {"voice" : "🇩🇪♀", "variant_id" : 3278}, {"voice" : "🇹🇼♀️", "variant_id" : 15297}, {"voice" : "🇸🇰♂️", "variant_id" : 12239}, {"voice" : "🇰🇷♂️", "variant_id" : 12638}]
+	},
+	{
+		"imgs":["13022.Ente.png"],
+		"leaf":0,
+		"name":"die Ente",
+		"id":"2891",
+		"content":"die Ente",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 3277}, {"voice" : "🇸🇰♂️", "variant_id" : 12240}, {"voice" : "🇹🇼♀️", "variant_id" : 15298}, {"voice" : "🇩🇪♂️🌚", "variant_id" : 22243}, {"voice" : "🇰🇷♂️", "variant_id" : 12639}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14093}]
+	},
+	{
+		"imgs":["13038.Eisenbahn.png"],
+		"leaf":0,
+		"name":"die Eisenbahn",
+		"id":"2892",
+		"content":"die Eisenbahn",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇰🇷♂️", "variant_id" : 12640}, {"voice" : "🇹🇼♀️", "variant_id" : 15299}, {"voice" : "🇸🇰♂️", "variant_id" : 12241}, {"voice" : "🇩🇪♀", "variant_id" : 3276}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14094}]
+	},
+	{
+		"imgs":["7690.Einkaufstüte.png"],
+		"leaf":0,
+		"name":"die Einkaufstüte",
+		"id":"2893",
+		"content":"die Einkaufstüte",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪👧 🧘", "variant_id" : 14095}, {"voice" : "🇰🇷♂️", "variant_id" : 12641}, {"voice" : "🇸🇰♂️", "variant_id" : 12242}, {"voice" : "🇩🇪♀", "variant_id" : 3275}, {"voice" : "🇹🇼♀️", "variant_id" : 15300}]
+	},
+	{
+		"imgs":["7689.Eierbecher.png"],
+		"leaf":0,
+		"name":"die Eierbecher",
+		"id":"2894",
+		"content":"die Eierbecher",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 3274}, {"voice" : "🇸🇰♂️", "variant_id" : 12243}, {"voice" : "🇹🇼♀️", "variant_id" : 15301}, {"voice" : "🇰🇷♂️", "variant_id" : 12642}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14096}]
+	},
+	{
+		"imgs":["13039.Salamander.png"],
+		"leaf":0,
+		"name":"die Eidechse",
+		"id":"2895",
+		"content":"die Eidechse",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇹🇼♀️", "variant_id" : 15302}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14097}, {"voice" : "🇸🇰♂️", "variant_id" : 12244}, {"voice" : "🇩🇪♀", "variant_id" : 3273}, {"voice" : "🇰🇷♂️", "variant_id" : 12643}]
+	},
+	{
+		"imgs":["7070.Dose.png"],
+		"leaf":0,
+		"name":"die Dose",
+		"id":"2896",
+		"content":"die Dose",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇰🇷♂️", "variant_id" : 12644}, {"voice" : "🇩🇪♂️🌚", "variant_id" : 22244}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14098}, {"voice" : "🇩🇪♀", "variant_id" : 3272}, {"voice" : "🇹🇼♀️", "variant_id" : 15303}, {"voice" : "🇸🇰♂️", "variant_id" : 12245}]
+	},
+	{
+		"imgs":["8846.Brille.png", "8847.Brille2.png", "/klee/Brille.png"],
+		"leaf":0,
+		"name":"die Brille",
+		"id":"2897",
+		"content":"die Brille",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 3271}, {"voice" : "🇰🇷♂️", "variant_id" : 23340}, {"voice" : "🇸🇰♂️", "variant_id" : 12246}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14099}, {"voice" : "🇰🇷♂️", "variant_id" : 12645}, {"voice" : "🇹🇼♀️", "variant_id" : 15304}, {"voice" : "🇩🇪♂️🌚", "variant_id" : 22245}, {"voice" : "🇯🇵♂️", "variant_id" : 23659}]
+	},
+	{
+		"imgs":["7681.Briefmarke1.png", "7682.Briefmarken.png"],
+		"leaf":0,
+		"name":"die Briefmarke",
+		"id":"2898",
+		"content":"die Briefmarke",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 3270}, {"voice" : "🇹🇼♀️", "variant_id" : 15305}, {"voice" : "🇸🇰♂️", "variant_id" : 12247}, {"voice" : "🇰🇷♂️", "variant_id" : 12646}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14100}]
+	},
+	{
+		"imgs":["12090.Bluse.png"],
+		"leaf":0,
+		"name":"die Bluse",
+		"id":"2899",
+		"content":"die Bluse",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇹🇼♀️", "variant_id" : 15306}, {"voice" : "🇸🇰♂️", "variant_id" : 12248}, {"voice" : "🇰🇷♂️", "variant_id" : 12647}, {"voice" : "🇩🇪♀", "variant_id" : 3269}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14101}]
+	},
+	{
+		"imgs":["8843.Blumenvase.png", "8845.Vase.png", "8898.Vase2.png"],
+		"leaf":0,
+		"name":"die Blumenvase",
+		"id":"2900",
+		"content":"die Blumenvase",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪👧 🧘", "variant_id" : 14102}, {"voice" : "🇹🇼♀️", "variant_id" : 15307}, {"voice" : "🇰🇷♂️", "variant_id" : 12648}, {"voice" : "🇩🇪♀", "variant_id" : 3268}, {"voice" : "🇸🇰♂️", "variant_id" : 12249}]
+	},
+	{
+		"imgs":null,
+		"leaf":0,
+		"name":"die Blumentöpfe",
+		"id":"2901",
+		"content":"die Blumentöpfe",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪♂️✨", "variant_id" : 23173}, {"voice" : "🇸🇰♂️", "variant_id" : 12250}, {"voice" : "🇹🇼♀️", "variant_id" : 15308}, {"voice" : "🇰🇷♂️", "variant_id" : 12649}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14103}, {"voice" : "🇩🇪♀", "variant_id" : 3267}]
+	},
+	{
+		"imgs":["/klee/Birne.png", "7677.Birne.png"],
+		"leaf":0,
+		"name":"die Birne",
+		"id":"2903",
+		"content":"die Birne",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇰🇷♂️", "variant_id" : 12651}, {"voice" : "🇹🇼♀️", "variant_id" : 15310}, {"voice" : "🇸🇰♂️", "variant_id" : 12252}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14105}, {"voice" : "🇩🇪♂️✨", "variant_id" : 23175}, {"voice" : "🇩🇪♀", "variant_id" : 3265}]
+	},
+	{
+		"imgs":["13004.Berge.png"],
+		"leaf":0,
+		"name":"die Berge",
+		"id":"2905",
+		"content":"die Berge",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 12254}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14107}, {"voice" : "🇰🇷♂️", "variant_id" : 12653}, {"voice" : "🇩🇪♀", "variant_id" : 3263}, {"voice" : "🇹🇼♀️", "variant_id" : 15312}]
+	},
+	{
+		"imgs":["8841.Beinestrumpfhose.png", "8840.Beine.png"],
+		"leaf":0,
+		"name":"die Beine",
+		"id":"2906",
+		"content":"die Beine",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇰🇷♂️", "variant_id" : 12654}, {"voice" : "🇩🇪♀", "variant_id" : 3262}, {"voice" : "🇹🇼♀️", "variant_id" : 15313}, {"voice" : "🇸🇰♂️", "variant_id" : 12255}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14108}]
+	},
+	{
+		"imgs":["12085.Bank2.png", "12086.Bank.png"],
+		"leaf":0,
+		"name":"die Bank",
+		"id":"2907",
+		"content":"die Bank",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪👧 🧘", "variant_id" : 14109}, {"voice" : "🇸🇰♂️", "variant_id" : 12256}, {"voice" : "🇰🇷♂️", "variant_id" : 12655}, {"voice" : "🇩🇪♀", "variant_id" : 3261}, {"voice" : "🇹🇼♀️", "variant_id" : 15314}, {"voice" : "🇯🇵♂️", "variant_id" : 23640}]
+	},
+	{
+		"imgs":["/klee/Banane.png", "7674.Banane1.png"],
+		"leaf":0,
+		"name":"die Banane",
+		"id":"2908",
+		"content":"die Banane",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪♂️🌚", "variant_id" : 22248}, {"voice" : "🇸🇰♂️", "variant_id" : 12257}, {"voice" : "🇹🇼♀️", "variant_id" : 15315}, {"voice" : "🇰🇷♂️", "variant_id" : 12656}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14110}, {"voice" : "🇩🇪♀", "variant_id" : 3260}]
+	},
+	{
+		"imgs":["7067.Armbanduhr5.png", "7068.Armbanduhr3.png", "7069.Armbanhuhr4.png"],
+		"leaf":0,
+		"name":"die Armbanduhr",
+		"id":"2910",
+		"content":"die Armbanduhr",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 3258}, {"voice" : "🇰🇷♂️", "variant_id" : 12658}, {"voice" : "🇯🇵♂️", "variant_id" : 23637}, {"voice" : "🇹🇼♀️", "variant_id" : 15317}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14112}, {"voice" : "🇸🇰♂️", "variant_id" : 12259}]
+	},
+	{
+		"imgs":["7668.Angel.png"],
+		"leaf":0,
+		"name":"die Angel",
+		"id":"2911",
+		"content":"die Angel",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪👧 🧘", "variant_id" : 14113}, {"voice" : "🇸🇰♂️", "variant_id" : 12260}, {"voice" : "🇹🇼♀️", "variant_id" : 15318}, {"voice" : "🇯🇵♂️", "variant_id" : 23636}, {"voice" : "🇰🇷♂️", "variant_id" : 12659}, {"voice" : "🇩🇪♀", "variant_id" : 3257}]
+	},
+	{
+		"imgs":["22319.amsel.png"],
+		"leaf":0,
+		"name":"die Amsel",
+		"id":"2913",
+		"content":"die Amsel",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇩🇪👧 🧘", "variant_id" : 14117}, {"voice" : "🇸🇰♂️", "variant_id" : 12266}, {"voice" : "🇹🇼♀️", "variant_id" : 15319}, {"voice" : "🇩🇪♀", "variant_id" : 3255}, {"voice" : "🇰🇷♂️", "variant_id" : 12666}]
+	},
+	{
+		"imgs":["8833.Ampel.png"],
+		"leaf":0,
+		"name":"die Ampel",
+		"id":"2914",
+		"content":"die Ampel",
+		"exercise_action":"read",
+		"voices":[{"voice" : "🇹🇼♀️", "variant_id" : 15320}, {"voice" : "🇰🇷♂️", "variant_id" : 12667}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14118}, {"voice" : "🇩🇪♂️🌚", "variant_id" : 22249}, {"voice" : "🇸🇰♂️", "variant_id" : 12267}, {"voice" : "🇯🇵♂️", "variant_id" : 23634}, {"voice" : "🇩🇪♀", "variant_id" : 3254}]
+	}
+			]
+}]
+
+

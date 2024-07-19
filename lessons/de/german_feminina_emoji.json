@@ -1,0 +1,192 @@
+[{"voices":"","imgs":null,"leaf":0,"name":"weibliche Nomen","id":"16602","content":"Ein weibliches Nomen, auch weibliches Substantiv oder Femininum genannt, ist ein Nomen dass mit dem Artikel 'die' in Nominativ, 'der' in Genitiv, 'der' in Dativ und 'die' in Akusatif bezeichnet wird. ","language":"de","primer_title":"name","exercise_action":"naming","task_action":"learn","children": [		{
+		"imgs":["7724.Zitronen.png", "/klee/Zitrone.png"],
+		"leaf":0,
+		"name":"die Zitrone",
+		"emoji":"🍋",
+		"id":"2780",
+		"content":"die Zitrone",
+		"task_action":"test",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 3388}, {"voice" : "🇰🇷♂️", "variant_id" : 12515}, {"voice" : "🇸🇰♂️", "variant_id" : 12129}]
+	},
+	{
+		"imgs":["14269.Ziege.png"],
+		"leaf":0,
+		"name":"die Ziege",
+		"emoji":"🐐",
+		"id":"2782",
+		"content":"die Ziege",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 12131}, {"voice" : "🇩🇪♀", "variant_id" : 3386}, {"voice" : "🇰🇷♂️", "variant_id" : 12517}]
+	},
+	{
+		"imgs":["7721.Zahnbürste.png"],
+		"leaf":0,
+		"name":"die Zahnbürste",
+		"emoji":"🪥",
+		"id":"2785",
+		"content":"die Zahnbürste",
+		"task_action":"test",
+		"voices":[{"voice" : "🇰🇷♂️", "variant_id" : 12520}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 13989}, {"voice" : "🇸🇰♂️", "variant_id" : 12134}, {"voice" : "🇩🇪♀", "variant_id" : 3383}]
+	},
+	{
+		"imgs":["12974.Uhr.png", "/klee/Uhr.png", "12973.Uhr2.png"],
+		"emoji":"🕰️",
+		"leaf":0,
+		"name":"die Uhr",
+		"id":"2790",
+		"content":"die Uhr",
+		"task_action":"test",
+		"voices":[{"voice" : "🇰🇷♂️", "variant_id" : 12525}, {"voice" : "🇹🇼♀️", "variant_id" : 14621}, {"voice" : "🇩🇪♀", "variant_id" : 3378}, {"voice" : "🇸🇰♂️", "variant_id" : 12139}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 13994}, {"voice" : "🇩🇪♂️🌚", "variant_id" : 22231}]
+	},
+	{
+		"imgs":["12972.Tür.png"],
+		"leaf":0,
+		"name":"die Tür",
+		"id":"2791",
+		"emoji":"🚪",
+		"content":"die Tür",
+		"task_action":"test",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 3377}, {"voice" : "🇸🇰♂️", "variant_id" : 12140}, {"voice" : "🇰🇷♂️", "variant_id" : 12526}]
+	},
+	{
+		"imgs":["12971.Trompete.png"],
+		"leaf":0,
+		"name":"die Trompete",
+		"emoji":"🎺",
+		"id":"2793",
+		"content":"die Trompete",
+		"task_action":"test",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 3375}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 13997}, {"voice" : "🇸🇰♂️", "variant_id" : 12142}, {"voice" : "🇰🇷♂️", "variant_id" : 12528}, {"voice" : "🇹🇼♀️", "variant_id" : 14624}]
+	},
+	{
+		"imgs":["12970.Trommel.png"],
+		"leaf":0,
+		"name":"die Trommel",
+		"emoji":"🥁",
+		"id":"2794",
+		"content":"die Trommel",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 12143}, {"voice" : "🇰🇷♂️", "variant_id" : 12529}, {"voice" : "🇩🇪♀", "variant_id" : 3374}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 13998}]
+	},
+	{
+		"imgs":["12969.Torte.png"],
+		"leaf":0,
+		"name":"die Torte",
+		"emoji":"🎂",
+		"id":"2795",
+		"content":"die Torte",
+		"task_action":"test",
+		"voices":[{"voice" : "🇩🇪👧 🧘", "variant_id" : 13999}, {"voice" : "🇩🇪♀", "variant_id" : 3373}, {"voice" : "🇸🇰♂️", "variant_id" : 12144}, {"voice" : "🇹🇼♀️", "variant_id" : 14626}, {"voice" : "🇰🇷♂️", "variant_id" : 12530}]
+	},
+	{
+		"imgs":["8852.Tomate.png", "/klee/Tomate.png"],
+		"leaf":0,
+		"name":"die Tomate",
+		"id":"2797",
+		"emoji":"🍅",
+		"content":"die Tomate",
+		"task_action":"test",
+		"voices":[{"voice" : "🇹🇼♀️", "variant_id" : 14628}, {"voice" : "🇩🇪♀", "variant_id" : 3371}, {"voice" : "🇰🇷♂️", "variant_id" : 12532}, {"voice" : "🇸🇰♂️", "variant_id" : 12146}]
+	},
+	{
+		"imgs":["12994.Teekanne.png", "12996.Teekanne3.png", "12995.Teekanne2.png"],
+		"leaf":0,
+		"name":"die Teekanne",
+		"emoji":"🫖",
+		"id":"2799",
+		"content":"die Teekanne",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 12148}, {"voice" : "🇰🇷♂️", "variant_id" : 12547}, {"voice" : "🇰🇷♂️", "variant_id" : 12534}, {"voice" : "🇩🇪♀", "variant_id" : 3369}]
+	},
+	{
+		"imgs":["12956.Taube.png"],
+		"leaf":0,
+		"emoji":"🕊️",
+		"name":"die Taube",
+		"id":"2800",
+		"content":"die Taube",
+		"task_action":"test",
+		"voices":[{"voice" : "🇸🇰♂️", "variant_id" : 12149}, {"voice" : "🇩🇪♀", "variant_id" : 3368}, {"voice" : "🇰🇷♂️", "variant_id" : 12535}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14000}, {"voice" : "🇹🇼♀️", "variant_id" : 14631}, {"voice" : "🇰🇷♂️", "variant_id" : 12548}]
+	},
+	{
+		"imgs":["22178.tasse.png", "22294.Screenshot from 2022-08-16 11-17-16.png", "22295.Screenshot from 2022-08-16 11-17-22.png", "/klee/Tasse.png"],
+		"leaf":0,
+		"name":"die Tasse",
+		"id":"2801",
+		"emoji":"🍵",
+		"content":"die Tasse",
+		"task_action":"test",
+		"voices":[{"voice" : "🇩🇪👧 🧘", "variant_id" : 14001}, {"voice" : "🇩🇪♀", "variant_id" : 3367}, {"voice" : "🇰🇷♂️", "variant_id" : 12536}, {"voice" : "🇹🇼♀️", "variant_id" : 14632}, {"voice" : "🇰🇷♂️", "variant_id" : 12549}, {"voice" : "🇸🇰♂️", "variant_id" : 12150}]
+	},
+	{
+		"imgs":["13018.Taschenlampe.png"],
+		"leaf":0,
+		"name":"die Taschenlampe",
+		"id":"2802",
+		"content":"die Taschenlampe",
+		"emoji":"🔦",
+		"task_action":"test",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 3366}, {"voice" : "🇩🇪👧 🧘", "variant_id" : 14002}, {"voice" : "🇸🇰♂️", "variant_id" : 12151}, {"voice" : "🇰🇷♂️", "variant_id" : 12537}, {"voice" : "🇰🇷♂️", "variant_id" : 12550}]
+	},
+	{
+		"imgs":["8863.Tasche.png", "8864.Tascherosa.png"],
+		"leaf":0,
+		"name":"die Tasche",
+		"id":"2803",
+		"emoji":"👜",
+		"content":"die Tasche",
+		"task_action":"test",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 3365}, {"voice" : "🇰🇷♂️", "variant_id" : 12538}, {"voice" : "🇰🇷♂️", "variant_id" : 12551}, {"voice" : "🇸🇰♂️", "variant_id" : 12152}]
+	},
+	{
+		"imgs":["12968.Spinne.png"],
+		"leaf":0,
+		"emoji":"🕷️",
+		"name":"die Spinne",
+		"id":"2807",
+		"content":"die Spinne",
+		"task_action":"test",
+		"voices":[{"voice" : "🇰🇷♂️", "variant_id" : 12555}, {"voice" : "🇩🇪♀", "variant_id" : 3361}]
+	},
+	{
+		"imgs":["7706.photo_2021-08-25_20-07-50 (3).png"],
+		"leaf":0,
+		"name":"die Sonnenbrille",
+		"id":"2808",
+		"content":"die Sonnenbrille",
+		"emoji":"🕶️",
+		"task_action":"test",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 3360}]
+	},
+	{
+		"imgs":["12951.Sonnenblume.png"],
+		"leaf":0,
+		"name":"die Sonnenblume",
+		"emoji":"🌻",
+		"id":"2809",
+		"content":"die Sonnenblume",
+		"task_action":"test",
+		"voices":[{"voice" : "🇩🇪♀", "variant_id" : 3359}]
+	},
+	{
+		"imgs":["12993.Sonne.png"],
+		"leaf":0,
+		"name":"die Sonne",
+		"emoji":"☀️",
+		"id":"2810",
+		"content":"die Sonne",
+		"task_action":"test",
+		"voices":[{"voice" : "🇩🇪👧 🧘", "variant_id" : 14010}, {"voice" : "🇰🇷♂️", "variant_id" : 12558}, {"voice" : "🇩🇪♀", "variant_id" : 3358}]
+	},
+	{
+		"imgs":["12983.Zunge.png", "12984.Zunge2.png"],
+		"emoji":"👅",
+		"leaf":0,
+		"name":"die Zunge",
+		"id":"2779",
+		"content":"die Zunge",
+		"task_action":"test",
+		"voices":[{"voice" : "🇰🇷♂️", "variant_id" : 12514}, {"voice" : "🇸🇰♂️", "variant_id" : 12128}, {"voice" : "🇹🇷♂️", "variant_id" : 13247}, {"voice" : "🇩🇪♀", "variant_id" : 3389}]
+	}
+
+]}]
